@@ -20,7 +20,7 @@ GitHub owns fetched arXiv metadata. Notion owns review status, notes, manual lin
 The [arXiv Paper](https://app.notion.com/p/3c138e7ccd39802a8afdd62b6e4bdc26) page contains:
 
 - `Papers`: the single underlying data source.
-- [Review Papers](https://app.notion.com/p/3c138e7ccd3981ba8e6eeea6d03944d0): a page with the `All Papers` table.
+- [Review Papers](https://app.notion.com/p/3c138e7ccd3981ba8e6eeea6d03944d0): a page with the `All Papers` table showing `Paper`, `Category`, `Paper Link`, and `Status`. `Authors` remains in the underlying data source but is hidden from this review view.
 - [Saved Papers](https://app.notion.com/p/3c138e7ccd398167be89d00c3f308691): a page with `Table` and `Gallery` views filtered to `Status = Save`.
 
 All three interfaces reference the same records; changing `Status` never creates a duplicate.
@@ -36,7 +36,7 @@ Status values:
 Add both arXiv and non-arXiv papers from `Review Papers`:
 
 1. Create a row and fill `Paper` immediately.
-2. Fill `Paper Link`, `Authors`, and other useful fields.
+2. Fill `Paper Link`, `Category`, and other useful fields. `Authors` is optional and can be edited from the paper page even though it is hidden from the review table.
 3. Use `Unread`, `Read`, or `Save` as needed.
 4. For a paper without an arXiv version, leave `Arxiv ID` empty. Do not put a DOI or OpenReview ID in that field.
 
