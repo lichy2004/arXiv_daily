@@ -1,83 +1,126 @@
-# arXiv_daily
+# arXiv Daily
 
-A small utility for fetching arXiv papers and saving them as JSON.
+Fetch papers from arXiv every day, review them in Notion, and export saved papers back to GitHub.
 
-## What it does
+## Workflow
 
-The script fetches papers from arXiv by category keywords and stores them in a JSON file keyed by paper id.
-
-Each record contains:
-
-- `paper_name`
-- `paper_link`
-- `code_link`
-- `authors`
-- `category`
-
-## Output format
-
-The generated JSON looks like this:
-
-```json
-{
-  "2608.14530": {
-    "paper_name": "Marionette: Predicting World States, Rendering Geometry, Painting Appearance",
-    "paper_link": "https://arxiv.org/abs/2608.14530",
-    "code_link": "https://github.com/example/repo",
-    "authors": ["Zian Meng", "..."],
-    "category": "Robot & Agent"
-  }
-}
+```text
+arXiv API
+  → docs/paper_arxiv.json
+  → Notion Papers database
+  → Review Papers: Unread / Read / Save
+  → Saved Papers: Table / Gallery
+  → docs/paper_save.json
 ```
 
-## Installation
+GitHub owns fetched arXiv metadata. Notion owns review status, notes, manual links, categories, and cover images. `paper_save.json` is a generated export and should not be edited manually.
 
-Install Python dependencies:
+## Notion structure
 
-```bash
-pip install arxiv requests
-```
+The [arXiv Paper](https://app.notion.com/p/3c138e7ccd39802a8afdd62b6e4bdc26) page contains:
 
-If you want faster GitHub code-link lookup and better rate limits, set `GITHUB_TOKEN` in your environment.
+- `Papers`: the single underlying data source.
+- [Review Papers](https://app.notion.com/p/3c138e7ccd3981ba8e6eeea6d03944d0): a page with the `All Papers` table.
+- [Saved Papers](https://app.notion.com/p/3c138e7ccd398167be89d00c3f308691): a page with `Table` and `Gallery` views filtered to `Status = Save`.
+
+All three interfaces reference the same records; changing `Status` never creates a duplicate.
+
+Status values:
+
+- `Unread`: waiting for review.
+- `Read`: reviewed but not retained.
+- `Save`: retained and included in the saved views and GitHub export.
+
+### Add a paper manually
+
+Add both arXiv and non-arXiv papers from `Review Papers`:
+
+1. Create a row and fill `Paper` immediately.
+2. Fill `Paper Link`, `Authors`, and other useful fields.
+3. Use `Unread`, `Read`, or `Save` as needed.
+4. For a paper without an arXiv version, leave `Arxiv ID` empty. Do not put a DOI or OpenReview ID in that field.
+
+Manual records are not changed by the arXiv sync. A saved manual paper is exported with a stable `notion:<page-id>` key; an arXiv paper uses its versionless arXiv ID.
+
+## Repository files
+
+| File | Purpose |
+| --- | --- |
+| `config.json` | Keywords, categories, result limit, and archive size |
+| `fetch_arxiv.py` | Fetch and merge arXiv metadata |
+| `notion_papers.py` | Shared Notion API and mapping logic |
+| `sync_to_notion.py` | Upsert fetched arXiv papers into Notion |
+| `export_notion_saved.py` | Export `Status = Save` records |
+| `docs/paper_arxiv.json` | Versioned arXiv archive |
+| `docs/paper_save.json` | Versioned saved-paper export |
+
+The project uses Python 3.11+ and only the standard library.
 
 ## Configuration
 
-Edit `config.json` to control:
+Edit `config.json`:
 
-- `output_path`: where the JSON file is written
-- `max_results_per_category`: number of papers fetched per category
-- `max_items`: maximum number of papers to keep in `papers.json`; the oldest papers by `published_date` are trimmed when this limit is exceeded
-- `include_code_link`: whether to search for a code link
-- `categories`: category names and arXiv keyword filters
+```json
+{
+  "output_path": "docs/paper_arxiv.json",
+  "max_results_per_category": 25,
+  "max_items": 1000,
+  "categories": [
+    {"name": "Agent", "filters": ["self-improv", "embodied agent"]},
+    {"name": "Dexterous", "filters": ["Dexterous Manipulation", "Dexterity"]}
+  ]
+}
+```
 
-## Usage
+Filters within one category are joined with `OR`. A paper matching multiple categories keeps all matching category names.
 
-Run the fetcher from the `arXiv_daily` folder:
+## Local commands
+
+Fetch papers:
 
 ```bash
 python fetch_arxiv.py
 ```
 
-Use a custom config file:
+Preview or run the Notion sync:
 
 ```bash
-python fetch_arxiv.py --config config.json
+NOTION_TOKEN=secret_xxx python sync_to_notion.py --dry-run
+NOTION_TOKEN=secret_xxx python sync_to_notion.py
 ```
 
-Write to a custom output path:
+Export saved papers:
 
 ```bash
-python fetch_arxiv.py --output papers.json
+NOTION_TOKEN=secret_xxx python export_notion_saved.py
 ```
 
-Skip code-link lookup if you only want paper metadata:
+Run tests:
 
 ```bash
-python fetch_arxiv.py --skip-code-link
+python -m unittest discover -s tests -v
 ```
 
-## Notes
+## GitHub Actions
 
-- The script merges new results into the existing output JSON if the file already exists.
-- Duplicate papers are deduplicated by paper id.
-- Code links are best-effort and may be `null` if no repository is found.
+- `Run arXiv Papers Daily`: runs at 00:00 UTC, commits `paper_arxiv.json`, then syncs it to Notion.
+- `Export Saved Notion Papers`: runs at 00:30 UTC and can be triggered manually; it commits `paper_save.json` only when content changes.
+
+Required setup:
+
+1. Create a Notion internal integration with read, insert, and update content access.
+2. Share the `Papers` database with the integration.
+3. Add its token as the repository Actions secret `NOTION_TOKEN`.
+4. Give GitHub Actions read/write repository permission.
+
+The data source ID is already configured in both workflows. Never commit the Notion token or expose it in client-side code.
+
+## Synchronization rules
+
+- arXiv IDs are normalized without version suffixes and used for deduplication.
+- New fetched papers start as `Unread`.
+- Fetched title, authors, paper link, and date may be refreshed. Abstracts are not stored in `paper_arxiv.json`.
+- `Status`, `Category`, `Notes`, and `Cover Image` are never overwritten after creation.
+- `Web Link` and `Code Link` are filled only when the Notion field is empty.
+- Manual records with an empty `Arxiv ID` are ignored by the arXiv sync.
+- `Read` changes stay in Notion. `Save` records are exported on the next saved-paper workflow run.

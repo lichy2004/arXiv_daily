@@ -1,12 +1,12 @@
-name: Run arXiv Papers Daily
+name: Export Saved Notion Papers
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '30 0 * * *'
 
 concurrency:
-  group: arxiv-daily-notion-sync
+  group: notion-saved-paper-export
   cancel-in-progress: false
 
 permissions:
@@ -16,8 +16,8 @@ env:
   NOTION_DATA_SOURCE_ID: 4334d614-6676-4d47-acaa-a6637ecec9a5
 
 jobs:
-  build:
-    name: update
+  export:
+    name: export
     runs-on: ubuntu-latest
 
     steps:
@@ -29,20 +29,6 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Fetch arXiv papers
-        run: python fetch_arxiv.py
-
-      - name: Validate paper JSON
-        run: python -m json.tool docs/paper_arxiv.json > /dev/null
-
-      - name: Commit fetched paper archive
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore: update arXiv papers daily"
-          file_pattern: docs/paper_arxiv.json
-          commit_user_name: github-actions[bot]
-          commit_user_email: 41898282+github-actions[bot]@users.noreply.github.com
-
       - name: Verify Notion configuration
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
@@ -52,7 +38,18 @@ jobs:
             exit 1
           fi
 
-      - name: Sync papers to Notion
+      - name: Export saved papers
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
-        run: python sync_to_notion.py --input docs/paper_arxiv.json
+        run: python export_notion_saved.py --output docs/paper_save.json
+
+      - name: Validate saved paper JSON
+        run: python -m json.tool docs/paper_save.json > /dev/null
+
+      - name: Commit saved paper export
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: export saved Notion papers"
+          file_pattern: docs/paper_save.json
+          commit_user_name: github-actions[bot]
+          commit_user_email: 41898282+github-actions[bot]@users.noreply.github.com

@@ -1,12 +1,11 @@
 {
-  "output_path": "papers.json",
+  "output_path": "docs/paper_arxiv.json",
   "max_results_per_category": 25,
   "max_items": 1000,
-  "include_code_link": true,
   "categories": [
     {
       "name": "Agent",
-      "filters": ["self-improv", "RSI", "embodied agent"]
+      "filters": ["self-improv", "RSI", "embodied agent", "Harness"]
     },
     {
       "name": "Dexterous",
