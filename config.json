@@ -1,0 +1,16 @@
+{
+  "output_path": "papers.json",
+  "max_results_per_category": 25,
+  "max_items": 1000,
+  "include_code_link": true,
+  "categories": [
+    {
+      "name": "Agent",
+      "filters": ["self-improv", "RSI", "embodied agent"]
+    },
+    {
+      "name": "Dexterous",
+      "filters": ["Dexterous Manipulation", "Dexterous hand", "Dexterity", "Dexterous"]
+    }
+  ]
+}

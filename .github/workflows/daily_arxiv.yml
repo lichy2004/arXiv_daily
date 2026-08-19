@@ -1,0 +1,45 @@
+name: Run arXiv Papers Daily
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
+
+permissions:
+  contents: write
+
+env:
+  GITHUB_USER_NAME: lichy2004
+  GITHUB_USER_EMAIL: lichengyang20040404@gmail.com
+  GITHUB_TOKEN: ${{ secrets.ARXIV_DAILY_GITHUB_TOKEN }}
+
+jobs:
+  build:
+    name: update
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install arxiv requests
+
+      - name: Fetch arXiv papers
+        run: |
+          python fetch_arxiv.py --config config.json
+
+      - name: Commit updated papers.json
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update arXiv papers daily"
+          file_pattern: papers.json
+          commit_user_name: ${{ env.GITHUB_USER_NAME }}
+          commit_user_email: ${{ env.GITHUB_USER_EMAIL }}
