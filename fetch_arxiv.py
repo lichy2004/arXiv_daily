@@ -53,7 +53,7 @@ def build_query(filters: list[str]) -> str:
     return " OR ".join(f"all:{quote_filter(term)}" for term in filters if term.strip())
 
 
-def http_get_text(url: str, params: dict[str, Any], timeout: int = 30) -> str:
+def http_get_text(url: str, params: dict[str, Any], timeout: int = 120) -> str:
     request = urllib.request.Request(
         f"{url}?{urllib.parse.urlencode(params)}",
         headers={"User-Agent": "arXiv_daily/1.0 (paper fetcher)"},
