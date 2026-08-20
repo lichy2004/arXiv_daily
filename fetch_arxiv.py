@@ -140,10 +140,22 @@ def merge_record(existing: dict[str, Any], fetched: dict[str, Any]) -> dict[str,
             merged[key] = value
 
     categories: list[str] = []
-    for source in (existing.get("categories"), [existing.get("category")], fetched.get("categories")):
-        for value in source or []:
+    category_sources = (
+        existing.get("categories"),
+        existing.get("category"),
+        fetched.get("categories"),
+        fetched.get("category"),
+    )
+    for source in category_sources:
+        values = source if isinstance(source, (list, tuple)) else [source]
+        for value in values:
+            if value is None:
+                continue
             clean = str(value).strip()
-            if clean and clean not in categories:
+            # Older runs accidentally serialized a missing category as the
+            # literal string "None". Drop that sentinel while merging so the
+            # archive repairs itself on the next fetch.
+            if clean and clean.casefold() != "none" and clean not in categories:
                 categories.append(clean)
     merged["categories"] = categories
     merged["category"] = categories[0] if categories else ""

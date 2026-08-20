@@ -1031,10 +1031,9 @@
       "Shuyan Zhou"
     ],
     "categories": [
-      "None",
       "Agent"
     ],
-    "category": "None",
+    "category": "Agent",
     "paper_link": "https://arxiv.org/abs/2608.18307v1",
     "paper_name": "ComponentBench: Diagnosing Component-Level Failures in Computer-Use Agents",
     "published_date": "2026-08-18"
@@ -1044,10 +1043,9 @@
       "Jesus Salas"
     ],
     "categories": [
-      "None",
       "Agent"
     ],
-    "category": "None",
+    "category": "Agent",
     "paper_link": "https://arxiv.org/abs/2608.18324v1",
     "paper_name": "Governance Records as Supervision: Verifier-Selected Self-Training for Structured Workflow Repair",
     "published_date": "2026-08-18"
@@ -1057,10 +1055,9 @@
       "Prajwal S. Venkateshmurthy"
     ],
     "categories": [
-      "None",
       "Agent"
     ],
-    "category": "None",
+    "category": "Agent",
     "paper_link": "https://arxiv.org/abs/2608.18329v1",
     "paper_name": "Engine-Transfer-Bench: An Evidence-Based Benchmark for Document Compilation Engine Selection",
     "published_date": "2026-08-18"
@@ -1071,10 +1068,9 @@
       "Ruixi Lin"
     ],
     "categories": [
-      "None",
       "Agent"
     ],
-    "category": "None",
+    "category": "Agent",
     "paper_link": "https://arxiv.org/abs/2608.18330v1",
     "paper_name": "When Does Dynamic Ensembling Pay Off? Diagnosing Regionwise Gains in Regression under Distribution Shift",
     "published_date": "2026-08-18"
@@ -1087,10 +1083,9 @@
       "Felipe Gonzalez"
     ],
     "categories": [
-      "None",
       "Dexterous"
     ],
-    "category": "None",
+    "category": "Dexterous",
     "paper_link": "https://arxiv.org/abs/2608.18507v1",
     "paper_name": "An Experimental Study of Downwash Effects on a Continuum Manipulator Integrated with a Multirotor UAV",
     "published_date": "2026-08-19"
@@ -1112,10 +1107,9 @@
       "Yi Xu"
     ],
     "categories": [
-      "None",
       "Agent"
     ],
-    "category": "None",
+    "category": "Agent",
     "paper_link": "https://arxiv.org/abs/2608.18565v1",
     "paper_name": "SemaPLC: A Project-Grounded, Verification-Gated Agent Harness for PLC Code Generation",
     "published_date": "2026-08-19"
@@ -1130,10 +1124,9 @@
       "Lifeng Fan"
     ],
     "categories": [
-      "None",
       "Agent"
     ],
-    "category": "None",
+    "category": "Agent",
     "paper_link": "https://arxiv.org/abs/2608.18574v1",
     "paper_name": "Continual Reasoning Gym: Diagnosing and Harnessing Shared Reasoning in Continual RLVR",
     "published_date": "2026-08-19"
@@ -1149,10 +1142,9 @@
       "Peng Gao"
     ],
     "categories": [
-      "None",
       "Agent"
     ],
-    "category": "None",
+    "category": "Agent",
     "paper_link": "https://arxiv.org/abs/2608.18613v1",
     "paper_name": "CTIFoundry: An Agent-Native Corpus Scaffold for Cyber Threat Intelligence",
     "published_date": "2026-08-19"
@@ -1175,10 +1167,9 @@
       "Yanyong Zhang"
     ],
     "categories": [
-      "None",
       "Dexterous"
     ],
-    "category": "None",
+    "category": "Dexterous",
     "paper_link": "https://arxiv.org/abs/2608.18618v1",
     "paper_name": "LabDex: A Hierarchical Benchmark for Dexterous Manipulation in Laboratories",
     "published_date": "2026-08-19"
@@ -1192,10 +1183,9 @@
       "Weiping Zhang"
     ],
     "categories": [
-      "None",
       "Agent"
     ],
-    "category": "None",
+    "category": "Agent",
     "paper_link": "https://arxiv.org/abs/2608.18941v1",
     "paper_name": "Quantum-Enhanced Atomic Sensor via Spin Nonequilibrium Criticality",
     "published_date": "2026-08-19"
@@ -1210,10 +1200,9 @@
       "Yang Gao"
     ],
     "categories": [
-      "None",
       "Agent"
     ],
-    "category": "None",
+    "category": "Agent",
     "paper_link": "https://arxiv.org/abs/2608.19013v1",
     "paper_name": "Harness Continual Learning: Continual Adaptation Beyond Model Parameters",
     "published_date": "2026-08-19"
@@ -1223,10 +1212,9 @@
       "George Andrikopoulos"
     ],
     "categories": [
-      "None",
       "Agent"
     ],
-    "category": "None",
+    "category": "Agent",
     "paper_link": "https://arxiv.org/abs/2608.19140v1",
     "paper_name": "Grouping the Stochastic Machine: Precision, Not Capability, as the Frontier Metric for AI Systems",
     "published_date": "2026-08-19"
@@ -1245,10 +1233,9 @@
       "Ankur Handa"
     ],
     "categories": [
-      "None",
       "Dexterous"
     ],
-    "category": "None",
+    "category": "Dexterous",
     "paper_link": "https://arxiv.org/abs/2608.19182v1",
     "paper_name": "ADEPT: Accelerating Dexterity via Pre-Training and Post-Training using Reinforcement Learning",
     "published_date": "2026-08-19"
@@ -1275,10 +1262,9 @@
       "Natasha Jaques"
     ],
     "categories": [
-      "None",
       "Agent"
     ],
-    "category": "None",
+    "category": "Agent",
     "paper_link": "https://arxiv.org/abs/2608.19197v1",
     "paper_name": "SPADE: Self-Play in Adaptive Synthetic Executable Environments",
     "published_date": "2026-08-19"

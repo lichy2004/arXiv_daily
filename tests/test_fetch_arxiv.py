@@ -31,6 +31,22 @@ class FetchArxivTests(unittest.TestCase):
         self.assertEqual(merged["paper_name"], "New")
         self.assertEqual(merged["categories"], ["Agent", "Dexterous"])
 
+    def test_merge_does_not_turn_missing_category_into_none(self):
+        merged = merge_record(
+            {},
+            {"paper_name": "New", "category": "Dexterous", "categories": ["Dexterous"]},
+        )
+        self.assertEqual(merged["categories"], ["Dexterous"])
+        self.assertEqual(merged["category"], "Dexterous")
+
+    def test_merge_removes_legacy_none_category(self):
+        merged = merge_record(
+            {"paper_name": "Old", "category": "None", "categories": ["None", "Agent"]},
+            {"paper_name": "New", "category": "Agent", "categories": ["Agent"]},
+        )
+        self.assertEqual(merged["categories"], ["Agent"])
+        self.assertEqual(merged["category"], "Agent")
+
     def test_trim_removes_records_without_dates_first(self):
         data = {
             "missing": {"published_date": ""},

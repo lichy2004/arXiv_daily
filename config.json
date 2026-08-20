@@ -5,7 +5,7 @@
   "categories": [
     {
       "name": "Agent",
-      "filters": ["self-improv", "RSI", "embodied agent", "Harness"]
+      "filters": ["self-improv", "RSI", "embodied agent", "Harness", "agentic"]
     },
     {
       "name": "Dexterous",
