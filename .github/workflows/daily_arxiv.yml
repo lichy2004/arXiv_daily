@@ -3,7 +3,7 @@ name: Run arXiv Papers Daily
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 20 * * *'
 
 concurrency:
   group: arxiv-daily-notion-sync
