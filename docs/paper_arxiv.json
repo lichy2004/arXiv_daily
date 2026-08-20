@@ -1174,6 +1174,159 @@
     "paper_name": "LabDex: A Hierarchical Benchmark for Dexterous Manipulation in Laboratories",
     "published_date": "2026-08-19"
   },
+  "2608.18833": {
+    "authors": [
+      "Mohaimenul Azam Khan Raiaan",
+      "Nur Mohammad Fahad"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.18833v1",
+    "paper_name": "EVADE: Evidence-Verified Agentic Diagnosis with Escape",
+    "published_date": "2026-08-19"
+  },
+  "2608.18836": {
+    "authors": [
+      "Tianwei Mu",
+      "Yue Wang",
+      "Mingzhe Yuan",
+      "Manhong Huang",
+      "Wenhong Wang",
+      "Xuerui Yin",
+      "Qing Luo",
+      "Min Xiao",
+      "Hui Yang",
+      "Jun Li",
+      "Dan Xue"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.18836v1",
+    "paper_name": "Verifiable abstention makes AI leak diagnosis accountable in water distribution networks",
+    "published_date": "2026-08-19"
+  },
+  "2608.18840": {
+    "authors": [
+      "Zijian Xiao",
+      "Zipeng Ye",
+      "Jinkun Hao",
+      "Xiong Yang",
+      "Yuchen Xie",
+      "Ran Yi"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.18840v1",
+    "paper_name": "Beyond Placement and Articulation: Usage-Driven Code Scenes for Embodied Interaction",
+    "published_date": "2026-08-19"
+  },
+  "2608.18846": {
+    "authors": [
+      "Mingzhao Li",
+      "Chenxi Liu",
+      "Yan Zhao",
+      "Hao Miao"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.18846v1",
+    "paper_name": "ORBITER: Conflict-Aware Decision-Making for Agentic Last-Mile Delivery",
+    "published_date": "2026-08-19"
+  },
+  "2608.18852": {
+    "authors": [
+      "Qingyao Li",
+      "Wenxiang Jiao",
+      "Shuai Shao",
+      "Kangning Zhang",
+      "Yuan Lu",
+      "Yi Guo",
+      "Weiwen Liu",
+      "Weinan Zhang",
+      "Yong Yu"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.18852v1",
+    "paper_name": "SkillGate: Training In-Policy Skill Selection in Long-Horizon Agents",
+    "published_date": "2026-08-19"
+  },
+  "2608.18866": {
+    "authors": [
+      "Tomáš Masopust"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.18866v1",
+    "paper_name": "Deciding Relabeling Observation Consistency in Multi-Agent Discrete-Event Systems",
+    "published_date": "2026-08-19"
+  },
+  "2608.18878": {
+    "authors": [
+      "Zijie Meng",
+      "Xiwei Dai",
+      "Yixuan Tang",
+      "Jin Hao",
+      "Yang Feng",
+      "Fudong Zhu",
+      "Xiaoqiang Liu",
+      "Shaosheng Cao",
+      "Zuozhu Liu"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.18878v1",
+    "paper_name": "DentAgent: Evidence-Centric Multi-Agent Coordination for Multimodal Dental Reasoning",
+    "published_date": "2026-08-19"
+  },
+  "2608.18884": {
+    "authors": [
+      "Wei Yu",
+      "Suxing Liu",
+      "Minjie Yu",
+      "Jiahao Wang",
+      "Zhijian Zheng",
+      "Haocheng Deng",
+      "Bing Li"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.18884v1",
+    "paper_name": "Training-Free Inference-Time Self-Reflection and Cost-Bounded Early Stopping for Large Language Models",
+    "published_date": "2026-08-19"
+  },
+  "2608.18933": {
+    "authors": [
+      "Silin Chen",
+      "Han Li",
+      "Xiaodong Gu",
+      "Yuling Shi",
+      "Haibing Guan"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.18933v1",
+    "paper_name": "SkillForge: Self-Distilling Agents for Project-Specific Issue Resolution",
+    "published_date": "2026-08-19"
+  },
   "2608.18941": {
     "authors": [
       "Ding Huang",
@@ -1188,6 +1341,36 @@
     "category": "Agent",
     "paper_link": "https://arxiv.org/abs/2608.18941v1",
     "paper_name": "Quantum-Enhanced Atomic Sensor via Spin Nonequilibrium Criticality",
+    "published_date": "2026-08-19"
+  },
+  "2608.18952": {
+    "authors": [
+      "Minh Hoang Nguyen",
+      "Tung Le",
+      "Huy Tien Nguyen"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.18952v1",
+    "paper_name": "rEDMRec: Distilling Large Language Model Reasoning into an Editable Experience Memory for Recommendation",
+    "published_date": "2026-08-19"
+  },
+  "2608.19002": {
+    "authors": [
+      "Xiang Yin",
+      "Adam Dejl",
+      "Antonio Rago",
+      "Lihu Chen",
+      "Francesca Toni"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.19002v1",
+    "paper_name": "A Theory of Post-hoc Debate Judgement",
     "published_date": "2026-08-19"
   },
   "2608.19013": {
@@ -1207,6 +1390,147 @@
     "paper_name": "Harness Continual Learning: Continual Adaptation Beyond Model Parameters",
     "published_date": "2026-08-19"
   },
+  "2608.19025": {
+    "authors": [
+      "Valentin Romanov",
+      "Monique Bax",
+      "Steven Niederer"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.19025v1",
+    "paper_name": "Self-prompting and cross-model consensus enable reproducible data extraction from scientific literature with large language models",
+    "published_date": "2026-08-19"
+  },
+  "2608.19029": {
+    "authors": [
+      "Pradeep Murugesan",
+      "Luoxiao Yang",
+      "Xueli Chen",
+      "Xinqi Fan"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.19029v1",
+    "paper_name": "Adaptive Memory and Reflection Multi-Agent System for Medical Question Answering",
+    "published_date": "2026-08-19"
+  },
+  "2608.19047": {
+    "authors": [
+      "Alizer Wong",
+      "Heng Cui",
+      "Yi Tan",
+      "Xiongchao Zhan",
+      "Liang Lin",
+      "Yuxiang Guo",
+      "Zhaorong Dai",
+      "Zixin Zeng",
+      "Wenyuan Li"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.19047v1",
+    "paper_name": "Eureka: Task-Conditioned Meta-Agent Orchestration for Scientific Discovery",
+    "published_date": "2026-08-19"
+  },
+  "2608.19049": {
+    "authors": [
+      "Omar Rady",
+      "Mohamed Ayman",
+      "Ali Arafa",
+      "Mohamed Shalma"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.19049v1",
+    "paper_name": "Multi-Agent Off-Policy Deep Reinforcement Learning for Smart Campus Coverage",
+    "published_date": "2026-08-19"
+  },
+  "2608.19072": {
+    "authors": [
+      "Joy Jia Yin Lim",
+      "Xin Huang",
+      "Hao Peng",
+      "Yaxi Lu",
+      "Xin Cong",
+      "Zhong Zhang",
+      "Maosong Sun",
+      "Yankai Lin"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.19072v1",
+    "paper_name": "What is Missing from AI Post-Training AI: An Empirical Analysis",
+    "published_date": "2026-08-19"
+  },
+  "2608.19073": {
+    "authors": [
+      "Deep Kumar Ganguly",
+      "Jan Křetínský"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.19073v1",
+    "paper_name": "Robust Risk Under Evolving Uncertainty: A Wasserstein Counterpart of the Entropic Value-at-Risk",
+    "published_date": "2026-08-19"
+  },
+  "2608.19103": {
+    "authors": [
+      "Khoa Dang Tao",
+      "Sumin Jin",
+      "Muhammad Raza",
+      "Changhyoup Lee"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.19103v1",
+    "paper_name": "Quantum circuit optimization using deep reinforcement learning: Applications across multiple gate sets",
+    "published_date": "2026-08-19"
+  },
+  "2608.19116": {
+    "authors": [
+      "Denis Blessing",
+      "Mouyang Cheng",
+      "Maximilian Schebek",
+      "Jutta Rogal",
+      "Mingda Li",
+      "Carles Domingo-Enrich",
+      "Yuanqi Du"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.19116v1",
+    "paper_name": "JANUS: A Multi-modal Foundation Neural Sampler for Disordered Materials",
+    "published_date": "2026-08-19"
+  },
+  "2608.19135": {
+    "authors": [
+      "Krishna Teja Medam"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.19135v1",
+    "paper_name": "Autonomous Cyber Defense in Connected Vehicles: A Multi-Agent Approach to V2X Security",
+    "published_date": "2026-08-19"
+  },
   "2608.19140": {
     "authors": [
       "George Andrikopoulos"
@@ -1217,6 +1541,23 @@
     "category": "Agent",
     "paper_link": "https://arxiv.org/abs/2608.19140v1",
     "paper_name": "Grouping the Stochastic Machine: Precision, Not Capability, as the Frontier Metric for AI Systems",
+    "published_date": "2026-08-19"
+  },
+  "2608.19161": {
+    "authors": [
+      "Ramneet Kaur",
+      "Pradyumna Chari",
+      "Ramesh Raskar",
+      "Jugad Singh",
+      "Sumit Kumar Jha",
+      "Anirban Roy"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.19161v1",
+    "paper_name": "Beyond the Transcript: Detecting Covert Co ordination in Latent Multi-Agent Communication",
     "published_date": "2026-08-19"
   },
   "2608.19182": {
