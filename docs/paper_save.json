@@ -1,1 +1,764 @@
-{}
+{
+  "2209.07753": {
+    "abstract": "",
+    "arxiv_id": "2209.07753",
+    "authors": [
+      "Jacky Liang",
+      "Wenlong Huang",
+      "Fei Xia",
+      "Peng Xu",
+      "Karol Hausman",
+      "Brian Ichter",
+      "Pete Florence",
+      "Andy Zeng"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "code_link": "https://github.com/google-research/google-research/tree/master/code_as_policies",
+    "notes": "",
+    "paper_link": "https://arxiv.org/abs/2209.07753",
+    "paper_name": "Code as Policies: Language Model Programs for Embodied Control",
+    "published_date": "",
+    "source": "arxiv",
+    "updated_at": "2026-08-19T11:36:00.000Z",
+    "web_link": "https://code-as-policies.github.io/"
+  },
+  "2305.16291": {
+    "abstract": "",
+    "arxiv_id": "2305.16291",
+    "authors": [
+      "Guanzhi Wang",
+      "Yuqi Xie",
+      "Yunfan Jiang",
+      "Ajay Mandlekar",
+      "Chaowei Xiao",
+      "Yuke Zhu",
+      "Linxi Fan",
+      "Anima Anandkumar"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "code_link": "",
+    "notes": "",
+    "paper_link": "https://arxiv.org/abs/2305.16291",
+    "paper_name": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+    "published_date": "",
+    "source": "arxiv",
+    "updated_at": "2026-08-19T11:54:00.000Z",
+    "web_link": "https://voyager.minedojo.org/"
+  },
+  "2502.04307": {
+    "abstract": "",
+    "arxiv_id": "2502.04307",
+    "authors": [
+      "Zhao-Heng Yin",
+      "Changhao Wang",
+      "Luis Pineda",
+      "Francois Hogan",
+      "Krishna Bodduluri",
+      "Akash Sharma",
+      "Patrick Lancaster",
+      "Ishita Prasad",
+      "Mrinal Kalakrishnan",
+      "Jitendra Malik",
+      "Mike Lambeta",
+      "Tingfan Wu",
+      "Pieter Abbeel",
+      "Mustafa Mukadam"
+    ],
+    "categories": [
+      "Dexterous"
+    ],
+    "category": "Dexterous",
+    "code_link": "",
+    "notes": "",
+    "paper_link": "https://arxiv.org/abs/2502.04307",
+    "paper_name": "DexterityGen: Foundation Controller for Unprecedented Dexterity",
+    "published_date": "",
+    "source": "arxiv",
+    "updated_at": "2026-08-19T12:59:00.000Z",
+    "web_link": "https://zhaohengyin.github.io/dexteritygen/"
+  },
+  "2504.19413": {
+    "abstract": "",
+    "arxiv_id": "2504.19413",
+    "authors": [
+      "Prateek Chhikara",
+      "Dev Khant",
+      "Saket Aryan",
+      "Taranjeet Singh",
+      "and Deshraj Yadav"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "code_link": "",
+    "notes": "",
+    "paper_link": "https://arxiv.org/pdf/2504.19413",
+    "paper_name": "Mem0: Building Production-Ready AI Agents with\nScalable Long-Term Memory",
+    "published_date": "",
+    "source": "arxiv",
+    "updated_at": "2026-08-19T11:21:00.000Z",
+    "web_link": "https://mem0.ai/research"
+  },
+  "2505.24853": {
+    "abstract": "",
+    "arxiv_id": "2505.24853",
+    "authors": [
+      "Zhao Mandi",
+      "Yifan Hou",
+      "Dieter Fox",
+      "Yashraj Narang",
+      "Ajay Mandlekar",
+      "Shuran Song"
+    ],
+    "categories": [
+      "Dexterous"
+    ],
+    "category": "Dexterous",
+    "code_link": "https://github.com/MandiZhao/dexmachina",
+    "notes": "env: genesis + rl games",
+    "paper_link": "https://arxiv.org/abs/2505.24853",
+    "paper_name": "DexMachina: Functional Retargeting for  Bimanual Dexterous Manipulation",
+    "published_date": "",
+    "source": "arxiv",
+    "updated_at": "2026-08-19T12:59:00.000Z",
+    "web_link": "https://project-dexmachina.github.io/"
+  },
+  "2506.13131": {
+    "abstract": "",
+    "arxiv_id": "2506.13131",
+    "authors": [
+      "Alexander Novikov",
+      "Ngân Vũ",
+      "Marvin Eisenberger",
+      "Emilien Dupont",
+      "Po-Sen Huang",
+      "Adam Zsolt Wagner",
+      "Sergey Shirobokov",
+      "Borislav Kozlovskii",
+      "Francisco J. R. Ruiz",
+      "Abbas Mehrabian",
+      "M. Pawan Kumar",
+      "Abigail See",
+      "Swarat Chaudhuri",
+      "George Holland",
+      "Alex Davies",
+      "Sebastian Nowozin",
+      "Pushmeet Kohli",
+      "Matej Balog"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "code_link": "",
+    "notes": "",
+    "paper_link": "https://arxiv.org/pdf/2506.13131",
+    "paper_name": "AlphaEvolve: A coding agent for scientific and\nalgorithmic discover",
+    "published_date": "",
+    "source": "arxiv",
+    "updated_at": "2026-08-19T11:44:00.000Z",
+    "web_link": ""
+  },
+  "2510.04618": {
+    "abstract": "",
+    "arxiv_id": "2510.04618",
+    "authors": [
+      "Qizheng Zhang",
+      "Changran Hu",
+      "Shubhangi Upasani",
+      "Boyuan Ma",
+      "Fenglu Hong",
+      "Vamsidhar Kamanuru",
+      "Jay Rainton",
+      "Chen Wu",
+      "Mengmeng Ji",
+      "Hanchen Li",
+      "Urmish Thakker",
+      "James Zou",
+      "Kunle Olukotun"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "code_link": "https://github.com/ace-agent/ace",
+    "notes": "",
+    "paper_link": "https://arxiv.org/abs/2510.04618",
+    "paper_name": "Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models",
+    "published_date": "",
+    "source": "arxiv",
+    "updated_at": "2026-08-19T11:44:00.000Z",
+    "web_link": "https://ace-agent.github.io/"
+  },
+  "2602.16863": {
+    "abstract": "",
+    "arxiv_id": "2602.16863",
+    "authors": [
+      "Kushal Kedia",
+      "Tyler Ga Wei Lum",
+      "Jeannette Bohg",
+      "C. Karen Liu"
+    ],
+    "categories": [
+      "Dexterous"
+    ],
+    "category": "Dexterous",
+    "code_link": "https://github.com/tylerlum/simtoolreal",
+    "notes": "",
+    "paper_link": "https://arxiv.org/abs/2602.16863",
+    "paper_name": "SimToolReal: An Object-Centric Policy for Zero-Shot Dexterous Tool Manipulation",
+    "published_date": "",
+    "source": "arxiv",
+    "updated_at": "2026-08-19T13:02:00.000Z",
+    "web_link": "https://simtoolreal.github.io/"
+  },
+  "2603.22435": {
+    "abstract": "",
+    "arxiv_id": "2603.22435",
+    "authors": [
+      "Letian Fu",
+      "Justin Yu",
+      "Karim El-Refai",
+      "Ethan Kou",
+      "Haoru Xue",
+      "Huang Huang",
+      "Wenli Xiao",
+      "Guanzhi Wang",
+      "Dantong Niu",
+      "Fei-Fei Li",
+      "Guanya Shi",
+      "Jiajun Wu",
+      "Shankar Sastry",
+      "Yuke Zhu",
+      "Ken Goldberg",
+      "Linxi \"Jim\" Fan"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "code_link": "https://github.com/capgym/cap-x",
+    "notes": "",
+    "paper_link": "https://arxiv.org/abs/2603.22435v1",
+    "paper_name": "CaP-X: A Framework for Benchmarking and Improving Coding Agents for Robot Manipulation",
+    "published_date": "",
+    "source": "arxiv",
+    "updated_at": "2026-08-19T11:37:00.000Z",
+    "web_link": "https://capgym.github.io/"
+  },
+  "2603.28052": {
+    "abstract": "",
+    "arxiv_id": "2603.28052",
+    "authors": [
+      "Yoonho Lee",
+      "Roshen Nair",
+      "Qizheng Zhang",
+      "Kangwook Lee",
+      "Omar Khattab",
+      "Chelsea Finn"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "code_link": "",
+    "notes": "",
+    "paper_link": "https://arxiv.org/abs/2603.28052",
+    "paper_name": "Meta-Harness: End-to-End Optimization of Model Harnesses",
+    "published_date": "",
+    "source": "arxiv",
+    "updated_at": "2026-08-19T11:52:00.000Z",
+    "web_link": ""
+  },
+  "2605.18746": {
+    "abstract": "",
+    "arxiv_id": "2605.18746",
+    "authors": [
+      "Yining Hong",
+      "Jiageng Liu",
+      "Han Yin",
+      "Manling Li",
+      "Leonidas Guibas",
+      "Li Fei-Fei",
+      "Jiajun Wu",
+      "Yejin Choi"
+    ],
+    "categories": [
+      "Active Perception"
+    ],
+    "category": "Active Perception",
+    "code_link": "",
+    "notes": "",
+    "paper_link": "https://arxiv.org/abs/2605.18746",
+    "paper_name": "ESI-Bench: Towards Embodied Spatial Intelligence that Closes the Perception-Action Loop",
+    "published_date": "",
+    "source": "arxiv",
+    "updated_at": "2026-08-19T11:46:00.000Z",
+    "web_link": ""
+  },
+  "2606.07723": {
+    "abstract": "",
+    "arxiv_id": "2606.07723",
+    "authors": [
+      "Siyi Chen",
+      "Hugo Hadfield",
+      "Alex Zook",
+      "Mikaela Angelina Uy",
+      "Chan Hee Song",
+      "Erwin Coumans",
+      "Xuning Yang",
+      "Faisal Ladhak",
+      "Qing Qu",
+      "Stan Birchfield",
+      "Jonathan Tremblay",
+      "Valts Blukis"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "code_link": "",
+    "notes": "",
+    "paper_link": "https://arxiv.org/abs/2606.07723",
+    "paper_name": "VoLo: A Physical Orchestrator for Open-Vocabulary\nLong-Horizon Manipulation",
+    "published_date": "",
+    "source": "arxiv",
+    "updated_at": "2026-08-19T11:38:00.000Z",
+    "web_link": "https://chicychen.github.io/VoLo/"
+  },
+  "2606.09498": {
+    "abstract": "",
+    "arxiv_id": "2606.09498",
+    "authors": [
+      "Hangfan Zhang",
+      "Shao Zhang",
+      "Kangcong Li",
+      "Chen Zhang",
+      "Yang Chen",
+      "Yiqun Zhang",
+      "Lei Bai",
+      "Shuyue Hu"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "code_link": "",
+    "notes": "",
+    "paper_link": "https://arxiv.org/abs/2606.09498v1",
+    "paper_name": "Self-Harness: Harnesses That Improve Themselves",
+    "published_date": "",
+    "source": "arxiv",
+    "updated_at": "2026-08-19T11:53:00.000Z",
+    "web_link": ""
+  },
+  "2606.13677": {
+    "abstract": "",
+    "arxiv_id": "2606.13677",
+    "authors": [
+      "Zhao-Heng Yin",
+      "Guanya Shi",
+      "Pieter Abbeel",
+      "C. Karen Liu"
+    ],
+    "categories": [
+      "Dexterous"
+    ],
+    "category": "Dexterous",
+    "code_link": "",
+    "notes": "",
+    "paper_link": "https://arxiv.org/abs/2606.13677",
+    "paper_name": "MANA: Dexterous Manipulation of Articulated Tools",
+    "published_date": "",
+    "source": "arxiv",
+    "updated_at": "2026-08-19T11:39:00.000Z",
+    "web_link": "https://zhaohengyin.github.io/mana/"
+  },
+  "2606.19333": {
+    "abstract": "",
+    "arxiv_id": "2606.19333",
+    "authors": [
+      "Bhawna Paliwal",
+      "Haritheja Etukuru",
+      "William Liang",
+      "Pieter Abbeel",
+      "Nur Muhammad Mahi Shafiullah",
+      "Jitendra Malik"
+    ],
+    "categories": [
+      "Dexterous"
+    ],
+    "category": "Dexterous",
+    "code_link": "https://github.com/malik-group/do-as-i-do",
+    "notes": "",
+    "paper_link": "https://arxiv.org/abs/2606.19333",
+    "paper_name": "Do as I Do: Dexterous Manipulation Data from Everyday Human Videos",
+    "published_date": "",
+    "source": "arxiv",
+    "updated_at": "2026-08-19T12:52:00.000Z",
+    "web_link": "https://do-as-i-do.com/"
+  },
+  "2606.19419": {
+    "abstract": "",
+    "arxiv_id": "2606.19419",
+    "authors": [
+      "Junyi Zhang",
+      "Jiaxin Ge",
+      "Hanjun Yoo",
+      "Letian Fu",
+      "Zihan Yang",
+      "Yaowei Liu",
+      "Raj Saravanan",
+      "Shaofeng Yin",
+      "Justin Yu",
+      "Dantong Niu",
+      "Zirui Wang",
+      "Roei Herzig",
+      "Ken Goldberg",
+      "Yutong Bai",
+      "David M. Chan",
+      "Ion Stoica",
+      "Angjoo Kanazawa",
+      "Jiahui Lei",
+      "Haiwen Feng",
+      "Trevor Darrell"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "code_link": "",
+    "notes": "",
+    "paper_link": "https://arxiv.org/abs/2606.19419",
+    "paper_name": "Playful Agentic Robot Learning",
+    "published_date": "",
+    "source": "arxiv",
+    "updated_at": "2026-08-19T11:52:00.000Z",
+    "web_link": "https://playful-rats.github.io/"
+  },
+  "2606.19980": {
+    "abstract": "",
+    "arxiv_id": "2606.19980",
+    "authors": [
+      "Wenli Xiao",
+      "Jia Xie",
+      "Tonghe Zhang",
+      "Haotian Lin",
+      "Letian \"Max\" Fu",
+      "Haoru Xue",
+      "Jalen Lu",
+      "Yi Yang",
+      "Cunxi Dai",
+      "Zi Wang",
+      "Jimmy Wu",
+      "Guanzhi Wang",
+      "S. Shankar Sastry",
+      "Ken Goldberg",
+      "Linxi \"Jim\" Fan",
+      "Yuke Zhu",
+      "Guanya Shi"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "code_link": "",
+    "notes": "",
+    "paper_link": "https://arxiv.org/abs/2606.19980",
+    "paper_name": "ENPIRE: Agentic Robot Policy Self-Improvement in the\nReal World",
+    "published_date": "",
+    "source": "arxiv",
+    "updated_at": "2026-08-19T11:53:00.000Z",
+    "web_link": "https://research.nvidia.com/labs/gear/enpire/"
+  },
+  "2606.26428": {
+    "abstract": "",
+    "arxiv_id": "2606.26428",
+    "authors": [
+      "Tyler Ga Wei Lum",
+      "Kushal Kedia",
+      "C. Karen Liu",
+      "Jeannette Bohg"
+    ],
+    "categories": [
+      "Dexterous"
+    ],
+    "category": "Dexterous",
+    "code_link": "",
+    "notes": "",
+    "paper_link": "https://arxiv.org/abs/2606.26428",
+    "paper_name": "Play2Perfect: What Matters in Dexterous Play Pretraining for Precise Assembly?",
+    "published_date": "",
+    "source": "arxiv",
+    "updated_at": "2026-08-19T12:06:00.000Z",
+    "web_link": "https://play2perfect.github.io/"
+  },
+  "2606.28128": {
+    "abstract": "",
+    "arxiv_id": "2606.28128",
+    "authors": [
+      "Peiwen Zhang",
+      "Yufan Deng",
+      "Shangkun Sun",
+      "Juncheng Ma",
+      "Duomin Wang",
+      "Jonas Du",
+      "Zilin Pan",
+      "Ye Huang",
+      "Hao Liang",
+      "Songyan Huang",
+      "Ruihua Zhang",
+      "Enze Xie",
+      "Ming-Yu Liu",
+      "Daquan Zhou"
+    ],
+    "categories": [
+      "VLM",
+      "Physical Property"
+    ],
+    "category": "VLM",
+    "code_link": "",
+    "notes": "",
+    "paper_link": "https://arxiv.org/abs/2606.28128",
+    "paper_name": "PhysisForcing: Physics Reinforced World Simulator for Robotic Manipulation",
+    "published_date": "",
+    "source": "arxiv",
+    "updated_at": "2026-08-19T11:46:00.000Z",
+    "web_link": ""
+  },
+  "2607.11481": {
+    "abstract": "",
+    "arxiv_id": "2607.11481",
+    "authors": [
+      "Puhao Li",
+      "Zeyuan Chen",
+      "Yingying Wu",
+      "Pengkun Wei",
+      "Yuyang Li",
+      "Tianyu Wang",
+      "Jiaxiao Shi",
+      "Mingrui Yu",
+      "Baoxiong Jia",
+      "Song-chun Zhu",
+      "Tengyu Liu",
+      "Siyuan Huang"
+    ],
+    "categories": [
+      "Dexterous"
+    ],
+    "category": "Dexterous",
+    "code_link": "",
+    "notes": "",
+    "paper_link": "https://arxiv.org/abs/2607.11481",
+    "paper_name": "Towards Human-level Dexterous Teleoperation",
+    "published_date": "",
+    "source": "arxiv",
+    "updated_at": "2026-08-19T12:03:00.000Z",
+    "web_link": "https://bigai-dex.github.io/blog/teledexter"
+  },
+  "2607.25798": {
+    "abstract": "",
+    "arxiv_id": "2607.25798",
+    "authors": [
+      "Huy Ha",
+      "C. Karen Liu",
+      "Shuran Song"
+    ],
+    "categories": [],
+    "category": "",
+    "code_link": "",
+    "notes": "",
+    "paper_link": "https://arxiv.org/abs/2607.25798",
+    "paper_name": "Transformer Transformer: A Unified Model for Motion-Conditioned Robot Co-design",
+    "published_date": "",
+    "source": "arxiv",
+    "updated_at": "2026-08-20T00:50:00.000Z",
+    "web_link": "https://transformer-transformer.github.io/"
+  },
+  "2608.02547": {
+    "abstract": "",
+    "arxiv_id": "2608.02547",
+    "authors": [
+      "Filippo Lazzati",
+      "Kyle Stachowicz",
+      "William Chen",
+      "Alberto Maria Metelli",
+      "Andrew Wagenmaker",
+      "Sergey Levine"
+    ],
+    "categories": [],
+    "category": "",
+    "code_link": "",
+    "notes": "",
+    "paper_link": "https://arxiv.org/abs/2608.02547",
+    "paper_name": "Why Does Action Chunking Improve Behavioral Cloning Performance in Robotic Control?",
+    "published_date": "",
+    "source": "arxiv",
+    "updated_at": "2026-08-20T01:02:00.000Z",
+    "web_link": ""
+  },
+  "2608.15917": {
+    "abstract": "",
+    "arxiv_id": "2608.15917",
+    "authors": [
+      "Sarthak Kamat",
+      "Adam Rashid",
+      "Satvik Sharma",
+      "Aseem Doriwala",
+      "Chelsea Finn",
+      "Phillip Isola",
+      "C. Karen Liu"
+    ],
+    "categories": [
+      "Dexterous"
+    ],
+    "category": "Dexterous",
+    "code_link": "",
+    "notes": "",
+    "paper_link": "https://arxiv.org/abs/2608.15917v1",
+    "paper_name": "Pre-training Visual Dexterity in Simulation",
+    "published_date": "2026-08-16",
+    "source": "arxiv",
+    "updated_at": "2026-08-19T05:43:00.000+00:00",
+    "web_link": "https://spd.bot/"
+  },
+  "2608.16859": {
+    "abstract": "",
+    "arxiv_id": "2608.16859",
+    "authors": [
+      "Weiliang Chen",
+      "Haowen Sun",
+      "Jun Gao",
+      "Jiawei Chi",
+      "Hanyang Wang",
+      "Qiyu Dai",
+      "Yihao Li",
+      "Hao Li",
+      "Jingnan Gao",
+      "Yi-Hsin Hung",
+      "Xingzhuo Guo",
+      "Shangchen Miao",
+      "Zhiyuan Shi",
+      "Xiang Li",
+      "Fengrui Tian",
+      "Weihua Du",
+      "Ziqi Huang",
+      "Shenyuan Gao",
+      "Siqiao Huang",
+      "Mingyu Liu",
+      "Yifei Li",
+      "Shizun Wang",
+      "Xi Wang",
+      "Tianqi Zhang",
+      "Xue Luo",
+      "Xiyin Ren",
+      "Jinshan Ren",
+      "Xiaoyang Shen",
+      "Xiaobo Hu",
+      "Zhiyang Dou",
+      "Mingyu Ding",
+      "Yichao Yan",
+      "Xinchao Wang",
+      "Yizhou Wang",
+      "Shilong Liu",
+      "Wenzhao Zheng",
+      "Yueqi Duan",
+      "Yuan Gong",
+      "Ziwei Liu",
+      "Ming-Yu Liu",
+      "Jialong Wu",
+      "Jiangran Lyu",
+      "Fangfu Liu"
+    ],
+    "categories": [
+      "Agent",
+      "Benchmark"
+    ],
+    "category": "Agent",
+    "code_link": "https://github.com/mirros-lab/harnesseval-w",
+    "notes": "",
+    "paper_link": "https://arxiv.org/abs/2608.16859v1",
+    "paper_name": "HarnessEval-W: Agentifying the Evaluation of Visual Worlds",
+    "published_date": "2026-08-17",
+    "source": "arxiv",
+    "updated_at": "2026-08-19T05:43:00.000+00:00",
+    "web_link": "https://mirros-lab.github.io/HarnessEval-W"
+  },
+  "notion:37238e7ccd3980fb8394fd3f2e79230e": {
+    "abstract": "",
+    "arxiv_id": "",
+    "authors": [
+      "NVIDIA"
+    ],
+    "categories": [
+      "WAM"
+    ],
+    "category": "WAM",
+    "code_link": "",
+    "notes": "",
+    "paper_link": "https://research.nvidia.com/labs/cosmos-lab/cosmos3/technical-report.pdf",
+    "paper_name": "Cosmos 3: Omnimodal World Models for Physical AI",
+    "published_date": "",
+    "source": "manual",
+    "updated_at": "2026-08-19T11:35:00.000Z",
+    "web_link": ""
+  },
+  "notion:39038e7ccd3980728efff8b648baa537": {
+    "abstract": "",
+    "arxiv_id": "",
+    "authors": [],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "code_link": "",
+    "notes": "",
+    "paper_link": "https://arxiv.org/abs/2607.00272",
+    "paper_name": "ASPIRE: Agentic /Skills Discovery for Robotics",
+    "published_date": "",
+    "source": "manual",
+    "updated_at": "2026-08-19T11:50:00.000Z",
+    "web_link": "https://research.nvidia.com/labs/gear/aspire/"
+  },
+  "notion:3a938e7ccd3980758475df235825b938": {
+    "abstract": "",
+    "arxiv_id": "",
+    "authors": [],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "code_link": "",
+    "notes": "",
+    "paper_link": "https://xinmingtu.cn/blog/2026/self-evolving-agents/",
+    "paper_name": "The What & When of Self-Evolving Agents",
+    "published_date": "",
+    "source": "manual",
+    "updated_at": "2026-08-19T11:27:00.000Z",
+    "web_link": ""
+  },
+  "notion:3a938e7ccd3980cf93e3f483b3593516": {
+    "abstract": "",
+    "arxiv_id": "",
+    "authors": [],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "code_link": "",
+    "notes": "",
+    "paper_link": "https://lilianweng.github.io/posts/2026-07-04-harness/",
+    "paper_name": "Harness Engineering for Self-Improvement",
+    "published_date": "",
+    "source": "manual",
+    "updated_at": "2026-08-19T11:26:00.000Z",
+    "web_link": ""
+  }
+}
