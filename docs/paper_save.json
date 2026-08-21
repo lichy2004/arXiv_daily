@@ -1,30 +1,4 @@
 {
-  "2209.07753": {
-    "abstract": "",
-    "arxiv_id": "2209.07753",
-    "authors": [
-      "Jacky Liang",
-      "Wenlong Huang",
-      "Fei Xia",
-      "Peng Xu",
-      "Karol Hausman",
-      "Brian Ichter",
-      "Pete Florence",
-      "Andy Zeng"
-    ],
-    "categories": [
-      "Agent"
-    ],
-    "category": "Agent",
-    "code_link": "https://github.com/google-research/google-research/tree/master/code_as_policies",
-    "notes": "",
-    "paper_link": "https://arxiv.org/abs/2209.07753",
-    "paper_name": "Code as Policies: Language Model Programs for Embodied Control",
-    "published_date": "",
-    "source": "arxiv",
-    "updated_at": "2026-08-19T11:36:00.000Z",
-    "web_link": "https://code-as-policies.github.io/"
-  },
   "2305.16291": {
     "abstract": "",
     "arxiv_id": "2305.16291",
@@ -50,6 +24,76 @@
     "source": "arxiv",
     "updated_at": "2026-08-19T11:54:00.000Z",
     "web_link": "https://voyager.minedojo.org/"
+  },
+  "2310.12931": {
+    "abstract": "",
+    "arxiv_id": "2310.12931",
+    "authors": [],
+    "categories": [
+      "Agent",
+      "RL"
+    ],
+    "category": "Agent",
+    "code_link": "https://github.com/eureka-research/Eureka",
+    "notes": "",
+    "paper_link": "https://arxiv.org/abs/2310.12931",
+    "paper_name": "Eureka: Human-Level Reward Design via Coding Large Language Models",
+    "published_date": "",
+    "source": "arxiv",
+    "updated_at": "2026-08-20T10:27:00.000Z",
+    "web_link": "https://eureka-research.github.io/"
+  },
+  "2405.15019": {
+    "abstract": "",
+    "arxiv_id": "2405.15019",
+    "authors": [],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "code_link": "https://github.com/xf-zhao/Agentic-Skill-Discovery",
+    "notes": "Source: awesome-coding-agents-for-robot-learning\nTopics: Environments and Tasks, Reward Design\nOrganization: University of Hamburg\nProposes new simulated tasks and evolves executable reward and success functions through RL success feedback, with a VLM checking learned skills. · Robotics and Autonomous Systems 2026",
+    "paper_link": "https://arxiv.org/abs/2405.15019",
+    "paper_name": "Agentic Skill Discovery",
+    "published_date": "",
+    "source": "arxiv",
+    "updated_at": "2026-08-20T10:28:00.000Z",
+    "web_link": "https://agentic-skill-discovery.github.io/"
+  },
+  "2406.01967": {
+    "abstract": "",
+    "arxiv_id": "2406.01967",
+    "authors": [],
+    "categories": [
+      "Agent",
+      "RL"
+    ],
+    "category": "Agent",
+    "code_link": "https://github.com/eureka-research/DrEureka",
+    "notes": "Source: awesome-coding-agents-for-robot-learning\nTopics: Reward Design\nOrganization: University of Pennsylvania et al.\nAutomates both reward design and domain-randomization ranges for sim-to-real locomotion and dexterous manipulation. · RSS 2024",
+    "paper_link": "https://arxiv.org/abs/2406.01967",
+    "paper_name": "DrEureka: Language Model Guided Sim-To-Real Transfer",
+    "published_date": "",
+    "source": "arxiv",
+    "updated_at": "2026-08-20T10:27:00.000Z",
+    "web_link": "https://eureka-research.github.io/dr-eureka/"
+  },
+  "2411.01775": {
+    "abstract": "",
+    "arxiv_id": "2411.01775",
+    "authors": [],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "code_link": "https://github.com/eureka-research/eurekaverse",
+    "notes": "Source: awesome-coding-agents-for-robot-learning\nTopics: Environments and Tasks, Synthetic Data\nOrganization: University of Pennsylvania\nSamples progressively harder terrain programs from policy feedback and transfers the learned quadruped parkour policy to hardware. · CoRL 2024",
+    "paper_link": "https://arxiv.org/abs/2411.01775",
+    "paper_name": "Eurekaverse: Environment Curriculum Generation via Large Language Models",
+    "published_date": "",
+    "source": "arxiv",
+    "updated_at": "2026-08-20T10:28:00.000Z",
+    "web_link": "https://eureka-research.github.io/eurekaverse/"
   },
   "2502.04307": {
     "abstract": "",
@@ -219,40 +263,6 @@
     "updated_at": "2026-08-19T13:02:00.000Z",
     "web_link": "https://simtoolreal.github.io/"
   },
-  "2603.22435": {
-    "abstract": "",
-    "arxiv_id": "2603.22435",
-    "authors": [
-      "Letian Fu",
-      "Justin Yu",
-      "Karim El-Refai",
-      "Ethan Kou",
-      "Haoru Xue",
-      "Huang Huang",
-      "Wenli Xiao",
-      "Guanzhi Wang",
-      "Dantong Niu",
-      "Fei-Fei Li",
-      "Guanya Shi",
-      "Jiajun Wu",
-      "Shankar Sastry",
-      "Yuke Zhu",
-      "Ken Goldberg",
-      "Linxi \"Jim\" Fan"
-    ],
-    "categories": [
-      "Agent"
-    ],
-    "category": "Agent",
-    "code_link": "https://github.com/capgym/cap-x",
-    "notes": "",
-    "paper_link": "https://arxiv.org/abs/2603.22435v1",
-    "paper_name": "CaP-X: A Framework for Benchmarking and Improving Coding Agents for Robot Manipulation",
-    "published_date": "",
-    "source": "arxiv",
-    "updated_at": "2026-08-19T11:37:00.000Z",
-    "web_link": "https://capgym.github.io/"
-  },
   "2603.28052": {
     "abstract": "",
     "arxiv_id": "2603.28052",
@@ -302,36 +312,6 @@
     "source": "arxiv",
     "updated_at": "2026-08-19T11:46:00.000Z",
     "web_link": ""
-  },
-  "2606.07723": {
-    "abstract": "",
-    "arxiv_id": "2606.07723",
-    "authors": [
-      "Siyi Chen",
-      "Hugo Hadfield",
-      "Alex Zook",
-      "Mikaela Angelina Uy",
-      "Chan Hee Song",
-      "Erwin Coumans",
-      "Xuning Yang",
-      "Faisal Ladhak",
-      "Qing Qu",
-      "Stan Birchfield",
-      "Jonathan Tremblay",
-      "Valts Blukis"
-    ],
-    "categories": [
-      "Agent"
-    ],
-    "category": "Agent",
-    "code_link": "",
-    "notes": "",
-    "paper_link": "https://arxiv.org/abs/2606.07723",
-    "paper_name": "VoLo: A Physical Orchestrator for Open-Vocabulary\nLong-Horizon Manipulation",
-    "published_date": "",
-    "source": "arxiv",
-    "updated_at": "2026-08-19T11:38:00.000Z",
-    "web_link": "https://chicychen.github.io/VoLo/"
   },
   "2606.09498": {
     "abstract": "",
@@ -404,79 +384,6 @@
     "source": "arxiv",
     "updated_at": "2026-08-19T12:52:00.000Z",
     "web_link": "https://do-as-i-do.com/"
-  },
-  "2606.19419": {
-    "abstract": "",
-    "arxiv_id": "2606.19419",
-    "authors": [
-      "Junyi Zhang",
-      "Jiaxin Ge",
-      "Hanjun Yoo",
-      "Letian Fu",
-      "Zihan Yang",
-      "Yaowei Liu",
-      "Raj Saravanan",
-      "Shaofeng Yin",
-      "Justin Yu",
-      "Dantong Niu",
-      "Zirui Wang",
-      "Roei Herzig",
-      "Ken Goldberg",
-      "Yutong Bai",
-      "David M. Chan",
-      "Ion Stoica",
-      "Angjoo Kanazawa",
-      "Jiahui Lei",
-      "Haiwen Feng",
-      "Trevor Darrell"
-    ],
-    "categories": [
-      "Agent"
-    ],
-    "category": "Agent",
-    "code_link": "",
-    "notes": "",
-    "paper_link": "https://arxiv.org/abs/2606.19419",
-    "paper_name": "Playful Agentic Robot Learning",
-    "published_date": "",
-    "source": "arxiv",
-    "updated_at": "2026-08-19T11:52:00.000Z",
-    "web_link": "https://playful-rats.github.io/"
-  },
-  "2606.19980": {
-    "abstract": "",
-    "arxiv_id": "2606.19980",
-    "authors": [
-      "Wenli Xiao",
-      "Jia Xie",
-      "Tonghe Zhang",
-      "Haotian Lin",
-      "Letian \"Max\" Fu",
-      "Haoru Xue",
-      "Jalen Lu",
-      "Yi Yang",
-      "Cunxi Dai",
-      "Zi Wang",
-      "Jimmy Wu",
-      "Guanzhi Wang",
-      "S. Shankar Sastry",
-      "Ken Goldberg",
-      "Linxi \"Jim\" Fan",
-      "Yuke Zhu",
-      "Guanya Shi"
-    ],
-    "categories": [
-      "Agent"
-    ],
-    "category": "Agent",
-    "code_link": "",
-    "notes": "",
-    "paper_link": "https://arxiv.org/abs/2606.19980",
-    "paper_name": "ENPIRE: Agentic Robot Policy Self-Improvement in the\nReal World",
-    "published_date": "",
-    "source": "arxiv",
-    "updated_at": "2026-08-19T11:53:00.000Z",
-    "web_link": "https://research.nvidia.com/labs/gear/enpire/"
   },
   "2606.26428": {
     "abstract": "",
@@ -691,6 +598,34 @@
     "updated_at": "2026-08-19T05:43:00.000+00:00",
     "web_link": "https://mirros-lab.github.io/HarnessEval-W"
   },
+  "2608.19182": {
+    "abstract": "",
+    "arxiv_id": "2608.19182",
+    "authors": [
+      "Jayjun Lee",
+      "Jessica Yin",
+      "Asif Rana",
+      "Nicholas Blauch",
+      "Sam Mady",
+      "Mohak Bhardwaj",
+      "Nima Fazeli",
+      "Nathan Ratliff",
+      "Karl Van Wyk",
+      "Ankur Handa"
+    ],
+    "categories": [
+      "Dexterous"
+    ],
+    "category": "Dexterous",
+    "code_link": "",
+    "notes": "",
+    "paper_link": "https://arxiv.org/abs/2608.19182v1",
+    "paper_name": "ADEPT: Accelerating Dexterity via Pre-Training and Post-Training using Reinforcement Learning",
+    "published_date": "2026-08-19",
+    "source": "arxiv",
+    "updated_at": "2026-08-20T10:46:00.000+00:00",
+    "web_link": "https://adept-dexterity.github.io/"
+  },
   "notion:37238e7ccd3980fb8394fd3f2e79230e": {
     "abstract": "",
     "arxiv_id": "",
@@ -709,23 +644,6 @@
     "source": "manual",
     "updated_at": "2026-08-19T11:35:00.000Z",
     "web_link": ""
-  },
-  "notion:39038e7ccd3980728efff8b648baa537": {
-    "abstract": "",
-    "arxiv_id": "",
-    "authors": [],
-    "categories": [
-      "Agent"
-    ],
-    "category": "Agent",
-    "code_link": "",
-    "notes": "",
-    "paper_link": "https://arxiv.org/abs/2607.00272",
-    "paper_name": "ASPIRE: Agentic /Skills Discovery for Robotics",
-    "published_date": "",
-    "source": "manual",
-    "updated_at": "2026-08-19T11:50:00.000Z",
-    "web_link": "https://research.nvidia.com/labs/gear/aspire/"
   },
   "notion:3a938e7ccd3980758475df235825b938": {
     "abstract": "",
