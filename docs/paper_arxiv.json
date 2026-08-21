@@ -1609,5 +1609,483 @@
     "paper_link": "https://arxiv.org/abs/2608.19197v1",
     "paper_name": "SPADE: Self-Play in Adaptive Synthetic Executable Environments",
     "published_date": "2026-08-19"
+  },
+  "2608.19372": {
+    "authors": [
+      "Rohan Kota",
+      "Gregory Reardon",
+      "J. Edward Colgate"
+    ],
+    "categories": [
+      "Dexterous"
+    ],
+    "category": "Dexterous",
+    "paper_link": "https://arxiv.org/abs/2608.19372v1",
+    "paper_name": "The Missing Touch: Spatially Distributed Tactile Feedback Brings Teleoperation Closer to Human Dexterity",
+    "published_date": "2026-08-19"
+  },
+  "2608.19443": {
+    "authors": [
+      "Chaoyi Pan",
+      "Zeji Yi",
+      "John Zhang",
+      "Zachary Manchester",
+      "Guannan Qu",
+      "Guanya Shi"
+    ],
+    "categories": [
+      "Dexterous"
+    ],
+    "category": "Dexterous",
+    "paper_link": "https://arxiv.org/abs/2608.19443v1",
+    "paper_name": "Hybrid Feedback Sampling for Sample-Efficient Model Predictive Control",
+    "published_date": "2026-08-19"
+  },
+  "2608.19759": {
+    "authors": [
+      "Julien Merand",
+      "Boris Meden",
+      "Mathieu Grossard",
+      "Liming Chen"
+    ],
+    "categories": [
+      "Dexterous"
+    ],
+    "category": "Dexterous",
+    "paper_link": "https://arxiv.org/abs/2608.19759v1",
+    "paper_name": "GOAG: Generative and Object-Agnostic Grasp Planner for Dexterous Robotic Manipulation",
+    "published_date": "2026-08-20"
+  },
+  "2608.19776": {
+    "authors": [
+      "Julien Merand",
+      "Boris Meden",
+      "Liming Chen",
+      "Mathieu Grossard"
+    ],
+    "categories": [
+      "Dexterous"
+    ],
+    "category": "Dexterous",
+    "paper_link": "https://arxiv.org/abs/2608.19776v1",
+    "paper_name": "CoToGrasp: Contact-Topology-Conditioned Dexterous Grasp Synthesis via Canonical Workspace Learning",
+    "published_date": "2026-08-20"
+  },
+  "2608.19964": {
+    "authors": [
+      "Bhavya Gupta",
+      "Onat Gungor",
+      "Tajana Rosing"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.19964v1",
+    "paper_name": "G-MARK: Grounded Multi-Agent Reasoning for Cooperative Driving via Knowledge Graphs",
+    "published_date": "2026-08-20"
+  },
+  "2608.19974": {
+    "authors": [
+      "Yiyang Luo",
+      "Yihang Jiang",
+      "Qijun Xie",
+      "Liang Lan",
+      "Lin Willian Cong",
+      "Anyi Rao",
+      "Yunya Song"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.19974v1",
+    "paper_name": "ReguSim: Evaluating LLM Agent Rule Grounding in Financial Compliance",
+    "published_date": "2026-08-20"
+  },
+  "2608.19993": {
+    "authors": [
+      "Yu Chen",
+      "Ruishuo Chen",
+      "Xun Wang",
+      "Zhuoran Li",
+      "Longbo Huang"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.19993v1",
+    "paper_name": "Optimal Skill Selection for LLM Agents with Provable Bicriteria Guarantees",
+    "published_date": "2026-08-20"
+  },
+  "2608.20016": {
+    "authors": [
+      "Chenyang Zhao",
+      "Jiqiang Zhang",
+      "Li Chen",
+      "Yong Zou"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.20016v1",
+    "paper_name": "Emergence of cooperation: A reputation-modulated reinforcement learning",
+    "published_date": "2026-08-20"
+  },
+  "2608.20033": {
+    "authors": [
+      "Kui-Wang Choi",
+      "Minming Li",
+      "Nicholas Teh"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.20033v1",
+    "paper_name": "Temporal Fair Division of Indivisible Mixed Manna: Tractable Settings",
+    "published_date": "2026-08-20"
+  },
+  "2608.20041": {
+    "authors": [
+      "Willem Fourie"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.20041v1",
+    "paper_name": "A three-dimensional typology of agency for advanced AI systems",
+    "published_date": "2026-08-20"
+  },
+  "2608.20099": {
+    "authors": [
+      "Poomphob Suwannapichat",
+      "Boonyarit Changaival",
+      "Caesar Wu",
+      "Pascal Bouvry"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.20099v1",
+    "paper_name": "Reward-Guided Autoregressive Graph Generation for Efficient Multi-Agent Communication Topology Design",
+    "published_date": "2026-08-20"
+  },
+  "2608.20106": {
+    "authors": [
+      "Nikita Khudov"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.20106v1",
+    "paper_name": "OenoBench: A Wine-Domain Benchmark for Knowledge-Grounded Evaluation of Large Language Models",
+    "published_date": "2026-08-20"
+  },
+  "2608.20129": {
+    "authors": [
+      "Mehdi Azarafza",
+      "Faezeh Pasandideh",
+      "Ali Ehteshami Bejnordi",
+      "Stefan Henkler",
+      "Achim Rettberg"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.20129v1",
+    "paper_name": "Multi-Agent Orchestration with the Common-Sense Reasoning Capabilities of LLMs for Autonomous Driving",
+    "published_date": "2026-08-20"
+  },
+  "2608.20139": {
+    "authors": [
+      "Yu-Bo Shi",
+      "Markus Heyl",
+      "Roderich Moessner",
+      "Marin Bukov",
+      "Hongzheng Zhao"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.20139v1",
+    "paper_name": "Reinforcement LearningtoHarness Approximation Errors for Long-Time QuantumSimulation",
+    "published_date": "2026-08-20"
+  },
+  "2608.20169": {
+    "authors": [
+      "Atsuyuki Miyai",
+      "Kiyoharu Aizawa",
+      "Toshihiko Yamasaki"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.20169v1",
+    "paper_name": "Task-CoEvolve: Efficient Harness Optimization via Adaptive Validation Task Selection",
+    "published_date": "2026-08-20"
+  },
+  "2608.20195": {
+    "authors": [
+      "Zhijun Gao",
+      "Jing Chen"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.20195v1",
+    "paper_name": "From Agent Behaviour to Agent-Friendly Documentation: An Empirical Study of How Coding Agents Discover, Read, and Write Technical Documentation",
+    "published_date": "2026-08-20"
+  },
+  "2608.20201": {
+    "authors": [
+      "Wei Lin",
+      "Tao Zhou",
+      "Zhaofei Xie",
+      "Changgui Hong"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.20201v1",
+    "paper_name": "The Third Restructuring of Software Form: From the Three-Tier Architecture to Storage, Models, and Agents",
+    "published_date": "2026-08-20"
+  },
+  "2608.20231": {
+    "authors": [
+      "Sahil Sharma"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.20231v1",
+    "paper_name": "Growth Without Us: Machine Consumers, Corporate Circularity, and the Decoupling of GDP from Humanity after AGI",
+    "published_date": "2026-08-20"
+  },
+  "2608.20251": {
+    "authors": [
+      "Xincheng Tang",
+      "Yiji Chen",
+      "Youhan Xie",
+      "Wanyu Li",
+      "Zhengjie Shu",
+      "Lai Jiang",
+      "Wenkang Hu",
+      "Yitong Li",
+      "Jinchuang Zhang",
+      "Xibin Song",
+      "Ruigang Yang"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.20251v1",
+    "paper_name": "Video2DoorTraversal: Push Door Traversal via Simulated Door Twins",
+    "published_date": "2026-08-20"
+  },
+  "2608.20253": {
+    "authors": [
+      "Laura M. Guzmán-Rincón",
+      "George R. E. Bradley",
+      "Joel Kandiah",
+      "Kyriakos Flouris",
+      "Pietro Liò",
+      "Paul J. Birrell",
+      "Alexander E. Zarebski",
+      "Daniela De Angelis"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.20253v1",
+    "paper_name": "GENIE: Generative Neural Inference for Epidemics",
+    "published_date": "2026-08-20"
+  },
+  "2608.20274": {
+    "authors": [
+      "Yiyang Feng",
+      "Biddut Sarker Bijoy",
+      "Niranjan Balasubramanian",
+      "Jiawei Zhou"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.20274v1",
+    "paper_name": "Break It Down, Pass It On: Cross-Task Skill Transfer in LLM Agents",
+    "published_date": "2026-08-20"
+  },
+  "2608.20290": {
+    "authors": [
+      "Cheng Xu",
+      "Nan Yan",
+      "Liming Chen",
+      "M-Tahar Kechadi"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.20290v1",
+    "paper_name": "Phantom Gains: Auditing Self-Improvement Against a Measured Null",
+    "published_date": "2026-08-20"
+  },
+  "2608.20312": {
+    "authors": [
+      "Liang Xu",
+      "Chengqun Yang",
+      "Zili Lin",
+      "Xintao Lv",
+      "Yichao Yan",
+      "Xin Jin",
+      "Zhibo Chen",
+      "Xiaokang Yang",
+      "Wenjun Zeng"
+    ],
+    "categories": [
+      "Dexterous"
+    ],
+    "category": "Dexterous",
+    "paper_link": "https://arxiv.org/abs/2608.20312v1",
+    "paper_name": "Inter-X++: A Comprehensive Benchmark for Multimodal Human-Human Interaction Analysis",
+    "published_date": "2026-08-20"
+  },
+  "2608.20314": {
+    "authors": [
+      "Fengqing Jiang",
+      "Yite Wang",
+      "Boyi Liu",
+      "Zhaoyang Wang",
+      "Canwen Xu",
+      "Zhewei Yao",
+      "Radha Poovendran",
+      "Yuxiong He"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.20314v1",
+    "paper_name": "MidTool: Mid-training Data Synthesis for Agentic Tool Use",
+    "published_date": "2026-08-20"
+  },
+  "2608.20316": {
+    "authors": [
+      "Adam Fisch",
+      "Shubhendu Trivedi",
+      "Fantine Huot",
+      "William W. Cohen",
+      "Michael Kaisers",
+      "Mirella Lapata",
+      "Kate Larson",
+      "Jacob Eisenstein"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.20316v1",
+    "paper_name": "Pandora's AI Model Routing Box: Efficient Allocation with Costly Value Estimation",
+    "published_date": "2026-08-20"
+  },
+  "2608.20317": {
+    "authors": [
+      "Sahel Sharifymoghaddam",
+      "Lingwei Gu",
+      "Yijun Ge",
+      "Jimmy Lin"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.20317v1",
+    "paper_name": "Projecting BrowseComp-Plus onto ClimbMix: Toward More Realistic Corpora for Agentic Search",
+    "published_date": "2026-08-20"
+  },
+  "2608.20318": {
+    "authors": [
+      "Yizhe Chi",
+      "Wenyi Li",
+      "Deyao Hong",
+      "Xiaoqiu Wang",
+      "Mingju Gao",
+      "Kaisen Yang",
+      "Bingxiang He",
+      "Youjie Zheng",
+      "Calvin Xiao",
+      "Qinhuai Na"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.20318v1",
+    "paper_name": "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement",
+    "published_date": "2026-08-20"
+  },
+  "2608.20319": {
+    "authors": [
+      "Yucheng Jiang",
+      "Zora Zhiruo Wang",
+      "Ruishi Chen",
+      "Diyi Yang"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.20319v1",
+    "paper_name": "Inducing Task Models from Computer-Use Traces",
+    "published_date": "2026-08-20"
+  },
+  "2608.20320": {
+    "authors": [
+      "Narges Ahmadi",
+      "Yubo Jiao",
+      "Jônatas Augusto Manzolli",
+      "Jiangbo Yu",
+      "Luis Miranda-Moreno"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.20320v1",
+    "paper_name": "An Agentic Approach for Active Data Collection, Travel Behavior Modeling, and Weather-Sensitive Demand Prediction",
+    "published_date": "2026-08-20"
+  },
+  "2608.20322": {
+    "authors": [
+      "Anton Lambrecht",
+      "Reda El Hail",
+      "Xianjun Jiao",
+      "Pieter Crombez",
+      "Dominique Schreurs",
+      "Peter Karsmakers",
+      "Adnan Shahid",
+      "Eli De Poorter"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.20322v1",
+    "paper_name": "A comparison between ceiling-mounted FMCW, IR-UWB and Wi-Fi radar for in-bedroom human activity monitoring and sleep interruption detection",
+    "published_date": "2026-08-20"
   }
 }
