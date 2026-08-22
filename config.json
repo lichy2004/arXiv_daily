@@ -5,11 +5,15 @@
   "categories": [
     {
       "name": "Agent",
-      "filters": ["self-improv", "RSI", "embodied agent", "Harness", "agentic"]
+      "filters": ["self-improv", "RSI", "embodied agent"]
     },
     {
       "name": "Dexterous",
       "filters": ["Dexterous Manipulation", "Dexterous hand", "Dexterity", "Dexterous"]
+    },
+    {
+      "name": "Physical",
+      "filters": ["physics", "physical", "dynamic"]
     }
   ]
 }
