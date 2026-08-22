@@ -428,7 +428,7 @@
     ],
     "categories": [
       "VLM",
-      "Physical Property"
+      "Physical"
     ],
     "category": "VLM",
     "code_link": "",
@@ -437,7 +437,7 @@
     "paper_name": "PhysisForcing: Physics Reinforced World Simulator for Robotic Manipulation",
     "published_date": "",
     "source": "arxiv",
-    "updated_at": "2026-08-19T11:46:00.000Z",
+    "updated_at": "2026-08-22T00:51:00.000Z",
     "web_link": ""
   },
   "2607.11481": {
