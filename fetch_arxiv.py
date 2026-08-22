@@ -13,6 +13,7 @@ from pathlib import Path
 from typing import Any
 
 ARXIV_API_URL = "https://export.arxiv.org/api/query"
+ARXIV_CATEGORY_QUERY = "cat:cs.*"
 ATOM_NS = "{http://www.w3.org/2005/Atom}"
 DEFAULT_OUTPUT = "docs/paper_arxiv.json"
 
@@ -50,7 +51,8 @@ def quote_filter(term: str) -> str:
 
 
 def build_query(filters: list[str]) -> str:
-    return " OR ".join(f"all:{quote_filter(term)}" for term in filters if term.strip())
+    keyword_query = " OR ".join(f"all:{quote_filter(term)}" for term in filters if term.strip())
+    return f"{ARXIV_CATEGORY_QUERY} AND ({keyword_query})" if keyword_query else ""
 
 
 def http_get_text(url: str, params: dict[str, Any], timeout: int = 120) -> str:

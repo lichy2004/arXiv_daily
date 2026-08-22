@@ -67,12 +67,13 @@ Edit `config.json`:
   "max_items": 1000,
   "categories": [
     {"name": "Agent", "filters": ["self-improv", "embodied agent"]},
-    {"name": "Dexterous", "filters": ["Dexterous Manipulation", "Dexterity"]}
+    {"name": "Dexterous", "filters": ["Dexterous Manipulation", "Dexterity"]},
+    {"name": "Physical", "filters": ["physics", "physical", "dynamic"]}
   ]
 }
 ```
 
-Filters within one category are joined with `OR`. A paper matching multiple categories keeps all matching category names.
+All queries are restricted to arXiv Computer Science categories (`cat:cs.*`). Filters within one category are joined with `OR`. A paper matching multiple categories keeps all matching category names.
 
 ## Local commands
 

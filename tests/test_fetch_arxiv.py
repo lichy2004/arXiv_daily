@@ -2,10 +2,17 @@ from __future__ import annotations
 
 import unittest
 
-from fetch_arxiv import merge_record, parse_arxiv_feed, trim_oldest_papers
+from fetch_arxiv import build_query, merge_record, parse_arxiv_feed, trim_oldest_papers
 
 
 class FetchArxivTests(unittest.TestCase):
+    def test_query_is_scoped_to_computer_science(self):
+        self.assertEqual(
+            build_query(["physics", "physical", "dynamic"]),
+            "cat:cs.* AND (all:physics OR all:physical OR all:dynamic)",
+        )
+        self.assertEqual(build_query(["", "  "]), "")
+
     def test_feed_uses_versionless_id_and_omits_abstract(self):
         xml = """<?xml version="1.0"?>
         <feed xmlns="http://www.w3.org/2005/Atom">
