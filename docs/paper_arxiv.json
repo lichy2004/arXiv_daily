@@ -346,6 +346,31 @@
     "paper_name": "NestDex: Nested Policy Learning with Copilot Assisted Teleoperation for Dexterous Manipulation",
     "published_date": "2026-08-13"
   },
+  "2608.13951": {
+    "authors": [
+      "Tianyu Fan",
+      "Chao Huang"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.13951v1",
+    "paper_name": "HELIX: Model-Harness Co-evolution for Recursive Self-Improvement",
+    "published_date": "2026-08-14"
+  },
+  "2608.13958": {
+    "authors": [
+      "James K. Wiles"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.13958v1",
+    "paper_name": "Implementing Computational Law in Wolfram Language for the Governance of Artificial Intelligence",
+    "published_date": "2026-08-14"
+  },
   "2608.14028": {
     "authors": [
       "Zhiyue Zhao",
@@ -365,6 +390,28 @@
     "paper_name": "AdvDex: Learning Dexterous Manipulation from Human Demonstrations via Joint-Aligned Actions and Adversarial Learning",
     "published_date": "2026-08-14"
   },
+  "2608.14498": {
+    "authors": [
+      "Hanfeng Lu",
+      "Tianyu Feng",
+      "Suyi Li",
+      "Yuheng Zhao",
+      "Wei Gao",
+      "Shaopan Xiong",
+      "Ju Huang",
+      "Siran Yang",
+      "Jiamang Wang",
+      "Lin Qu",
+      "Wei Wang"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.14498v1",
+    "paper_name": "Rollplex: Cross-Phase GPU Spatial Sharing for Vision Language Model Post-Training",
+    "published_date": "2026-08-14"
+  },
   "2608.15060": {
     "authors": [
       "Wenkang Zhang",
@@ -379,6 +426,65 @@
     "category": "Dexterous",
     "paper_link": "https://arxiv.org/abs/2608.15060v1",
     "paper_name": "EgoTac: In-the-wild Tactile Prediction from Egocentric Vision",
+    "published_date": "2026-08-15"
+  },
+  "2608.15071": {
+    "authors": [
+      "Tianxin Wei",
+      "Zhan Shi",
+      "Minhua Lin",
+      "Bing He",
+      "Zewen Liu",
+      "Yisi Sang",
+      "Yuanchen Bei",
+      "Xuying Ning",
+      "Jiaru Zou",
+      "Ting-Wei Li",
+      "Xiao Lin",
+      "Yanjun Zhao",
+      "Chi Wang",
+      "Benoit Dumoulin",
+      "Dakuo Wang",
+      "Jingrui He",
+      "Hanqing Lu"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.15071v1",
+    "paper_name": "Evo-Harness: Context-to-Harness Skill Compilation for Self-Evolving Agents",
+    "published_date": "2026-08-15"
+  },
+  "2608.15088": {
+    "authors": [
+      "Zihang Wang",
+      "Yishan Wang"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.15088v1",
+    "paper_name": "Max-Q Selective Imitation for Human-in-the-Loop Online Robot Learning",
+    "published_date": "2026-08-15"
+  },
+  "2608.15410": {
+    "authors": [
+      "Rajat Bhattacharjya",
+      "Yoomee Jung",
+      "Minwoo Kim",
+      "Sing-Yao Wu",
+      "Eli Bozorgzadeh",
+      "Nalini Venkatasubramanian",
+      "Nikil Dutt"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.15410v1",
+    "paper_name": "FloodReasonBench: Benchmarking VLM Reasoning Segmentation for Embodied Flood Response at the Edge",
     "published_date": "2026-08-15"
   },
   "2608.15541": {
@@ -410,6 +516,76 @@
     "paper_name": "ReForce: Learning Force-aware Retargeting for Dexterous Manipulation",
     "published_date": "2026-08-16"
   },
+  "2608.15875": {
+    "authors": [
+      "GigaBrain Team",
+      "Angen Ye",
+      "Axiang Sun",
+      "Can Jin",
+      "Chenxi Cheng",
+      "Chong Shi",
+      "Dengke Shang",
+      "Dingqian Zhang",
+      "Guan Huang",
+      "Guangqiang Wang",
+      "Guangqing Ding",
+      "Guo Li",
+      "Hangcong Li",
+      "Hengyu Zhong",
+      "Hongtao Lu",
+      "Jianbo Qin",
+      "Jiming Mao",
+      "Jing Zhu",
+      "Jindi Lv",
+      "Jingzhi Cui",
+      "Junjie Xie",
+      "Junyi Bao",
+      "Kai Liu",
+      "Lei Yuan",
+      "Limin Long",
+      "Lv Feng",
+      "Mingming Yu",
+      "Peng Li",
+      "Pengfei Yi",
+      "Qi Li",
+      "Qianli Zhang",
+      "Qingfang Li",
+      "Qitang Hu",
+      "Rui Zhang",
+      "Shaoyan Sun",
+      "Shibo Sun",
+      "Shiying Duan",
+      "Tenghui Chen",
+      "Tianze Liu",
+      "Weijie Ke",
+      "Wenyao Xue",
+      "Xiaofeng Wang",
+      "Xiaoyu Tian",
+      "Xinyu Liu",
+      "Xinze Chen",
+      "Yang Wang",
+      "Yankai Wang",
+      "Yejun Zeng",
+      "Yifan Li",
+      "Yifei Nie",
+      "Yilong Li",
+      "Yilong Liu",
+      "Yongchao Feng",
+      "Yumeng Wang",
+      "Yun Ye",
+      "Zhichao Liu",
+      "Ziheng He",
+      "Zonghai Yang",
+      "Zheng Zhu"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.15875v1",
+    "paper_name": "GigaBrain-0.7: Scaling Embodied Foundation Models to Emergent Capabilities with a Three-System Architecture",
+    "published_date": "2026-08-16"
+  },
   "2608.15917": {
     "authors": [
       "Sarthak Kamat",
@@ -427,6 +603,77 @@
     "paper_link": "https://arxiv.org/abs/2608.15917v1",
     "paper_name": "Pre-training Visual Dexterity in Simulation",
     "published_date": "2026-08-16"
+  },
+  "2608.16080": {
+    "authors": [
+      "Xinling Yu",
+      "Yixing Li",
+      "Ziyue Liu",
+      "Xin Ai",
+      "Zhiyu Zeng",
+      "Hai Li",
+      "Zheng Zhang"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.16080v1",
+    "paper_name": "DeepOHeat-v2: Self-Improving Operator Learning for Fast and Trustworthy Thermal Optimization in 3D-IC Design",
+    "published_date": "2026-08-17"
+  },
+  "2608.16128": {
+    "authors": [
+      "Fan Bu",
+      "Shuaijun Feng",
+      "Qingying Xue",
+      "Dachun Yang",
+      "Wen Yuan"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.16128v1",
+    "paper_name": "Real-Variable Characterizations and Their Applications of Anisotropic Besov Spaces with Matrix $\\mathcal A_\\infty$ Weights",
+    "published_date": "2026-08-17"
+  },
+  "2608.16189": {
+    "authors": [
+      "Ulvi Rajabli",
+      "Alexander Wiethoff",
+      "Zelun Tony Zhang"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.16189v1",
+    "paper_name": "Artly: Exploring Digital Artists' Perceptions of AI-Generated Feedback",
+    "published_date": "2026-08-17"
+  },
+  "2608.16211": {
+    "authors": [
+      "Junqi Liu",
+      "Yufan He",
+      "Yexiao He",
+      "Pengfei Guo",
+      "Dong Yang",
+      "Andriy Myronenko",
+      "Can Zhao",
+      "Hanrong Ye",
+      "Tianhao Qi",
+      "Yuyin Zhou",
+      "Daguang Xu",
+      "Yucheng Tang"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.16211v1",
+    "paper_name": "BaT: Towards Self-Evolving Medical Research Agent with Stage Rubrics",
+    "published_date": "2026-08-17"
   },
   "2608.16351": {
     "authors": [
@@ -531,7 +778,7 @@
       "Agent"
     ],
     "category": "Agent",
-    "paper_link": "https://arxiv.org/abs/2608.16794v1",
+    "paper_link": "https://arxiv.org/abs/2608.16794v2",
     "paper_name": "Neurosymbolic Embodied Agents",
     "published_date": "2026-08-17"
   },
@@ -583,8 +830,8 @@
       "Agent"
     ],
     "category": "Agent",
-    "paper_link": "https://arxiv.org/abs/2608.16806v1",
-    "paper_name": "When State Becomes an Attack Surface: State-Semantic Injection in LLM-Driven Embodied Agents",
+    "paper_link": "https://arxiv.org/abs/2608.16806v2",
+    "paper_name": "Breaking Planner Integrity Boundary: Enviroment State-Text Injection Attack on LLM-Driven Embodied Agents",
     "published_date": "2026-08-17"
   },
   "2608.16843": {
@@ -884,7 +1131,7 @@
       "Agent"
     ],
     "category": "Agent",
-    "paper_link": "https://arxiv.org/abs/2608.17584v1",
+    "paper_link": "https://arxiv.org/abs/2608.17584v2",
     "paper_name": "HODAgent: Towards On-Demand, Responsive Humanoids for Physical World Human Interaction",
     "published_date": "2026-08-18"
   },
@@ -1641,6 +1888,23 @@
     "paper_name": "Hybrid Feedback Sampling for Sample-Efficient Model Predictive Control",
     "published_date": "2026-08-19"
   },
+  "2608.19729": {
+    "authors": [
+      "Hyunse Lee",
+      "Jiwoo Jeong",
+      "Haneul Lee",
+      "Kyochul Jang",
+      "Youngjae Yu",
+      "Woojin Lee"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.19729v1",
+    "paper_name": "SafeBranch: Branch-Pair Safety Alignment for Embodied Agents",
+    "published_date": "2026-08-20"
+  },
   "2608.19759": {
     "authors": [
       "Julien Merand",
@@ -1944,6 +2208,224 @@
     "paper_name": "Phantom Gains: Auditing Self-Improvement Against a Measured Null",
     "published_date": "2026-08-20"
   },
+  "2608.20291": {
+    "authors": [
+      "Stephan Roschinski",
+      "Johannes Schabbauer",
+      "Franz von Silva-Tarouca",
+      "Marvin Holten",
+      "Damien Bloch",
+      "Julian Léonard"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.20291v1",
+    "paper_name": "Programmable cavity QED with a fiber-integrated atomic array",
+    "published_date": "2026-08-20"
+  },
+  "2608.20293": {
+    "authors": [
+      "Adrián Casado-Turrión",
+      "Paulo B. Ferraz",
+      "Mindaugas Karčiauskas",
+      "José Jaime Terente Díaz"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.20293v1",
+    "paper_name": "Non-Minimally Coupled Warm Inflation in the Defining Frame",
+    "published_date": "2026-08-20"
+  },
+  "2608.20294": {
+    "authors": [
+      "Igor Akushevich",
+      "Haiyan Gao",
+      "Alexander Ilyichev",
+      "Shuo Jia",
+      "Vladimir Khachatryan",
+      "Youjie Lin",
+      "Tianbo Liu",
+      "W. Melnitchouk"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.20294v1",
+    "paper_name": "QED radiative effects in semi-inclusive deep-inelastic scattering: traditional and factorized approaches",
+    "published_date": "2026-08-20"
+  },
+  "2608.20295": {
+    "authors": [
+      "Guan-Ju Peng"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.20295v1",
+    "paper_name": "Physical-Support Confidence Sets for Highly Coherent Dictionaries",
+    "published_date": "2026-08-20"
+  },
+  "2608.20297": {
+    "authors": [
+      "Qipeng Liu",
+      "Saachi Mutreja"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.20297v1",
+    "paper_name": "Parallel Quantum Advantage with Limited Adaptivity Requires Structure",
+    "published_date": "2026-08-20"
+  },
+  "2608.20299": {
+    "authors": [
+      "B. K. Russell",
+      "K. Sakai",
+      "Y. Zhang",
+      "L. Gao",
+      "E. G. Blackman",
+      "W. Daughton",
+      "C. Dong",
+      "J. Katz",
+      "S. R. Klein",
+      "C. C. Kuranz",
+      "X. Li",
+      "X. M. Li",
+      "A. L. Milder",
+      "J. Ng",
+      "K. Orr",
+      "G. Pomraning",
+      "J. P. Schell",
+      "A. Stanier",
+      "J. Yoo",
+      "H. Ji"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.20299v1",
+    "paper_name": "Excitation of the lower-hybrid drift instability in the outflow of electron-only magnetic reconnection",
+    "published_date": "2026-08-20"
+  },
+  "2608.20300": {
+    "authors": [
+      "Daniel Milz",
+      "Marc May",
+      "Andreas Seefried",
+      "Tobias Bellmann"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.20300v1",
+    "paper_name": "Taming the Tilt: A Unified Pilot Control Concept for Transformational eVTOL Aircraft",
+    "published_date": "2026-08-20"
+  },
+  "2608.20301": {
+    "authors": [
+      "R. G. Novikov",
+      "V. N. Sivkin"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.20301v1",
+    "paper_name": "A two-point phase recovering with spherical wave reference",
+    "published_date": "2026-08-20"
+  },
+  "2608.20302": {
+    "authors": [
+      "I. D. Burkov",
+      "S. S. Seidov"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.20302v1",
+    "paper_name": "Coherent states in quantum billiards constructed in the basis of the continued eigenfunctions",
+    "published_date": "2026-08-20"
+  },
+  "2608.20305": {
+    "authors": [
+      "Nivetha Jayakumar",
+      "Hannah Kim",
+      "Amit R. Patel",
+      "Miaomiao Zhang"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.20305v1",
+    "paper_name": "CalcSeg: Confidence-aware 3D Latent Context Curriculum Learning For Myocardial Scar Segmentation From Single-Stack LGE-CMRs",
+    "published_date": "2026-08-20"
+  },
+  "2608.20306": {
+    "authors": [
+      "Ava N. Hejazi",
+      "Nicholas Karpowicz",
+      "Gregory D. Scholes",
+      "Julia M. Mikhailova"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.20306v1",
+    "paper_name": "Computational Methods of Wave Propagation for Semiclassical Models of High Harmonic Generation in Bulk Solids",
+    "published_date": "2026-08-20"
+  },
+  "2608.20310": {
+    "authors": [
+      "Khanh Duy Nguyen",
+      "Gabriele Berruto",
+      "Yunhe Bai",
+      "Thomas Marchese",
+      "Woojoo Lee",
+      "Haoran Lin",
+      "Jiangang Yang",
+      "Chong Liu",
+      "Y. Shirley Meng",
+      "Shuolong Yang"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.20310v1",
+    "paper_name": "Signatures of a light-induced exciton condensate exhibiting BEC-BCS crossover",
+    "published_date": "2026-08-20"
+  },
+  "2608.20311": {
+    "authors": [
+      "Yansheng Zhang",
+      "Feiyang Wang",
+      "Yi Jiang",
+      "Alexander C. Jenkins",
+      "Paul H. C. Wong",
+      "Christoph Eigen",
+      "Gehrig Carlse",
+      "Zoran Hadzibabic"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.20311v1",
+    "paper_name": "Imaging the vacuum fluctuations of a quantum field",
+    "published_date": "2026-08-20"
+  },
   "2608.20312": {
     "authors": [
       "Liang Xu",
@@ -1957,7 +2439,8 @@
       "Wenjun Zeng"
     ],
     "categories": [
-      "Dexterous"
+      "Dexterous",
+      "Physical"
     ],
     "category": "Dexterous",
     "paper_link": "https://arxiv.org/abs/2608.20312v1",
@@ -2086,6 +2569,181 @@
     "category": "Agent",
     "paper_link": "https://arxiv.org/abs/2608.20322v1",
     "paper_name": "A comparison between ceiling-mounted FMCW, IR-UWB and Wi-Fi radar for in-bedroom human activity monitoring and sleep interruption detection",
+    "published_date": "2026-08-20"
+  },
+  "2608.20323": {
+    "authors": [
+      "V. Prokopenko",
+      "O. Shtanko",
+      "I. Sotnyk",
+      "O. Prokopenko"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.20323v1",
+    "paper_name": "Spin-torque microwave detectors of positive rectangular pulse signals",
+    "published_date": "2026-08-20"
+  },
+  "2608.20324": {
+    "authors": [
+      "Md Hasanujjaman",
+      "Mahfuzur Rahaman"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.20324v1",
+    "paper_name": "Correspondence between hydrodynamic frames, transport coefficients, and hydrodynamic modes in relativistic fluids",
+    "published_date": "2026-08-20"
+  },
+  "2608.20325": {
+    "authors": [
+      "Augusto Ghiotto",
+      "Darian Hall",
+      "Yuanqi Lyu",
+      "Kohtaro Yamakawa",
+      "Sophie Rodehutskors",
+      "Corina Dunn",
+      "Philip J. W. Moll",
+      "John Singleton",
+      "Nikola Maksimovic",
+      "James G. Analytis"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.20325v1",
+    "paper_name": "Strange Metal Hall Effect in Underdoped BaFe$_2$(As$_{1-x}$P$_x$)$_2$",
+    "published_date": "2026-08-20"
+  },
+  "2608.20327": {
+    "authors": [
+      "Karthik Chandrashekara",
+      "Christian Gölzhäuser",
+      "Lily Platt",
+      "Jianshun Gao",
+      "Julian Kusch",
+      "Lennart Hoenen",
+      "Manon Ballu",
+      "Wyatt Kirkby",
+      "Lauriane Chomaz"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.20327v1",
+    "paper_name": "Competing triangular and stripe supersolid orders in a dipolar quantum gas",
+    "published_date": "2026-08-20"
+  },
+  "2608.20328": {
+    "authors": [
+      "Jiming Zheng",
+      "Zhiyue Lu"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.20328v1",
+    "paper_name": "The Memory Hidden in Response Fluctuations: Trajectory-Level Fluctuation-Response Theory and Inequalities for Non-Markovian Jump Dynamics",
+    "published_date": "2026-08-20"
+  },
+  "2608.20329": {
+    "authors": [
+      "Franco Barattini",
+      "Benjamin Guiot",
+      "Marat Siddikov"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.20329v1",
+    "paper_name": "Production of quarkonium pairs via the fragmentation mechanism",
+    "published_date": "2026-08-20"
+  },
+  "2608.20330": {
+    "authors": [
+      "Daniel Galviz"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.20330v1",
+    "paper_name": "Torus Berry Data Determine All-Genus Abelian Topological Orders",
+    "published_date": "2026-08-20"
+  },
+  "2608.20332": {
+    "authors": [
+      "Reuben R. W. Wang",
+      "Christian H. Nunez",
+      "Conner Williams",
+      "Amanda Younes",
+      "Li Du",
+      "Hossein R. Sadeghpour",
+      "Kang-Kuen Ni"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.20332v1",
+    "paper_name": "A Protocol for Shielding-Enhanced Loading of Single Polar Molecules into Optical Tweezers",
+    "published_date": "2026-08-20"
+  },
+  "2608.20333": {
+    "authors": [
+      "Ce Shen"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.20333v1",
+    "paper_name": "Maximal Torus Topological Entanglement Entropy in WZW Theories at Bounded Ground-State Degeneracy",
+    "published_date": "2026-08-20"
+  },
+  "2608.20339": {
+    "authors": [
+      "Tiger Yu-Yang Hsiao",
+      "Danielle A. Berg",
+      "Steven L. Finkelstein",
+      "Ansh R. Gupta",
+      "Zorayda Martinez",
+      "Anthony J. Taylor",
+      "Hollis B. Akins",
+      "Oscar A. Chavez Ortiz",
+      "John Chisholm",
+      "Lukas J. Furtak",
+      "Vasily Kokorev"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.20339v1",
+    "paper_name": "An Optical Illusion: High Electron Densities Create Extremely Metal-Poor Galaxy Impostors",
+    "published_date": "2026-08-20"
+  },
+  "2608.20340": {
+    "authors": [
+      "Antti Peltola",
+      "Olli Siltanen",
+      "Kimmo Luoma",
+      "Konstantinos S. Daskalakis"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.20340v1",
+    "paper_name": "Group-theoretic treatment of strong light-matter coupling with an arbitrary number of excitations",
     "published_date": "2026-08-20"
   }
 }
