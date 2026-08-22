@@ -75,6 +75,8 @@ Edit `config.json`:
 
 All queries are restricted to arXiv Computer Science categories (`cat:cs.*`). Filters within one category are joined with `OR`. A paper matching multiple categories keeps all matching category names.
 
+The fetcher waits three seconds between category requests. HTTP 429, server errors, and network timeouts are retried with `Retry-After` support or exponential backoff.
+
 ## Local commands
 
 Fetch papers:

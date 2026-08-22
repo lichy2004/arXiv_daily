@@ -5,6 +5,9 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import sys
+import time
+import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -14,6 +17,10 @@ from typing import Any
 
 ARXIV_API_URL = "https://export.arxiv.org/api/query"
 ARXIV_CATEGORY_QUERY = "cat:cs.*"
+ARXIV_REQUEST_DELAY_SECONDS = 3.0
+ARXIV_MAX_RETRIES = 4
+ARXIV_RETRY_BASE_SECONDS = 10.0
+ARXIV_RETRY_MAX_SECONDS = 120.0
 ATOM_NS = "{http://www.w3.org/2005/Atom}"
 DEFAULT_OUTPUT = "docs/paper_arxiv.json"
 
@@ -55,14 +62,54 @@ def build_query(filters: list[str]) -> str:
     return f"{ARXIV_CATEGORY_QUERY} AND ({keyword_query})" if keyword_query else ""
 
 
-def http_get_text(url: str, params: dict[str, Any], timeout: int = 120) -> str:
+def retry_delay_seconds(error: urllib.error.HTTPError, attempt: int) -> float:
+    retry_after = error.headers.get("Retry-After") if error.headers else None
+    if retry_after:
+        try:
+            return max(float(retry_after), 0.0)
+        except ValueError:
+            pass
+    return min(ARXIV_RETRY_BASE_SECONDS * (2**attempt), ARXIV_RETRY_MAX_SECONDS)
+
+
+def log_retry(reason: str, attempt: int, max_retries: int, delay: float) -> None:
+    print(
+        f"arXiv request failed ({reason}); retrying in {delay:g}s "
+        f"(attempt {attempt + 2}/{max_retries + 1})",
+        file=sys.stderr,
+    )
+
+
+def http_get_text(
+    url: str,
+    params: dict[str, Any],
+    timeout: int = 120,
+    max_retries: int = ARXIV_MAX_RETRIES,
+) -> str:
     request = urllib.request.Request(
         f"{url}?{urllib.parse.urlencode(params)}",
         headers={"User-Agent": "arXiv_daily/1.0 (paper fetcher)"},
     )
-    with urllib.request.urlopen(request, timeout=timeout) as response:
-        charset = response.headers.get_content_charset() or "utf-8"
-        return response.read().decode(charset)
+    for attempt in range(max_retries + 1):
+        try:
+            with urllib.request.urlopen(request, timeout=timeout) as response:
+                charset = response.headers.get_content_charset() or "utf-8"
+                return response.read().decode(charset)
+        except urllib.error.HTTPError as error:
+            retryable = error.code == 429 or 500 <= error.code < 600
+            if not retryable or attempt >= max_retries:
+                raise
+            delay = retry_delay_seconds(error, attempt)
+            log_retry(f"HTTP {error.code}", attempt, max_retries, delay)
+            time.sleep(delay)
+        except (urllib.error.URLError, TimeoutError) as error:
+            if attempt >= max_retries:
+                raise
+            delay = min(ARXIV_RETRY_BASE_SECONDS * (2**attempt), ARXIV_RETRY_MAX_SECONDS)
+            log_retry(type(error).__name__, attempt, max_retries, delay)
+            time.sleep(delay)
+
+    raise RuntimeError("arXiv request exhausted all retries")
 
 
 def arxiv_id_from_entry_id(entry_id: str) -> str:
@@ -116,6 +163,7 @@ def fetch_arxiv_papers(query: str, max_results: int) -> list[dict[str, Any]]:
 def collect_papers(config: dict[str, Any]) -> dict[str, Any]:
     collected: dict[str, Any] = {}
     max_results = int(config.get("max_results_per_category", 25))
+    request_count = 0
 
     for category in config["categories"]:
         category_name = str(category.get("name", "")).strip()
@@ -123,7 +171,15 @@ def collect_papers(config: dict[str, Any]) -> dict[str, Any]:
         if not category_name or not query:
             continue
 
-        for paper in fetch_arxiv_papers(query, max_results):
+        if request_count:
+            print(f"Waiting {ARXIV_REQUEST_DELAY_SECONDS:g}s before fetching {category_name}...")
+            time.sleep(ARXIV_REQUEST_DELAY_SECONDS)
+        print(f"Fetching arXiv category {category_name}: {query}")
+        papers = fetch_arxiv_papers(query, max_results)
+        request_count += 1
+        print(f"Fetched {len(papers)} papers for {category_name}")
+
+        for paper in papers:
             paper_id = paper.pop("paper_id")
             if paper_id in collected:
                 categories = collected[paper_id]["categories"]

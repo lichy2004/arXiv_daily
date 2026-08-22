@@ -1,11 +1,83 @@
 from __future__ import annotations
 
 import unittest
+from unittest.mock import patch
+from urllib.error import HTTPError
 
-from fetch_arxiv import build_query, merge_record, parse_arxiv_feed, trim_oldest_papers
+from fetch_arxiv import (
+    build_query,
+    collect_papers,
+    http_get_text,
+    merge_record,
+    parse_arxiv_feed,
+    trim_oldest_papers,
+)
+
+
+class FakeResponse:
+    def __init__(self, body: str):
+        self.body = body.encode("utf-8")
+        self.headers = self
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, *_args):
+        return None
+
+    def get_content_charset(self):
+        return "utf-8"
+
+    def read(self):
+        return self.body
 
 
 class FetchArxivTests(unittest.TestCase):
+    def test_http_retries_429_and_honors_retry_after(self):
+        error = HTTPError("https://example.test", 429, "rate limited", {"Retry-After": "7"}, None)
+        with (
+            patch("fetch_arxiv.urllib.request.urlopen", side_effect=[error, FakeResponse("ok")]),
+            patch("fetch_arxiv.time.sleep") as sleep,
+        ):
+            self.assertEqual(http_get_text("https://example.test", {}, max_retries=1), "ok")
+        sleep.assert_called_once_with(7.0)
+
+    def test_http_does_not_retry_non_retryable_client_error(self):
+        error = HTTPError("https://example.test", 400, "bad request", {}, None)
+        with (
+            patch("fetch_arxiv.urllib.request.urlopen", side_effect=error),
+            patch("fetch_arxiv.time.sleep") as sleep,
+            self.assertRaises(HTTPError),
+        ):
+            http_get_text("https://example.test", {}, max_retries=4)
+        sleep.assert_not_called()
+
+    def test_http_retries_timeout_with_exponential_backoff(self):
+        with (
+            patch(
+                "fetch_arxiv.urllib.request.urlopen",
+                side_effect=[TimeoutError(), TimeoutError(), FakeResponse("ok")],
+            ),
+            patch("fetch_arxiv.time.sleep") as sleep,
+        ):
+            self.assertEqual(http_get_text("https://example.test", {}, max_retries=2), "ok")
+        self.assertEqual([call.args[0] for call in sleep.call_args_list], [10.0, 20.0])
+
+    def test_category_requests_are_spaced(self):
+        config = {
+            "categories": [
+                {"name": "Agent", "filters": ["agent"]},
+                {"name": "Physical", "filters": ["physical"]},
+            ]
+        }
+        with (
+            patch("fetch_arxiv.fetch_arxiv_papers", return_value=[]) as fetch,
+            patch("fetch_arxiv.time.sleep") as sleep,
+        ):
+            collect_papers(config)
+        self.assertEqual(fetch.call_count, 2)
+        sleep.assert_called_once_with(3.0)
+
     def test_query_is_scoped_to_computer_science(self):
         self.assertEqual(
             build_query(["physics", "physical", "dynamic"]),
