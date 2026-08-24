@@ -598,34 +598,6 @@
     "updated_at": "2026-08-19T05:43:00.000+00:00",
     "web_link": "https://mirros-lab.github.io/HarnessEval-W"
   },
-  "2608.19182": {
-    "abstract": "",
-    "arxiv_id": "2608.19182",
-    "authors": [
-      "Jayjun Lee",
-      "Jessica Yin",
-      "Asif Rana",
-      "Nicholas Blauch",
-      "Sam Mady",
-      "Mohak Bhardwaj",
-      "Nima Fazeli",
-      "Nathan Ratliff",
-      "Karl Van Wyk",
-      "Ankur Handa"
-    ],
-    "categories": [
-      "Dexterous"
-    ],
-    "category": "Dexterous",
-    "code_link": "",
-    "notes": "",
-    "paper_link": "https://arxiv.org/abs/2608.19182v1",
-    "paper_name": "ADEPT: Accelerating Dexterity via Pre-Training and Post-Training using Reinforcement Learning",
-    "published_date": "2026-08-19",
-    "source": "arxiv",
-    "updated_at": "2026-08-20T10:46:00.000+00:00",
-    "web_link": "https://adept-dexterity.github.io/"
-  },
   "notion:37238e7ccd3980fb8394fd3f2e79230e": {
     "abstract": "",
     "arxiv_id": "",
