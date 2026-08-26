@@ -1,4 +1,27 @@
 {
+  "1906.03853": {
+    "abstract": "",
+    "arxiv_id": "1906.03853",
+    "authors": [
+      "Zhenjia Xu",
+      "Jiajun Wu",
+      "Andy Zeng",
+      "Joshua B. Tenenbaum",
+      "Shuran Song"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "code_link": "https://github.com/zhenjia-xu/DensePhysNet-Simulation",
+    "notes": "",
+    "paper_link": "http://arxiv.org/abs/1906.03853",
+    "paper_name": "DensePhysNet: Learning Dense Physical Object Representations via Multi-step Dynamic Interactions",
+    "published_date": "",
+    "source": "arxiv",
+    "updated_at": "2026-08-26T00:20:00.000Z",
+    "web_link": "http://zhenjiaxu.com/DensePhysNet"
+  },
   "2305.16291": {
     "abstract": "",
     "arxiv_id": "2305.16291",
@@ -42,6 +65,30 @@
     "source": "arxiv",
     "updated_at": "2026-08-20T10:27:00.000Z",
     "web_link": "https://eureka-research.github.io/"
+  },
+  "2404.12308": {
+    "abstract": "",
+    "arxiv_id": "2404.12308",
+    "authors": [
+      "Marius Memmel",
+      "Andrew Wagenmaker",
+      "Chuning Zhu",
+      "Patrick Yin",
+      "Dieter Fox",
+      "Abhishek Gupta"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "code_link": "https://github.com/WEIRDLabUW/asid",
+    "notes": "",
+    "paper_link": "http://arxiv.org/abs/2404.12308",
+    "paper_name": "ASID: Active Exploration for System Identification in Robotic Manipulation",
+    "published_date": "",
+    "source": "arxiv",
+    "updated_at": "2026-08-26T00:20:00.000Z",
+    "web_link": "https://weirdlabuw.github.io/asid"
   },
   "2405.15019": {
     "abstract": "",
@@ -209,6 +256,28 @@
     "source": "arxiv",
     "updated_at": "2026-08-19T11:44:00.000Z",
     "web_link": ""
+  },
+  "2509.00178": {
+    "abstract": "",
+    "arxiv_id": "2509.00178",
+    "authors": [
+      "Marina Y. Aoyama",
+      "Joao Moura",
+      "Juan Del Aguila Ferrandis",
+      "Sethu Vijayakumar"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "code_link": "",
+    "notes": "",
+    "paper_link": "http://arxiv.org/abs/2509.00178",
+    "paper_name": "Poke and Strike: Learning Task-Informed Exploration Policies",
+    "published_date": "",
+    "source": "arxiv",
+    "updated_at": "2026-08-26T00:20:00.000Z",
+    "web_link": "https://marina-aoyama.github.io/poke-and-strike/"
   },
   "2510.04618": {
     "abstract": "",
