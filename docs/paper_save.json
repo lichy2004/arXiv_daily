@@ -310,6 +310,39 @@
     "updated_at": "2026-08-19T11:44:00.000Z",
     "web_link": "https://ace-agent.github.io/"
   },
+  "2602.16710": {
+    "abstract": "",
+    "arxiv_id": "2602.16710",
+    "authors": [
+      "Ruijie Zheng",
+      "Dantong Niu",
+      "Yuqi Xie",
+      "Jing Wang",
+      "Mengda Xu",
+      "Yunfan Jiang",
+      "Fernando Castañeda",
+      "Fengyuan Hu",
+      "You Liang Tan",
+      "Letian Fu",
+      "Trevor Darrell",
+      "Furong Huang",
+      "Yuke Zhu",
+      "Danfei Xu",
+      "Linxi Fan"
+    ],
+    "categories": [
+      "Dexterous"
+    ],
+    "category": "Dexterous",
+    "code_link": "",
+    "notes": "",
+    "paper_link": "https://arxiv.org/abs/2602.16710",
+    "paper_name": "EgoScale: Scaling Dexterous Manipulation with Diverse Egocentric Human Data",
+    "published_date": "",
+    "source": "arxiv",
+    "updated_at": "2026-08-28T02:50:00.000Z",
+    "web_link": ""
+  },
   "2602.16863": {
     "abstract": "",
     "arxiv_id": "2602.16863",
@@ -598,11 +631,11 @@
     "category": "Dexterous",
     "code_link": "",
     "notes": "",
-    "paper_link": "https://arxiv.org/abs/2608.15917v1",
+    "paper_link": "https://arxiv.org/abs/2608.15917v2",
     "paper_name": "Pre-training Visual Dexterity in Simulation",
     "published_date": "2026-08-16",
     "source": "arxiv",
-    "updated_at": "2026-08-19T05:43:00.000+00:00",
+    "updated_at": "2026-08-28T04:05:00.000+00:00",
     "web_link": "https://spd.bot/"
   },
   "2608.16859": {
