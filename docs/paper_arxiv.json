@@ -3329,7 +3329,7 @@
       "Agent"
     ],
     "category": "Agent",
-    "paper_link": "https://arxiv.org/abs/2608.22149v2",
+    "paper_link": "https://arxiv.org/abs/2608.22149v3",
     "paper_name": "Meta-Ctrl: Guaranteed Plan Generation by Decoupling Syntactic and Semantic Constraints",
     "published_date": "2026-08-23"
   },
@@ -4431,7 +4431,7 @@
       "Agent"
     ],
     "category": "Agent",
-    "paper_link": "https://arxiv.org/abs/2608.26418v1",
+    "paper_link": "https://arxiv.org/abs/2608.26418v2",
     "paper_name": "Redwood: A Frontier AI Accelerator Designed, Verified, and Deployed from Scratch in 2 Weeks by AI",
     "published_date": "2026-08-26"
   },
@@ -5206,5 +5206,487 @@
     "paper_link": "https://arxiv.org/abs/2608.27456v1",
     "paper_name": "UrbanGround: From Local Perception to Spatial Agency in a Real-Scale City",
     "published_date": "2026-08-27"
+  },
+  "2608.27797": {
+    "authors": [
+      "Lekai Chen",
+      "Alvaro Velasquez",
+      "Ashutosh Trivedi"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.27797v1",
+    "paper_name": "CEDAR: Automata as Verifiable Interfaces for Language-Guided Embodied Action",
+    "published_date": "2026-08-28"
+  },
+  "2608.27866": {
+    "authors": [
+      "Jiahe Ying",
+      "Wendong Bu",
+      "Kaihang Pan",
+      "Bingchen Miao",
+      "Siyu Chen",
+      "Wen Wang",
+      "Xueming Jiang",
+      "Juncheng Li",
+      "Siliang Tang"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.27866v1",
+    "paper_name": "Iron: Intent-Aligned and Retrospective Dual Learning Framework for Enhancing Generalist Virtual Agents",
+    "published_date": "2026-08-28"
+  },
+  "2608.28266": {
+    "authors": [
+      "Yang Chen",
+      "Ye-Xin Xie",
+      "Lirong Che",
+      "Danyang Peng",
+      "Yuzhe Yang",
+      "Peiwen Lin",
+      "Xu Cao",
+      "Chuang Wang",
+      "Lei Yuan",
+      "Jian Su",
+      "Lan-Zhe Guo"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.28266v1",
+    "paper_name": "CoCoBench: A Cooperative Coordination Benchmark for Embodied Multi-Agent Task Planning",
+    "published_date": "2026-08-28"
+  },
+  "2608.28341": {
+    "authors": [
+      "Eric L. Wisotzky",
+      "Jost Triller",
+      "Simon W. Härtl",
+      "Oliver T. Bruns",
+      "Peter Eisert",
+      "Anna Hilsmann"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.28341v1",
+    "paper_name": "Cross-Spectral Dense Correspondence for Multimodal Spectral Medical Imaging",
+    "published_date": "2026-08-28"
+  },
+  "2608.28342": {
+    "authors": [
+      "Peijie Zhong",
+      "Raul Mondragon",
+      "Richard G. Clegg"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.28342v1",
+    "paper_name": "Scalable dynamic community detection on temporal graphs using graph neural networks",
+    "published_date": "2026-08-28"
+  },
+  "2608.28362": {
+    "authors": [
+      "Owen Cox",
+      "April Xu",
+      "Weiyu Xu"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.28362v1",
+    "paper_name": "Optimal Adversarial Testing: Extracting Honest Test Results from Dishonest Test Takers",
+    "published_date": "2026-08-28"
+  },
+  "2608.28366": {
+    "authors": [
+      "Claudio Scardino",
+      "Stefano Riva",
+      "Carolina Introini",
+      "Matteo Lo Verso",
+      "Eric Cervi",
+      "Antonio Cammi",
+      "Laura Savoldi"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.28366v1",
+    "paper_name": "Real-Time Monitoring of MHD Liquid Metal Flows with Shallow Recurrent Decoders",
+    "published_date": "2026-08-28"
+  },
+  "2608.28375": {
+    "authors": [
+      "Tommaso dorigo"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.28375v1",
+    "paper_name": "Localizing Global Discrepancies: Marginal Contributions and Contextual Anomaly Detection",
+    "published_date": "2026-08-28"
+  },
+  "2608.28379": {
+    "authors": [
+      "Haruki Emori",
+      "Masaki Uchihara",
+      "Yuuki Tokunaga"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.28379v1",
+    "paper_name": "Quantum Federated Learning Based on Bures--Uhlmann Geometry for Heterogeneous Noisy Clients",
+    "published_date": "2026-08-28"
+  },
+  "2608.28391": {
+    "authors": [
+      "S. Krishna",
+      "Kaushik Mallik",
+      "Abhilasha Sharma Suman"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.28391v1",
+    "paper_name": "Adaptive Strategies for GR(1) Games",
+    "published_date": "2026-08-28"
+  },
+  "2608.28412": {
+    "authors": [
+      "Daehyeon Bae",
+      "Sujin Park",
+      "Insup Lee",
+      "YoungGiu Jung",
+      "Kyeongsik Lee",
+      "HeeSeok Kim",
+      "Seokhie Hong"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.28412v1",
+    "paper_name": "Exploiting Per-Core Leakage: Electromagnetic Side-Channel Monitoring of Multicore Architectures",
+    "published_date": "2026-08-28"
+  },
+  "2608.28425": {
+    "authors": [
+      "Nathanael Bosch",
+      "Niklas Frederik Schmitz",
+      "Michael F. Herbst"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.28425v1",
+    "paper_name": "Euclidean Fourier Neural Operators",
+    "published_date": "2026-08-28"
+  },
+  "2608.28437": {
+    "authors": [
+      "Hyeonsu Lyu",
+      "Minwoo Kim",
+      "Sehyun Ryu",
+      "Hyun Jong Yang"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.28437v1",
+    "paper_name": "LUCID: An Agentic AI Framework on Digital-Twin in the Loop for QoS-Guaranteeing Robotic Control",
+    "published_date": "2026-08-28"
+  },
+  "2608.28439": {
+    "authors": [
+      "Qing Ye",
+      "Meng-Hsuan Lin"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.28439v1",
+    "paper_name": "Fidelity Is Not Enough: Dispatch-Level Instrumentation for Agentic Datasheet Extraction",
+    "published_date": "2026-08-28"
+  },
+  "2608.28441": {
+    "authors": [
+      "Christian McDowell",
+      "Andrea Panebianco",
+      "Sirin Chakraborty",
+      "Yin Sun"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.28441v1",
+    "paper_name": "Significance-Driven Semantic Communication",
+    "published_date": "2026-08-28"
+  },
+  "2608.28442": {
+    "authors": [
+      "Shuchen Zhu",
+      "Yuxin Fang",
+      "Mingze Wang",
+      "Kun Yuan"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.28442v1",
+    "paper_name": "Curvature-Conditioned Multiscale Momentum with Sphere Constraints for LLM Pretraining",
+    "published_date": "2026-08-28"
+  },
+  "2608.28468": {
+    "authors": [
+      "Nicola C. Amorisco",
+      "Kamran Pentland",
+      "Adriano Agnello",
+      "George K. Holt",
+      "Alasdair Ross",
+      "Matthew J. Marshall",
+      "Edward Jones",
+      "Graham J. McArdle",
+      "Charles Vincent",
+      "Timothy Nunn",
+      "Martin Kochan",
+      "Pedro Cavestany",
+      "Aran Garrod",
+      "Stanislas Pamela",
+      "James Buchanan"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.28468v1",
+    "paper_name": "Real-time virtual circuits for plasma shape control via neural network emulators: experimental demonstration on MAST Upgrade",
+    "published_date": "2026-08-28"
+  },
+  "2608.28490": {
+    "authors": [
+      "Jingjing Nie",
+      "Jiawei Guo",
+      "Krishna Meda",
+      "Haipeng Cai"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.28490v1",
+    "paper_name": "LLM-Based Agents for Software and Systems Security: Approaches, Applications, and Assessment",
+    "published_date": "2026-08-28"
+  },
+  "2608.28491": {
+    "authors": [
+      "Yafei Zhang",
+      "Nan Wu"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.28491v1",
+    "paper_name": "AcrossVAM1.0: Particle World Modeling for Text-Assisted Robot Video Prediction",
+    "published_date": "2026-08-28"
+  },
+  "2608.28496": {
+    "authors": [
+      "Di Wu",
+      "Sergey Troshin",
+      "Christof Monz",
+      "Antske Fokkens",
+      "Vlad Niculae"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.28496v1",
+    "paper_name": "Ladders in Chaos: When, How, (and Perhaps Why) Does Test-Time Scaling Improve LLM Machine Translation",
+    "published_date": "2026-08-28"
+  },
+  "2608.28497": {
+    "authors": [
+      "Ahmed Hereiz",
+      "Yingzhe Lyu",
+      "Hao Li",
+      "Bram Adams",
+      "Ahmed E. Hassan"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.28497v1",
+    "paper_name": "On the Maintenance and Co-evolution of Agent Plugins: An Empirical Study of Claude Code Plugin Marketplaces",
+    "published_date": "2026-08-28"
+  },
+  "2608.28498": {
+    "authors": [
+      "Mennatullah T. Khedr",
+      "Mengwei Xu",
+      "John S. Fitzgerald",
+      "Peter Gorm Larsen"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.28498v1",
+    "paper_name": "A System-of-Systems Case Study for the Verification of Composed Digital Twins",
+    "published_date": "2026-08-28"
+  },
+  "2608.28500": {
+    "authors": [
+      "Remi A. Chou"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.28500v1",
+    "paper_name": "Classical Commitment over Quantum Channels with Limited Entanglement Assistance",
+    "published_date": "2026-08-28"
+  },
+  "2608.28503": {
+    "authors": [
+      "Xinyi Zhang",
+      "Yutong Li",
+      "Peijie Sun"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.28503v1",
+    "paper_name": "SG-UMP: Sequence-Guided Universal Multimodal Prioritization Calculation Framework",
+    "published_date": "2026-08-28"
+  },
+  "2608.28508": {
+    "authors": [
+      "V. S. D. S. Mahesh Akavarapu",
+      "Michael Daniel",
+      "Gerhard Jäger"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.28508v1",
+    "paper_name": "Phoneme- and Word-Level Metrics Using Self-Supervised Speech Representations for Forced Alignment Evaluation",
+    "published_date": "2026-08-28"
+  },
+  "2608.28513": {
+    "authors": [
+      "Prashant Kumar Gupta",
+      "Jonathan Stollberg",
+      "Dominik Schillinger",
+      "Mohammad Ashraf Iqbal"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.28513v1",
+    "paper_name": "Machine-learning-assisted multiscale topology optimization of functionally graded superimposed lattice structures",
+    "published_date": "2026-08-28"
+  },
+  "2608.28532": {
+    "authors": [
+      "Le Xia",
+      "Rose Qingyang Hu",
+      "Paul S. Kudyba",
+      "Zhenlin An",
+      "Haijian Sun"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.28532v1",
+    "paper_name": "xTRUCE: A Provably Safe Arbiter for Multi-xApp Conflict Mitigation in Agentic O-RAN",
+    "published_date": "2026-08-28"
+  },
+  "2608.28553": {
+    "authors": [
+      "Hanzhang Jia",
+      "Liheng Zeng",
+      "Hao Cheng",
+      "Yi Gao",
+      "Bo Ma"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.28553v1",
+    "paper_name": "Logos: An Agent Harness on a Cross-Process Bus",
+    "published_date": "2026-08-28"
+  },
+  "2608.28570": {
+    "authors": [
+      "Seungyeon Kim",
+      "Noémie Jaquier"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.28570v1",
+    "paper_name": "ChainSplat: A Physics-Inspired Screw-Theoretic Model for Learning Deformable Linear Object Dynamics from Multi-View RGB Videos",
+    "published_date": "2026-08-28"
+  },
+  "2608.28578": {
+    "authors": [
+      "Nan Wang",
+      "Mohit Yadav",
+      "Jonathan Wulff",
+      "Aidan Rosenbaum",
+      "Kezhou Chen",
+      "Yuvan Sharma",
+      "Xu Dong",
+      "Yiwei Tao"
+    ],
+    "categories": [
+      "Dexterous"
+    ],
+    "category": "Dexterous",
+    "paper_link": "https://arxiv.org/abs/2608.28578v1",
+    "paper_name": "Aero Hand Open: A Simulation-Ready Tendon-Driven Hand for Dexterous Manipulation Learning",
+    "published_date": "2026-08-28"
+  },
+  "2608.28589": {
+    "authors": [
+      "Vaibhav Mehandiratta",
+      "Saket Ramchandra"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.28589v1",
+    "paper_name": "QGPINNs: A Physics-Informed Neural Network Framework for Nonlocal Differential Equations on Quantum Graphs",
+    "published_date": "2026-08-28"
   }
 }
