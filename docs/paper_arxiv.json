@@ -5522,7 +5522,7 @@
       "Agent"
     ],
     "category": "Agent",
-    "paper_link": "https://arxiv.org/abs/2608.28496v1",
+    "paper_link": "https://arxiv.org/abs/2608.28496v2",
     "paper_name": "Ladders in Chaos: When, How, (and Perhaps Why) Does Test-Time Scaling Improve LLM Machine Translation",
     "published_date": "2026-08-28"
   },
@@ -6184,5 +6184,660 @@
     "paper_link": "https://arxiv.org/abs/2608.29641v1",
     "paper_name": "Harness-RL: Black-Box Reinforcement Learning with Action-Args Decoupling for Central-Agent Multi-Agent Harnesses",
     "published_date": "2026-08-30"
+  },
+  "2608.29910": {
+    "authors": [
+      "Runjia Qian",
+      "Zile Wang",
+      "Jihai Zhang",
+      "Kai Zou",
+      "Wei Yu",
+      "Jiaxing Li",
+      "Zexiang Liu",
+      "Yaokun Li",
+      "Fei Kang",
+      "Kaichen Huang",
+      "Mengyin An",
+      "Haobo Zhang",
+      "Biao Jiang",
+      "Jiahua Wang",
+      "Haofeng Sun",
+      "Yang Liu",
+      "Yangguang Li"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.29910v1",
+    "paper_name": "Matrix-Game 3.5: Enhancing Real-Time Streaming Interactive World Models with Patch Memory",
+    "published_date": "2026-08-30"
+  },
+  "2608.29966": {
+    "authors": [
+      "Cehao Yang",
+      "Xiaojun Wu",
+      "Xueyuan Lin",
+      "Chengjin Xu",
+      "Xuhui Jiang",
+      "Hui Xiong",
+      "Jian Guo"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.29966v1",
+    "paper_name": "DataFoundry: Evolving Data Preparators via Recursive Self-Improvement",
+    "published_date": "2026-08-30"
+  },
+  "2608.30207": {
+    "authors": [
+      "Chen Xiong",
+      "Zhiyuan He",
+      "Pin-Yu Chen",
+      "Stjepan Picek",
+      "Tsung-Yi Ho"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.30207v1",
+    "paper_name": "SIR: Self-improving Red-teaming for Compute Use Agents",
+    "published_date": "2026-08-31"
+  },
+  "2608.30237": {
+    "authors": [
+      "Hongzhe Bi",
+      "Zihao Zhou",
+      "Yihang Tang",
+      "Jingrui Pang",
+      "Shuhe Huang",
+      "Haitian Liu",
+      "Runqing Wang",
+      "Shuai Huang",
+      "Yichen Wang",
+      "Yiming Cheng",
+      "Ruowen Zhao",
+      "Zhenghua Li",
+      "Hengkai Tan",
+      "Xiaolong Liu",
+      "Jinhui Wan",
+      "Jiabao Liu",
+      "Min Zhao",
+      "Fan Bao",
+      "Jun Zhu"
+    ],
+    "categories": [
+      "Agent",
+      "Dexterous"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.30237v1",
+    "paper_name": "Motus2: A Self-Evolving General World Model for Dexterous Manipulation",
+    "published_date": "2026-08-31"
+  },
+  "2608.30301": {
+    "authors": [
+      "Jiaxuan Li",
+      "Di Wu",
+      "Jianhua Liu",
+      "Yuxin Zhao",
+      "Jinnuo Li",
+      "Xiao Zhang",
+      "Zhenzhi Ying",
+      "Changsheng Dai",
+      "Xiang Li",
+      "Liming Shu"
+    ],
+    "categories": [
+      "Dexterous"
+    ],
+    "category": "Dexterous",
+    "paper_link": "https://arxiv.org/abs/2608.30301v1",
+    "paper_name": "Data-Centric Neuromotor Interfaces for Portable Human-Machine Interaction",
+    "published_date": "2026-08-31"
+  },
+  "2608.30426": {
+    "authors": [
+      "Markel Ferro",
+      "Oier Lopez de Lacalle"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.30426v1",
+    "paper_name": "Learning to Reason and Use Tools through Unsupervised Fine-Tuning in Task-Oriented Dialog Systems",
+    "published_date": "2026-08-31"
+  },
+  "2608.30451": {
+    "authors": [
+      "Yi Zhang",
+      "Yi Wang",
+      "Yueting Wu",
+      "Kaiyue Yang",
+      "Yuejiao Su",
+      "Lap-Pui Chau"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.30451v1",
+    "paper_name": "SeqAlign3DVG: A Sequence-Aligned Benchmark and Voxel Reasoning Framework for 3D Visual Grounding",
+    "published_date": "2026-08-31"
+  },
+  "2608.30461": {
+    "authors": [
+      "Junjie Huang",
+      "Jiarui Qin",
+      "Di Yin",
+      "Weiwen Liu",
+      "Yong Yu",
+      "Xing Sun",
+      "Weinan Zhang"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.30461v1",
+    "paper_name": "From Final Artifacts to Trajectories: Retrospective Process Supervision for Evidence-Grounded Long-Form Generation",
+    "published_date": "2026-08-31"
+  },
+  "2608.30530": {
+    "authors": [
+      "Jiajun Wu",
+      "Jian Yang",
+      "Yaxin Du",
+      "Wei Zhang",
+      "Haowen Wang",
+      "Junhang Cheng",
+      "Yuxuan Zhang",
+      "Tuney Zheng",
+      "Xianglong Liu",
+      "Ming Zhou"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.30530v1",
+    "paper_name": "WebWorld: The Browser as a World Model for Self-Improving Web Code",
+    "published_date": "2026-08-31"
+  },
+  "2608.30760": {
+    "authors": [
+      "Ziyi Bai",
+      "Siqi Li",
+      "Tinglei Huang",
+      "Börje F. Karlsson"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.30760v1",
+    "paper_name": "PRACTICE: From Experience to Expertise in Self-Evolving Embodied Agents",
+    "published_date": "2026-08-31"
+  },
+  "2608.30897": {
+    "authors": [
+      "Jianjie Fang",
+      "Xvyuan Liu",
+      "Ziyou Wang",
+      "Rongze Tang",
+      "Zhaolu Wang",
+      "Zhuohang Li",
+      "Xin Zhang",
+      "Haisheng Su",
+      "Chen Gao",
+      "Wei Wu",
+      "Xinlei Chen",
+      "Yong Li"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.30897v1",
+    "paper_name": "CAER: Causal Action Effect Reweighting for World Model Training",
+    "published_date": "2026-08-31"
+  },
+  "2608.30900": {
+    "authors": [
+      "Anoop Kiran",
+      "Nora Ayanian",
+      "Kenneth Breuer"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.30900v1",
+    "paper_name": "The Structure of Merging Turbulent Jets Beneath a Small Quadrotor",
+    "published_date": "2026-08-31"
+  },
+  "2608.30903": {
+    "authors": [
+      "Yuzhe Ding",
+      "Kang He",
+      "Li Zheng",
+      "Shengwu Zheng",
+      "Teng Shi",
+      "Fei Li",
+      "Chong Teng",
+      "Donghong Ji"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.30903v1",
+    "paper_name": "MMDS-Bench: Benchmarking Multimodal Large Language Models on Dynamic Stance in Social Media Interactions",
+    "published_date": "2026-08-31"
+  },
+  "2608.30935": {
+    "authors": [
+      "Shaoan Wang",
+      "Aocheng Luo",
+      "Fei Huang",
+      "Jingyi Xu",
+      "Xiaoyang Wang",
+      "Yueyu Wang",
+      "Qianli Ma",
+      "Fan Yang",
+      "Ran Mei",
+      "Jia Wei",
+      "Jiangpeng Hu",
+      "Xuhao Liu",
+      "Hongming Chen",
+      "Yuanbin Shao",
+      "Yiyang Lin",
+      "Ziliang Li",
+      "Liang Pan",
+      "Xinhang Liu",
+      "Yuntao Ma",
+      "Tingxiang Fan"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.30935v1",
+    "paper_name": "LightNav-0: Eliciting VLM Spatial Intelligence for Generalist Embodied Navigation",
+    "published_date": "2026-08-31"
+  },
+  "2608.30946": {
+    "authors": [
+      "Minlin Wu",
+      "Xu Fang",
+      "Yicheng Zhang",
+      "Chenyu Zhou",
+      "Zhiyi Liu"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.30946v1",
+    "paper_name": "Reproducible macroscopic dynamics in a closed-loop human-AI learning system",
+    "published_date": "2026-08-31"
+  },
+  "2608.30954": {
+    "authors": [
+      "Xingran Huang",
+      "Qiming Guo",
+      "Jinwen Tang",
+      "Wenqi Jia",
+      "Dongzheng Wang"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.30954v1",
+    "paper_name": "Clock-Gating Insertion Strategies on an Open-Source MSP430 Core: A Reproducible PPA Study and a Gate-Level Simulation Caveat",
+    "published_date": "2026-08-31"
+  },
+  "2608.30960": {
+    "authors": [
+      "Xiaoyang Li",
+      "Runni Zhou"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.30960v1",
+    "paper_name": "Singular Curvature in ReLU Training:Differentiation and the Gradient-Flow Limit Need Not Commute",
+    "published_date": "2026-08-31"
+  },
+  "2608.30978": {
+    "authors": [
+      "Baptiste Rossigneux",
+      "Karim Haroun"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.30978v1",
+    "paper_name": "Sparse Competition during Training For the Emergence of Specialized Modules",
+    "published_date": "2026-08-31"
+  },
+  "2608.31022": {
+    "authors": [
+      "Vernon Toh",
+      "Navonil Majumder",
+      "Zhengyuan Liu",
+      "Nancy F. Chen",
+      "Soujanya Poria"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.31022v1",
+    "paper_name": "MNIST-PRO: MNIST is Back as a Partially Observable World for AI Agents",
+    "published_date": "2026-08-31"
+  },
+  "2608.31023": {
+    "authors": [
+      "Haozheng Yu",
+      "Xinyu Yang",
+      "Rundong Luo",
+      "Jennifer J. Sun",
+      "Bharath Hariharan"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.31023v1",
+    "paper_name": "SMG: Semantic Motion Graph for Monocular Dynamic Gaussian Splatting",
+    "published_date": "2026-08-31"
+  },
+  "2608.31025": {
+    "authors": [
+      "Jailing Lin",
+      "Jikuan Zhang",
+      "Jianhua Sun"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.31025v1",
+    "paper_name": "Analytic Dynamics: Learning Physics-Grounded Representation for Fast Intrinsic Dynamics Inference from Monocular Videos",
+    "published_date": "2026-08-31"
+  },
+  "2608.31028": {
+    "authors": [
+      "James Crowley",
+      "Faez Ahmed",
+      "Anton van Beek"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.31028v1",
+    "paper_name": "Learning the Geometry of Admissible Hypotheses through Inductive Bias in Training Distributions",
+    "published_date": "2026-08-31"
+  },
+  "2608.31029": {
+    "authors": [
+      "Christian Löwens",
+      "Thorben Funke",
+      "Alexandru Paul Condurache"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.31029v1",
+    "paper_name": "Driving on Memory",
+    "published_date": "2026-08-31"
+  },
+  "2608.31033": {
+    "authors": [
+      "Rukhshanda Hussain",
+      "Noé Artru",
+      "Emeline Got",
+      "Luiz Gustavo Hafemann",
+      "Alexandre Messier",
+      "Brandon Dearlove",
+      "Rafael M. O. Cruz",
+      "Abdallah Dib",
+      "Eric Granger"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.31033v1",
+    "paper_name": "FaceSnap: Real-Time Personalized Lightstage Facial Performance Capture",
+    "published_date": "2026-08-31"
+  },
+  "2608.31036": {
+    "authors": [
+      "Jiale Kang",
+      "Ziyin Yue",
+      "Zheng Zhan",
+      "Yangyi Huang",
+      "Weiyang Liu"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.31036v1",
+    "paper_name": "Normalized Low-Rank Adaptation",
+    "published_date": "2026-08-31"
+  },
+  "2608.31040": {
+    "authors": [
+      "Asit Kumar Pradhan",
+      "Nithin Raveendran",
+      "David Declercq",
+      "Bane Vasić"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.31040v1",
+    "paper_name": "Fast Fault-Tolerant Decoders for Hypergraph Product and Lifted-Product Codes",
+    "published_date": "2026-08-31"
+  },
+  "2608.31045": {
+    "authors": [
+      "Peter Lippmann",
+      "Fred A. Hamprecht"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.31045v1",
+    "paper_name": "Rotational Equivariance in Machine Learning: A Comprehensive Tutorial",
+    "published_date": "2026-08-31"
+  },
+  "2608.31046": {
+    "authors": [
+      "Yi Ding",
+      "Ruqi Zhang"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.31046v1",
+    "paper_name": "Does On-Policy Distillation Really Distill? From Noisy Teacher to Self-Improvement",
+    "published_date": "2026-08-31"
+  },
+  "2608.31059": {
+    "authors": [
+      "Simon Freyaldenhoven"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.31059v1",
+    "paper_name": "When Can We Work in Embedding Space? What Text Embeddings Preserve",
+    "published_date": "2026-08-31"
+  },
+  "2608.31096": {
+    "authors": [
+      "Yunxiang Fu",
+      "Meng Lou",
+      "Yizhou Yu"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.31096v1",
+    "paper_name": "One Adapter, Many Tasks: Task-Conditioned Feature Transformations for Continual Learning",
+    "published_date": "2026-08-31"
+  },
+  "2608.31100": {
+    "authors": [
+      "Jiajun Shi",
+      "Siyuan Tao",
+      "Yuhao Wu",
+      "Zexuan Wang",
+      "Jingyuan Zhang",
+      "Jiaheng Liu",
+      "Xinping Lei",
+      "Xinrong Zhang",
+      "Siyuan Fang",
+      "Zhewen Tan",
+      "Tianle Cai",
+      "Junhao Fang",
+      "Jiameng Huang",
+      "Yueyang Wang",
+      "Jinkai Liu",
+      "Yuxuan Zhang",
+      "Jian Yang",
+      "Zhoujun Li",
+      "Shen Yan",
+      "Wenhao Huang",
+      "Ge Zhang"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2608.31100v1",
+    "paper_name": "S3Gym: Can LLMs Turn Self-Testing and Self-Judging into Self-Improvement?",
+    "published_date": "2026-08-31"
+  },
+  "2608.31106": {
+    "authors": [
+      "Jiashu Zhu",
+      "Yanhao Zheng",
+      "Ruitian Tian",
+      "Rujing Dang",
+      "Shen Zhang",
+      "Bingze Song",
+      "Jiachen Lei",
+      "Ruimin Lin",
+      "Jiahong Wu",
+      "Xiangxiang Chu"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.31106v1",
+    "paper_name": "DreamX-Creator: Democratizing Native Audio-Video Generation at 2K Resolution",
+    "published_date": "2026-08-31"
+  },
+  "2608.31107": {
+    "authors": [
+      "Lucas Wojcik",
+      "Gabriel E. Lima",
+      "Sergio M. Silva",
+      "Eduil Nascimento",
+      "David Menotti"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.31107v1",
+    "paper_name": "VeriCam: A Verification Baseline for the Classification of Unknown Data",
+    "published_date": "2026-08-31"
+  },
+  "2608.31112": {
+    "authors": [
+      "Andrea Coladangelo",
+      "Dakshita Khurana",
+      "Saachi Mutreja",
+      "Bhaskar Roberts",
+      "Joseph Slote",
+      "Avishay Tal"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.31112v1",
+    "paper_name": "Unconditional Certified Randomness without Structure",
+    "published_date": "2026-08-31"
+  },
+  "2608.31117": {
+    "authors": [
+      "Snehal Raj",
+      "Natansh Mathur",
+      "Alejandro Perdomo-Ortiz"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.31117v1",
+    "paper_name": "\"Train classical, deploy quantum\" requires rethinking generalization",
+    "published_date": "2026-08-31"
+  },
+  "2608.31166": {
+    "authors": [
+      "Mingyang Liu",
+      "Gabriele Farina",
+      "Asuman Ozdaglar"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.31166v1",
+    "paper_name": "Constant Individual Regret in General Games",
+    "published_date": "2026-08-31"
+  },
+  "2608.31167": {
+    "authors": [
+      "Weiqi Wang",
+      "Zhi Li",
+      "Yudong Lei",
+      "David Martinez",
+      "Xiaofeng Gao",
+      "Yuxin Jiang",
+      "Chenfanfu Jiang",
+      "Yingnian Wu",
+      "Demetri Terzopoulos",
+      "Ran Gong"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2608.31167v1",
+    "paper_name": "SUN: Persistent Programs For Language-Grounded Control-to-Learning-to-Real Policies",
+    "published_date": "2026-08-31"
   }
 }
