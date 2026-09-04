@@ -7436,7 +7436,8 @@
       "Satvik Sharma",
       "Samrat Sahoo",
       "Huang Huang",
-      "Fei-Fei Li Jiajun Wu",
+      "Fei-Fei Li",
+      "Jiajun Wu",
       "Dorsa Sadigh",
       "Jeannette Bohg"
     ],
@@ -7444,7 +7445,7 @@
       "Dexterous"
     ],
     "category": "Dexterous",
-    "paper_link": "https://arxiv.org/abs/2609.01938v1",
+    "paper_link": "https://arxiv.org/abs/2609.01938v2",
     "paper_name": "One Demonstration, Many Objects: Generalizing Manipulation via Local Contact Geometry",
     "published_date": "2026-09-01"
   },
@@ -7959,5 +7960,496 @@
     "paper_link": "https://arxiv.org/abs/2609.02881v1",
     "paper_name": "Graph Machine: Towards Better Pretraining via Edges",
     "published_date": "2026-09-02"
+  },
+  "2609.03199": {
+    "authors": [
+      "Howard Qian",
+      "Yiting Chen",
+      "Yunfei Xie",
+      "Kejia Ren",
+      "Podshara Chanrungmaneekul",
+      "Gaotian Wang",
+      "Bowen Wen",
+      "Chen Wei",
+      "Kaiyu Hang"
+    ],
+    "categories": [
+      "Dexterous"
+    ],
+    "category": "Dexterous",
+    "paper_link": "https://arxiv.org/abs/2609.03199v1",
+    "paper_name": "RoboTok: An Internet-Scale Data Engine for Human Demonstration Retrieval and Dexterous Manipulation Learning",
+    "published_date": "2026-09-02"
+  },
+  "2609.03241": {
+    "authors": [
+      "Zixun Huang",
+      "Kishan Panaganti",
+      "Haitao Mi",
+      "Leowei Liang"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2609.03241v1",
+    "paper_name": "FlowBalance: Verifier-Grounded Self-Improvement from On-Policy Reasoning Experience",
+    "published_date": "2026-09-03"
+  },
+  "2609.03362": {
+    "authors": [
+      "Roman Mykhailyshyn",
+      "Domae Yukiyasu",
+      "Harada Kensuke"
+    ],
+    "categories": [
+      "Dexterous"
+    ],
+    "category": "Dexterous",
+    "paper_link": "https://arxiv.org/abs/2609.03362v1",
+    "paper_name": "ARTiS: An Adaptive Robotic Gripper for Enhanced Tool Manipulation in Disassembly Applications",
+    "published_date": "2026-09-03"
+  },
+  "2609.03952": {
+    "authors": [
+      "Yibin Wang",
+      "Zehan Wang",
+      "Junshu Tang",
+      "Zhimin Li",
+      "Yujie Zhou",
+      "Jiazi Bu",
+      "Pengyang Ling",
+      "Feng Han",
+      "Zhixiong Zhang",
+      "Long Xing",
+      "Shengyuan Ding",
+      "Ziang Li",
+      "Cheng Jin",
+      "Yuhang Zang",
+      "Jiaqi Wang",
+      "Tianyu Pang"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.03952v1",
+    "paper_name": "WorldReward: Reward Modeling for Camera-Conditioned World Models",
+    "published_date": "2026-09-03"
+  },
+  "2609.03972": {
+    "authors": [
+      "Minyi Peng",
+      "Darian Gunamardi",
+      "Ivan Tjuawinata",
+      "Yongsen Zheng",
+      "Kwok-Yan Lam"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.03972v1",
+    "paper_name": "OSR: Output Space Redistribution for Adaptive Label Removal in Classification Models",
+    "published_date": "2026-09-03"
+  },
+  "2609.03992": {
+    "authors": [
+      "Sanyuan Chen",
+      "Min-Jae Hwang",
+      "Sho Inoue",
+      "Anna Sun",
+      "Bokai Yu",
+      "David Kant",
+      "Dongmin Hyun",
+      "Dorian Desblancs",
+      "Gregory Antonovsky",
+      "Oleg Repin",
+      "Peng-Jen Chen",
+      "Xutai Ma",
+      "Zehai Tu",
+      "Juan Pino",
+      "Wei-Ning Hsu"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.03992v1",
+    "paper_name": "Alignment-Free Text-Audiobox for Voice Dubbing and Full-Duplex Dialogue Synthesis",
+    "published_date": "2026-09-03"
+  },
+  "2609.04005": {
+    "authors": [
+      "Nikola Milosevic",
+      "Asaki Kataoka",
+      "Nicolas Hinrichs",
+      "Kenji Doya",
+      "Nico Scherf"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.04005v1",
+    "paper_name": "The Dually Flat Geometry of Planning as Inference",
+    "published_date": "2026-09-03"
+  },
+  "2609.04009": {
+    "authors": [
+      "Emanuele Cardinale",
+      "Marco Proietti",
+      "Alessandro Cacciatore",
+      "Maria Francesca Spadea",
+      "Lucia Migliorelli",
+      "Sara Moccia"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.04009v1",
+    "paper_name": "The Blind Spot in 2D Infants' Pose Estimation:Robust Learning from Noisy Annotations",
+    "published_date": "2026-09-03"
+  },
+  "2609.04011": {
+    "authors": [
+      "Arthur Jessop",
+      "Mohammed Alsubeihi",
+      "Ben Moseley",
+      "Ashwin Kumar Rajagopalan"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.04011v1",
+    "paper_name": "Differentiable Hybrid Modelling for Learning and Optimising Chemical Transport Processes from Experimental Data",
+    "published_date": "2026-09-03"
+  },
+  "2609.04021": {
+    "authors": [
+      "Yalun Wu",
+      "Junfeng Fang",
+      "Jiawei Wang",
+      "Haotian Liu",
+      "Qijun Yang",
+      "Minghan Yang",
+      "Hongcheng Guo",
+      "Zhoujun Li",
+      "Boyang Wang"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.04021v1",
+    "paper_name": "FLY-EVAL++: An Evidence-Driven Evaluation Protocol for Safety-Constrained Flight Prediction with Large Language Models",
+    "published_date": "2026-09-03"
+  },
+  "2609.04058": {
+    "authors": [
+      "Jungmin Park",
+      "Eunha Kim",
+      "Wooseop Kim",
+      "Seongjoon Cho",
+      "Byungho Cha"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.04058v1",
+    "paper_name": "AI-Assisted Design of a Post-Quantum Cryptographic Accelerator: A Deployed-Silicon Case Study",
+    "published_date": "2026-09-03"
+  },
+  "2609.04070": {
+    "authors": [
+      "Ruoyu Yao",
+      "Yusen Xie",
+      "Qingzhao Liu",
+      "Pei Liu",
+      "Zewei Yang",
+      "Yipeng Zhu",
+      "Xiaolong Wang",
+      "Jun Ma"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.04070v1",
+    "paper_name": "Continuous Actions from Discrete Minds: Latent-Aligned Planning for End-to-End Autonomous Driving",
+    "published_date": "2026-09-03"
+  },
+  "2609.04071": {
+    "authors": [
+      "Mehedi Hasan",
+      "Ashfak Yeafi",
+      "Md Khairul Islam"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.04071v1",
+    "paper_name": "TAP-Path: Task-Adaptive Structural and Token Pruning for Efficient and Trustworthy Pathology Foundation Models",
+    "published_date": "2026-09-03"
+  },
+  "2609.04094": {
+    "authors": [
+      "Shubham Gandhi",
+      "Saurabh Goyal",
+      "Kiran Kate",
+      "Yara Rizk"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.04094v1",
+    "paper_name": "DRACO: Fine-Grained Credit Assignment with Dynamic Rubrics for Long-Horizon Agent Training",
+    "published_date": "2026-09-03"
+  },
+  "2609.04096": {
+    "authors": [
+      "Sixu Yan",
+      "Shikang Wang",
+      "Binhua Huang",
+      "Xuanlai Tang",
+      "Guohua Fan",
+      "Fan Huang",
+      "Haoxuan Li",
+      "Yongkang Li",
+      "Yuhan Li",
+      "Bencheng Liao",
+      "Zeyu Zhang",
+      "Wenyu Liu",
+      "Hangxin Liu",
+      "Xinggang Wang"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.04096v1",
+    "paper_name": "Adaptive Vision-Language Grasping via Composable Foundation Priors and Generalizable Grasp Synthesis",
+    "published_date": "2026-09-03"
+  },
+  "2609.04108": {
+    "authors": [
+      "Boyan Li",
+      "Bingsen Chen",
+      "Chenghao Yang",
+      "Ping Nie",
+      "Chen Zhao",
+      "Xi Ye"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.04108v1",
+    "paper_name": "Sequential Beats Joint: On the Interplay between On-Policy Distillation and RLVR",
+    "published_date": "2026-09-03"
+  },
+  "2609.04110": {
+    "authors": [
+      "Yumeng Shi",
+      "Quanyu Long",
+      "Yin Wu",
+      "Wenya Wang"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.04110v1",
+    "paper_name": "The Shape of Time: Video-Token Contrast for Temporal Understanding in VideoLMs",
+    "published_date": "2026-09-03"
+  },
+  "2609.04134": {
+    "authors": [
+      "Shivang Rawat",
+      "Mirko Morello",
+      "Flaviano Morone",
+      "David J. Heeger"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.04134v1",
+    "paper_name": "Prospective Coding Improves Learning in Deep Continuous-Time Recurrent Networks",
+    "published_date": "2026-09-03"
+  },
+  "2609.04147": {
+    "authors": [
+      "Gustavo Claudio Karl Couto",
+      "Eric Aislan Antonelo",
+      "Gabriel George Zipperer"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.04147v1",
+    "paper_name": "A Low-Cost, Open Platform for End-to-End Autonomous Driving on a Miniature Ackermann Vehicle",
+    "published_date": "2026-09-03"
+  },
+  "2609.04158": {
+    "authors": [
+      "Martín Crespo",
+      "Sergio Junco",
+      "Matías Nacusse"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.04158v1",
+    "paper_name": "Formation Matrix and Energy-based Control of Multi-Agent Systems",
+    "published_date": "2026-09-03"
+  },
+  "2609.04160": {
+    "authors": [
+      "Chenjian Li",
+      "Ji Guan"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.04160v1",
+    "paper_name": "Vanilla Exact Synthesis of CNOT Circuits is NP-hard",
+    "published_date": "2026-09-03"
+  },
+  "2609.04165": {
+    "authors": [
+      "Matthias C. Caro",
+      "Natalie McHugh",
+      "Sergii Strelchuk"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.04165v1",
+    "paper_name": "Parameterised graph theory for tensor networks: entanglement rerouting, structural simplification, and agnostic tomography",
+    "published_date": "2026-09-03"
+  },
+  "2609.04177": {
+    "authors": [
+      "Rafal Urbaniak",
+      "Sam Witty",
+      "Daniel Waxman",
+      "Andy Zane",
+      "Poorva Garg",
+      "Emily Bunnapradist",
+      "Sankaran Vaidyanathan",
+      "Jack Feser",
+      "Drew Lehe",
+      "Eli Bingham"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.04177v1",
+    "paper_name": "A Computationally Feasible Framework for Causal Probabilistic Explanation",
+    "published_date": "2026-09-03"
+  },
+  "2609.04193": {
+    "authors": [
+      "Yupeng Zheng",
+      "Xiang Li",
+      "Songen Gu",
+      "Yuhang Zheng",
+      "Shuai Tian",
+      "Weize Li",
+      "Linbo Wang",
+      "Chaoyue Li",
+      "Qichao Zhang",
+      "Haoran Li",
+      "Zhongpu Xia",
+      "Ya-Qin Zhang",
+      "Shuicheng Yan",
+      "Dongbin Zhao"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.04193v1",
+    "paper_name": "GIFT: Guided Intermediate Feature Training via Action-Oriented Structural Supervision for Robotic Manipulation",
+    "published_date": "2026-09-03"
+  },
+  "2609.04195": {
+    "authors": [
+      "Cheng Bi",
+      "Jipeng Sun"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.04195v1",
+    "paper_name": "Axonal delay dispersion decides whether a neuron detects an event or a sequence, and predicts cortical column diameter",
+    "published_date": "2026-09-03"
+  },
+  "2609.04196": {
+    "authors": [
+      "Kang Liao",
+      "Yihang Luo",
+      "Xiao-Ming Wu",
+      "Linyi Jin",
+      "Size Wu",
+      "Chunyu Lin",
+      "Yao Zhao",
+      "Fei Wang",
+      "Wei Li",
+      "Chen Change Loy"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.04196v1",
+    "paper_name": "Puffin-World: Scaling a Unified Multimodal Model with Native 3D World States",
+    "published_date": "2026-09-03"
+  },
+  "2609.04200": {
+    "authors": [
+      "Varun Varma Thozhiyoor",
+      "Shivam Tripathi",
+      "Venkatesh Babu Radhakrishnan",
+      "Anand Bhattad"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.04200v1",
+    "paper_name": "Principia: Relational Physics Tests for Video Models",
+    "published_date": "2026-09-03"
+  },
+  "2609.04201": {
+    "authors": [
+      "Chin-Yang Lin",
+      "Yang-Che Sun",
+      "Cheng Sun",
+      "Fu-En Yang",
+      "Min-Hung Chen",
+      "Yen-Yu Lin",
+      "Wei-Chen Chiu",
+      "Yu-Lun Liu"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.04201v1",
+    "paper_name": "Scal3R: Learning Efficient Multi-Relative Pose Query for Scalable Online 3D Reconstruction",
+    "published_date": "2026-09-03"
   }
 }
