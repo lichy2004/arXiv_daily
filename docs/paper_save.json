@@ -96,15 +96,17 @@
       "Satinder Singh",
       "Tim Rocktäschel"
     ],
-    "categories": [],
-    "category": "",
+    "categories": [
+      "WAM"
+    ],
+    "category": "WAM",
     "code_link": "",
     "notes": "",
     "paper_link": "https://arxiv.org/abs/2402.15391",
     "paper_name": "Genie: Generative Interactive Environments",
     "published_date": "",
     "source": "arxiv",
-    "updated_at": "2026-08-30T03:08:00.000Z",
+    "updated_at": "2026-09-04T01:43:00.000Z",
     "web_link": ""
   },
   "2404.12308": {
@@ -184,7 +186,7 @@
     "paper_name": "ReKep: Spatio-Temporal Reasoning of Relational Keypoint Constraints for Robotic Manipulation",
     "published_date": "",
     "source": "arxiv",
-    "updated_at": "2026-08-30T03:08:00.000Z",
+    "updated_at": "2026-09-04T01:44:00.000Z",
     "web_link": ""
   },
   "2410.11758": {
@@ -216,7 +218,7 @@
     "paper_name": "Latent Action Pretraining from Videos",
     "published_date": "",
     "source": "arxiv",
-    "updated_at": "2026-08-30T03:11:00.000Z",
+    "updated_at": "2026-09-04T01:42:00.000Z",
     "web_link": ""
   },
   "2410.21845": {
@@ -236,7 +238,7 @@
     "paper_name": "Precise and Dexterous Robotic Manipulation via Human-in-the-Loop Reinforcement Learning",
     "published_date": "",
     "source": "arxiv",
-    "updated_at": "2026-08-30T03:10:00.000Z",
+    "updated_at": "2026-09-04T01:42:00.000Z",
     "web_link": ""
   },
   "2410.24164": {
@@ -276,7 +278,7 @@
     "paper_name": "π_0: A Vision-Language-Action Flow Model for General Robot Control",
     "published_date": "",
     "source": "arxiv",
-    "updated_at": "2026-08-30T03:10:00.000Z",
+    "updated_at": "2026-09-04T01:43:00.000Z",
     "web_link": ""
   },
   "2411.01775": {
@@ -345,7 +347,7 @@
     "paper_name": "Unified Video Action Model",
     "published_date": "",
     "source": "arxiv",
-    "updated_at": "2026-08-30T03:12:00.000Z",
+    "updated_at": "2026-09-04T01:41:00.000Z",
     "web_link": ""
   },
   "2503.14734": {
@@ -404,7 +406,7 @@
     "paper_name": "GR00T N1: An Open Foundation Model for Generalist Humanoid Robots",
     "published_date": "",
     "source": "arxiv",
-    "updated_at": "2026-08-30T03:13:00.000Z",
+    "updated_at": "2026-09-04T01:42:00.000Z",
     "web_link": ""
   },
   "2504.16054": {
@@ -456,7 +458,7 @@
     "paper_name": "π_{0.5}: a Vision-Language-Action Model with Open-World Generalization",
     "published_date": "",
     "source": "arxiv",
-    "updated_at": "2026-08-30T03:13:00.000Z",
+    "updated_at": "2026-09-04T01:41:00.000Z",
     "web_link": ""
   },
   "2504.19413": {
@@ -644,7 +646,7 @@
     "paper_name": "World Action Models are Zero-shot Policies",
     "published_date": "",
     "source": "arxiv",
-    "updated_at": "2026-08-30T02:48:00.000Z",
+    "updated_at": "2026-09-04T01:41:00.000Z",
     "web_link": ""
   },
   "2602.16710": {
@@ -677,7 +679,7 @@
     "paper_name": "EgoScale: Scaling Dexterous Manipulation with Diverse Egocentric Human Data",
     "published_date": "",
     "source": "arxiv",
-    "updated_at": "2026-08-28T02:50:00.000Z",
+    "updated_at": "2026-09-04T01:44:00.000Z",
     "web_link": ""
   },
   "2602.16863": {
@@ -827,7 +829,7 @@
     "paper_name": "π_{0.7}: a Steerable Generalist Robotic Foundation Model with Emergent Capabilities",
     "published_date": "",
     "source": "arxiv",
-    "updated_at": "2026-08-30T02:47:00.000Z",
+    "updated_at": "2026-09-04T01:41:00.000Z",
     "web_link": ""
   },
   "2605.18746": {
@@ -1078,6 +1080,30 @@
     "source": "arxiv",
     "updated_at": "2026-08-28T04:05:00.000+00:00",
     "web_link": "https://spd.bot/"
+  },
+  "2609.01938": {
+    "abstract": "",
+    "arxiv_id": "2609.01938",
+    "authors": [
+      "Satvik Sharma",
+      "Samrat Sahoo",
+      "Huang Huang",
+      "Fei-Fei Li Jiajun Wu",
+      "Dorsa Sadigh",
+      "Jeannette Bohg"
+    ],
+    "categories": [
+      "Dexterous"
+    ],
+    "category": "Dexterous",
+    "code_link": "",
+    "notes": "",
+    "paper_link": "https://arxiv.org/abs/2609.01938v1",
+    "paper_name": "One Demonstration, Many Objects: Generalizing Manipulation via Local Contact Geometry",
+    "published_date": "2026-09-01",
+    "source": "arxiv",
+    "updated_at": "2026-09-03T22:22:00.000+00:00",
+    "web_link": ""
   },
   "notion:37238e7ccd3980fb8394fd3f2e79230e": {
     "abstract": "",
