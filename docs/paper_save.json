@@ -1088,7 +1088,8 @@
       "Satvik Sharma",
       "Samrat Sahoo",
       "Huang Huang",
-      "Fei-Fei Li Jiajun Wu",
+      "Fei-Fei Li",
+      "Jiajun Wu",
       "Dorsa Sadigh",
       "Jeannette Bohg"
     ],
@@ -1098,11 +1099,11 @@
     "category": "Dexterous",
     "code_link": "",
     "notes": "",
-    "paper_link": "https://arxiv.org/abs/2609.01938v1",
+    "paper_link": "https://arxiv.org/abs/2609.01938v2",
     "paper_name": "One Demonstration, Many Objects: Generalizing Manipulation via Local Contact Geometry",
     "published_date": "2026-09-01",
     "source": "arxiv",
-    "updated_at": "2026-09-03T22:22:00.000+00:00",
+    "updated_at": "2026-09-04T22:11:00.000+00:00",
     "web_link": ""
   },
   "notion:37238e7ccd3980fb8394fd3f2e79230e": {
