@@ -6997,13 +6997,15 @@
   },
   "2609.01345": {
     "authors": [
-      "Dushyant Rajput"
+      "Dushyant Rajput",
+      "Nirdesh Chauhan",
+      "Siddharth Kosaraju"
     ],
     "categories": [
       "Agent"
     ],
     "category": "Agent",
-    "paper_link": "https://arxiv.org/abs/2609.01345v1",
+    "paper_link": "https://arxiv.org/abs/2609.01345v2",
     "paper_name": "Cheap Verifiers, Large Blind Spots: Measuring the Reliability Cost of Cost-Saving Cascades",
     "published_date": "2026-09-01"
   },
@@ -7530,7 +7532,7 @@
       "Agent"
     ],
     "category": "Agent",
-    "paper_link": "https://arxiv.org/abs/2609.02350v1",
+    "paper_link": "https://arxiv.org/abs/2609.02350v2",
     "paper_name": "LookStep: Efficient Vision-Language Navigation with Linguistic Foresight and Event Driven Memory",
     "published_date": "2026-09-02"
   },
@@ -8451,5 +8453,486 @@
     "paper_link": "https://arxiv.org/abs/2609.04201v1",
     "paper_name": "Scal3R: Learning Efficient Multi-Relative Pose Query for Scalable Online 3D Reconstruction",
     "published_date": "2026-09-03"
+  },
+  "2609.04802": {
+    "authors": [
+      "Tianyidan Xie",
+      "Shenyi Wang",
+      "Qiang Tang",
+      "Mingjie Wang",
+      "Zhicheng Qiu",
+      "Xuanfu Li",
+      "Zhan Xu",
+      "Jian Yang",
+      "Lanjun Wang",
+      "Zili Yi"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2609.04802v1",
+    "paper_name": "Linguistic Trajectory Encoding for Efficient Long-Horizon Spatial Memory in Embodied Agents",
+    "published_date": "2026-09-04"
+  },
+  "2609.05178": {
+    "authors": [
+      "Lin Liu",
+      "Zhicheng Bao",
+      "Lu Zhang",
+      "Ziying Song",
+      "Wu Yang",
+      "Shuai Tao",
+      "Wulong Liu",
+      "Huchuan Lu"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2609.05178v1",
+    "paper_name": "LIBERO-RECOVER: Beyond Task Success Towards Failure Recovery in Robotic Manipulation Models",
+    "published_date": "2026-09-04"
+  },
+  "2609.05206": {
+    "authors": [
+      "Zalán Tari",
+      "Eszter Birtalan",
+      "Péter Polcz",
+      "Miklós Koller"
+    ],
+    "categories": [
+      "Dexterous"
+    ],
+    "category": "Dexterous",
+    "paper_link": "https://arxiv.org/abs/2609.05206v1",
+    "paper_name": "Morphology and actuation as inductive biases in robotic hand manipulation",
+    "published_date": "2026-09-04"
+  },
+  "2609.05228": {
+    "authors": [
+      "Zukang Xu",
+      "Zhixiong Zhao",
+      "Xing Hu",
+      "Jiangyong Yu",
+      "Houji Wen",
+      "Jun Li",
+      "Zhe Jiang",
+      "Dawei Yang"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.05228v1",
+    "paper_name": "ACE: Adaptive Calibration-Free Expert Skipping for MoE-based LLMs",
+    "published_date": "2026-09-04"
+  },
+  "2609.05233": {
+    "authors": [
+      "Bumju Kwak",
+      "Jeonghee Jo"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.05233v1",
+    "paper_name": "Hessian-based molecular conformation augmentation for a scalable and efficient strategy of machine learning interatomic potentials",
+    "published_date": "2026-09-04"
+  },
+  "2609.05235": {
+    "authors": [
+      "Maryam Fakhari",
+      "Mehran Safayani"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.05235v1",
+    "paper_name": "PRICE: A Systematic Study of LLM Adaptation Choices for Bitcoin Price Forecasting",
+    "published_date": "2026-09-04"
+  },
+  "2609.05251": {
+    "authors": [
+      "Rushat Rai",
+      "Yun-Yuan Wang",
+      "Autsada Kakaen",
+      "Pei-Jie Chang",
+      "Doan Viet Nguyen",
+      "Yuan-Chieh Chiu",
+      "Doldet Tantraviwat",
+      "Niall Tumilty",
+      "Simon See",
+      "Wen-Jay Lee",
+      "Tai-Yue Li",
+      "Nan-Yow Chen",
+      "Tian-Li Wu"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.05251v1",
+    "paper_name": "A Unified Physics-Aware Quantum Machine Learning Framework across Power GaN HEMTs and Logic Nanowire FETs: Predicting Unseen Process Splits and Held-Out Geometry Combinations with Lower Error and Tighter Split-to-Split Variability",
+    "published_date": "2026-09-04"
+  },
+  "2609.05258": {
+    "authors": [
+      "Sihan Ge",
+      "Yichen Lin",
+      "Chenyu Zhou",
+      "Jianghao Lin",
+      "Tao Yao",
+      "Dongdong Ge"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.05258v1",
+    "paper_name": "Ask Before You Optimize: Dynamic Pre-Formulation Clarification for Interactive Optimization",
+    "published_date": "2026-09-04"
+  },
+  "2609.05260": {
+    "authors": [
+      "Yiwei Liu",
+      "Luwei Yang",
+      "Shunbo Lei"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.05260v1",
+    "paper_name": "One Word, Different Action: A Real-Robot Benchmark for Language-Conditioned Embodied Reasoning",
+    "published_date": "2026-09-04"
+  },
+  "2609.05261": {
+    "authors": [
+      "Jiazheng Sun",
+      "Boyu Yang",
+      "Binhao Yuan",
+      "Mingxuan Li",
+      "Xin Peng"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.05261v1",
+    "paper_name": "Trace2Tower: Transition-Aware EigenTrace Induction of Multi-Level Skills for LLM Agents",
+    "published_date": "2026-09-04"
+  },
+  "2609.05282": {
+    "authors": [
+      "Pasquale Marra",
+      "Stefano Berti",
+      "Gabriele Mario Caddeo",
+      "Lorenzo Natale"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.05282v1",
+    "paper_name": "Temporal Tactile Encoding and Compliance for Intent-Aware Robot-to-Human Bimanual Handover",
+    "published_date": "2026-09-04"
+  },
+  "2609.05288": {
+    "authors": [
+      "Chujun Geng",
+      "Noah Charlton",
+      "Spyros Blanas",
+      "Michael D. Bond",
+      "Yang Wang"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.05288v1",
+    "paper_name": "Augur: Predicting View Serializability Violations in Relational Data Store Applications",
+    "published_date": "2026-09-04"
+  },
+  "2609.05294": {
+    "authors": [
+      "Shayan Sharifi",
+      "Riccardo Treu",
+      "Ilaria Gandin",
+      "Federico Garoia",
+      "Marco Merlo",
+      "Giulia Cisotto"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.05294v1",
+    "paper_name": "Learning from VAE Errors to support ECG-based Differential Diagnosis of Myocardial Scar",
+    "published_date": "2026-09-04"
+  },
+  "2609.05300": {
+    "authors": [
+      "Ao Shen",
+      "Kaixi Chen",
+      "Shiwei Liu",
+      "Fang Deng",
+      "Chen Chen"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.05300v1",
+    "paper_name": "Human-Human & Human-Robot Interaction Transformer (H2INT) for Robot Navigation in Dense and Uncertain Crowds",
+    "published_date": "2026-09-04"
+  },
+  "2609.05304": {
+    "authors": [
+      "Jia Huang",
+      "Yangjun Ou"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.05304v1",
+    "paper_name": "What Makes a Redundant Representation Remember? Lineage Isolation, Not Masking",
+    "published_date": "2026-09-04"
+  },
+  "2609.05314": {
+    "authors": [
+      "Alexander Neubauer",
+      "Tianzhen Hong",
+      "Han Li",
+      "Mengbo Yu",
+      "Amin Darbandi",
+      "Yannick Fürst",
+      "Martin Kriegel"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.05314v1",
+    "paper_name": "Large Language Models for HVAC Operations in Building Energy Systems: A Critical Review of Methods, Applications, and Deployment Readiness",
+    "published_date": "2026-09-04"
+  },
+  "2609.05324": {
+    "authors": [
+      "Zhenxuan Fan",
+      "Bo Zhang",
+      "Yutong Lin",
+      "Yuqian Yuan",
+      "Juekai Lin",
+      "Liang Liang",
+      "Zhuoyi Huang",
+      "Wenqiao Zhang",
+      "Juncheng Li",
+      "Siliang Tang",
+      "Jun Xiao",
+      "Yueting Zhuang"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2609.05324v1",
+    "paper_name": "RoboSPA: Can VLA Models Go Beyond Simple Scenes and Short-Horizon Tasks?",
+    "published_date": "2026-09-04"
+  },
+  "2609.05325": {
+    "authors": [
+      "Kun Hu",
+      "Menggang Li",
+      "Kaidi Wu",
+      "Zhiwen Jin",
+      "Yingjie Zhao",
+      "Chaoquan Tang",
+      "Eryi Hu",
+      "Gongbo Zhou"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.05325v1",
+    "paper_name": "FIRE-LIVWO: Robust LiDAR-Inertial-Visual-Wheel Odometry via Failure-Immune mmWave Radar Enhancement",
+    "published_date": "2026-09-04"
+  },
+  "2609.05331": {
+    "authors": [
+      "Mehran Rostamnia",
+      "Gianluca Filippone",
+      "Ricardo Caldas",
+      "Patrizio Pelliccione"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.05331v1",
+    "paper_name": "Adaptation Needs in Robotic Systems: Assessing Behavior Trees and Their Enhancement",
+    "published_date": "2026-09-04"
+  },
+  "2609.05337": {
+    "authors": [
+      "Leo Yao",
+      "Ziming Liu",
+      "Max Tegmark"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.05337v1",
+    "paper_name": "Variational Continuation for Double Pendulum Periodic Orbits",
+    "published_date": "2026-09-04"
+  },
+  "2609.05340": {
+    "authors": [
+      "Puspanjali Ghoshal",
+      "Tobias J. Oechtering"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.05340v1",
+    "paper_name": "Trust-Aware Adaptive Disclosure for Inference Privacy Preservation in Multi-Agent Networks",
+    "published_date": "2026-09-04"
+  },
+  "2609.05342": {
+    "authors": [
+      "Giulia Zarpellon",
+      "Joseph Aylett-Bullock",
+      "Frank Krauss",
+      "Miguel Luengo-Oroz"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.05342v1",
+    "paper_name": "Mitigating Disease Spread by Design in Refugee and IDP Camps",
+    "published_date": "2026-09-04"
+  },
+  "2609.05374": {
+    "authors": [
+      "Haoting Shi",
+      "Wenhao Wang",
+      "Weicheng Fang",
+      "Yaozhong Liang",
+      "Tian Jin",
+      "Pengxiang Zhao",
+      "Guangyi Liu",
+      "Siheng Chen",
+      "Yanfeng Wang"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.05374v1",
+    "paper_name": "CUA-Universe: A Scalable and Dynamic Environment for Hybrid GUI+CLI Agents",
+    "published_date": "2026-09-04"
+  },
+  "2609.05376": {
+    "authors": [
+      "Vivek Chavan",
+      "Pengtao Xie",
+      "Yahuan Shi",
+      "Oliver Heimann",
+      "Kevin Haninger",
+      "Jörg Krüger"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.05376v1",
+    "paper_name": "What Matters, When? Diagnosing and Improving Conditional Visual Grounding in Visuomotor Imitation Policies",
+    "published_date": "2026-09-04"
+  },
+  "2609.05388": {
+    "authors": [
+      "Homayoun Afshari",
+      "Pietro Basci",
+      "Alessandro Russo",
+      "Lia Morra"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.05388v1",
+    "paper_name": "Think-Verify-Revise: Neuro-Symbolic Visual Reasoning with Vision-Language Models and Dynamic Logic Tensor Networks",
+    "published_date": "2026-09-04"
+  },
+  "2609.05395": {
+    "authors": [
+      "Dain Kim",
+      "Eungi Cho",
+      "Kyumin Kim",
+      "Shinyeong Noh",
+      "Kyuseong Lim"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.05395v1",
+    "paper_name": "Multi-Step Tool-Calling over Korean Open Public APIs: A Benchmark and a Data-Synthesis Recipe",
+    "published_date": "2026-09-04"
+  },
+  "2609.05396": {
+    "authors": [
+      "Yuxiao Li",
+      "Keke Hu",
+      "Santiago Mazuelas",
+      "Yuan Shen"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.05396v1",
+    "paper_name": "A Deep Generative Model for Synthesizing Labeled Wireless Signals",
+    "published_date": "2026-09-04"
+  },
+  "2609.05404": {
+    "authors": [
+      "Sihwa Park"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.05404v1",
+    "paper_name": "Diffusion TV: Experiencing Diffusion Models through Tangible, Embodied Interaction",
+    "published_date": "2026-09-04"
+  },
+  "2609.05408": {
+    "authors": [
+      "Sang Hyub Kim",
+      "Julien Baglio",
+      "Rajiv Krishnakumar",
+      "Chi Chen",
+      "Oliver Knitter",
+      "Jonathan Mei",
+      "Claudio Girotto",
+      "Masako Yamada",
+      "Frederik F. Flöther",
+      "Martin Roetteler"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2609.05408v1",
+    "paper_name": "Towards Scaling Quantum Fine-Tuning of Foundational Time Series Models for Classification",
+    "published_date": "2026-09-04"
   }
 }
