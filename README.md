@@ -109,6 +109,8 @@ python -m unittest discover -s tests -v
 - `Run arXiv Papers Daily`: runs at 00:00 UTC, commits `paper_arxiv.json`, then syncs it to Notion.
 - `Export Saved Notion Papers`: runs at 00:30 UTC and can be triggered manually; it commits `paper_save.json` only when content changes.
 
+If a daily run fetches and commits papers but later fails during Notion sync, rerun `Run arXiv Papers Daily` manually with `sync_only = true`. This reuses the committed archive without sending duplicate requests to arXiv.
+
 Required setup:
 
 1. Create a Notion internal integration with read, insert, and update content access.

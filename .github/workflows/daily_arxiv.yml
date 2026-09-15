@@ -2,6 +2,12 @@ name: Run arXiv Papers Daily
 
 on:
   workflow_dispatch:
+    inputs:
+      sync_only:
+        description: Skip arXiv fetch and sync the existing paper archive to Notion
+        required: false
+        default: false
+        type: boolean
   schedule:
     - cron: '0 20 * * *'
 
@@ -30,12 +36,14 @@ jobs:
           python-version: '3.11'
 
       - name: Fetch arXiv papers
+        if: ${{ github.event_name != 'workflow_dispatch' || !inputs.sync_only }}
         run: python fetch_arxiv.py
 
       - name: Validate paper JSON
         run: python -m json.tool docs/paper_arxiv.json > /dev/null
 
       - name: Commit fetched paper archive
+        if: ${{ github.event_name != 'workflow_dispatch' || !inputs.sync_only }}
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update arXiv papers daily"
