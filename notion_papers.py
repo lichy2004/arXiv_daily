@@ -5,6 +5,7 @@ from __future__ import annotations
 import json
 import os
 import re
+import sys
 import time
 import urllib.error
 import urllib.request
@@ -15,6 +16,8 @@ from typing import Any, Iterable
 
 NOTION_API_BASE = "https://api.notion.com/v1"
 NOTION_VERSION = "2026-03-11"
+NOTION_REQUEST_TIMEOUT = 60
+NOTION_RETRY_MAX_SECONDS = 30.0
 DEFAULT_DATA_SOURCE_ID = "4334d614-6676-4d47-acaa-a6637ecec9a5"
 
 PROPERTY_PAPER = "Paper"
@@ -74,7 +77,7 @@ class NotionClient:
         *,
         version: str = NOTION_VERSION,
         base_url: str = NOTION_API_BASE,
-        timeout: int = 30,
+        timeout: int = NOTION_REQUEST_TIMEOUT,
         max_retries: int = 5,
     ) -> None:
         if not token:
@@ -84,6 +87,31 @@ class NotionClient:
         self.base_url = base_url.rstrip("/")
         self.timeout = timeout
         self.max_retries = max_retries
+
+    @staticmethod
+    def _retry_delay(error: urllib.error.HTTPError | None, attempt: int) -> float:
+        retry_after = error.headers.get("Retry-After") if error and error.headers else None
+        if retry_after:
+            try:
+                return max(float(retry_after), 0.0)
+            except (TypeError, ValueError):
+                pass
+        return min(float(2**attempt), NOTION_RETRY_MAX_SECONDS)
+
+    @staticmethod
+    def _log_retry(
+        method: str,
+        path: str,
+        reason: str,
+        attempt: int,
+        max_retries: int,
+        delay: float,
+    ) -> None:
+        print(
+            f"Notion API {method} {path} failed ({reason}); retrying in {delay:g}s "
+            f"(attempt {attempt + 2}/{max_retries + 1})",
+            file=sys.stderr,
+        )
 
     def _request(self, method: str, path: str, payload: dict[str, Any] | None = None) -> dict[str, Any]:
         body = None if payload is None else json.dumps(payload).encode("utf-8")
@@ -108,9 +136,9 @@ class NotionClient:
                 raw = error.read().decode("utf-8", errors="replace")
                 retryable = error.code == 429 or 500 <= error.code < 600
                 if retryable and attempt < self.max_retries:
-                    retry_after = error.headers.get("Retry-After")
-                    delay = float(retry_after) if retry_after else min(2**attempt, 30)
-                    time.sleep(max(delay, 0))
+                    delay = self._retry_delay(error, attempt)
+                    self._log_retry(method, path, f"HTTP {error.code}", attempt, self.max_retries, delay)
+                    time.sleep(delay)
                     continue
                 try:
                     detail = json.loads(raw).get("message", raw)
@@ -119,9 +147,18 @@ class NotionClient:
                 raise NotionAPIError(f"Notion API {error.code}: {detail}") from error
             except urllib.error.URLError as error:
                 if attempt < self.max_retries:
-                    time.sleep(min(2**attempt, 30))
+                    delay = self._retry_delay(None, attempt)
+                    self._log_retry(method, path, str(error.reason), attempt, self.max_retries, delay)
+                    time.sleep(delay)
                     continue
-                raise NotionAPIError(f"Notion API network error: {error.reason}") from error
+                raise NotionAPIError(f"Notion API {method} {path} network error: {error.reason}") from error
+            except TimeoutError as error:
+                if attempt < self.max_retries:
+                    delay = self._retry_delay(None, attempt)
+                    self._log_retry(method, path, "timed out", attempt, self.max_retries, delay)
+                    time.sleep(delay)
+                    continue
+                raise NotionAPIError(f"Notion API {method} {path} timed out after retries") from error
 
         raise NotionAPIError("Notion API request exhausted all retries.")
 

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import unittest
+from unittest.mock import patch
 
 from notion_papers import (
     PROPERTY_ARXIV_ID,
@@ -10,6 +11,8 @@ from notion_papers import (
     PROPERTY_PAPER,
     PROPERTY_STATUS,
     PROPERTY_WEB_LINK,
+    NotionAPIError,
+    NotionClient,
     PaperDataError,
     build_create_properties,
     build_update_properties,
@@ -22,6 +25,20 @@ from notion_papers import (
     title_property,
     url_property,
 )
+
+
+class FakeResponse:
+    def __init__(self, body: str):
+        self.body = body.encode("utf-8")
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, *_args):
+        return None
+
+    def read(self):
+        return self.body
 
 
 class FakeNotionClient:
@@ -47,6 +64,27 @@ class FakeNotionClient:
 
 
 class NotionPapersTests(unittest.TestCase):
+    def test_notion_client_retries_timeout(self):
+        client = NotionClient("token", max_retries=2)
+        with (
+            patch(
+                "notion_papers.urllib.request.urlopen",
+                side_effect=[TimeoutError(), TimeoutError(), FakeResponse('{"ok": true}')],
+            ),
+            patch("notion_papers.time.sleep") as sleep,
+        ):
+            self.assertEqual(client._request("GET", "/test"), {"ok": True})
+        self.assertEqual([call.args[0] for call in sleep.call_args_list], [1.0, 2.0])
+
+    def test_notion_client_wraps_exhausted_timeout(self):
+        client = NotionClient("token", max_retries=1)
+        with (
+            patch("notion_papers.urllib.request.urlopen", side_effect=TimeoutError()),
+            patch("notion_papers.time.sleep"),
+            self.assertRaisesRegex(NotionAPIError, "POST /data_sources/test/query timed out after retries"),
+        ):
+            client._request("POST", "/data_sources/test/query", {})
+
     def test_normalize_arxiv_id(self):
         self.assertEqual(normalize_arxiv_id("https://arxiv.org/abs/2608.14530v2"), "2608.14530")
         self.assertEqual(normalize_arxiv_id("hep-th/9901001v1"), "hep-th/9901001")

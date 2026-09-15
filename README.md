@@ -125,5 +125,6 @@ The data source ID is already configured in both workflows. Never commit the Not
 - Fetched title, authors, paper link, and date may be refreshed. Abstracts are not stored in `paper_arxiv.json`.
 - `Status`, `Category`, `Notes`, and `Cover Image` are never overwritten after creation.
 - `Web Link` and `Code Link` are filled only when the Notion field is empty.
+- Transient Notion rate limits, server errors, network errors, and request timeouts are retried automatically.
 - Manual records with an empty `Arxiv ID` are ignored by the arXiv sync.
 - `Read` changes stay in Notion. `Save` records are exported on the next saved-paper workflow run.
