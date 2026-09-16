@@ -37,7 +37,7 @@ jobs:
 
       - name: Fetch arXiv papers
         if: ${{ github.event_name != 'workflow_dispatch' || !inputs.sync_only }}
-        run: python fetch_arxiv.py
+        run: python -u fetch_arxiv.py
 
       - name: Validate paper JSON
         run: python -m json.tool docs/paper_arxiv.json > /dev/null

@@ -75,7 +75,9 @@ Edit `config.json`:
 
 All queries are restricted to arXiv Computer Science categories (`cat:cs.*`). Filters within one category are joined with `OR`. A paper matching multiple categories keeps all matching category names.
 
-The fetcher waits three seconds between category requests. HTTP 429, server errors, and network timeouts are retried with `Retry-After` support or exponential backoff.
+The fetcher waits three seconds between category requests. HTTP 406, HTTP 429, server errors, and network timeouts are retried up to four times with `Retry-After` support or exponential backoff (10, 20, 40, 80 seconds). Retries wait at least three seconds, even when `Retry-After` is shorter.
+
+HTTP failures log the request URL, UTC time, selected response headers, and the first 2000 bytes of the response body. Persistent failures still fail the workflow and leave the existing archive unchanged. A 406 retry can recover a temporary rejection but cannot resolve a persistent upstream access restriction. If it persists, send the diagnostics to arXiv support. To sync the existing archive to Notion in the meantime, manually run the workflow with `sync_only` enabled.
 
 ## Local commands
 

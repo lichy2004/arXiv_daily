@@ -1,6 +1,10 @@
 from __future__ import annotations
 
+import io
+import json
+import tempfile
 import unittest
+from pathlib import Path
 from unittest.mock import patch
 from urllib.error import HTTPError
 
@@ -8,6 +12,7 @@ from fetch_arxiv import (
     build_query,
     collect_papers,
     http_get_text,
+    main,
     merge_record,
     parse_arxiv_feed,
     trim_oldest_papers,
@@ -33,6 +38,90 @@ class FakeResponse:
 
 
 class FetchArxivTests(unittest.TestCase):
+    def test_http_recovers_from_406_and_logs_response(self):
+        body = io.BytesIO(b"upstream rejection")
+        error = HTTPError("https://example.test", 406, "Not Acceptable", {"Via": "1.1 varnish"}, body)
+        with (
+            patch("fetch_arxiv.urllib.request.urlopen", side_effect=[error, FakeResponse("ok")]) as urlopen,
+            patch("fetch_arxiv.time.sleep") as sleep,
+            patch("fetch_arxiv.sys.stderr", new_callable=io.StringIO) as stderr,
+        ):
+            self.assertEqual(http_get_text("https://example.test", {}, max_retries=1), "ok")
+        self.assertEqual(urlopen.call_count, 2)
+        sleep.assert_called_once_with(10.0)
+        self.assertTrue(body.closed)
+        self.assertIn("HTTP 406", stderr.getvalue())
+        self.assertIn("URL=https://example.test", stderr.getvalue())
+        self.assertIn("Via=1.1 varnish", stderr.getvalue())
+        self.assertIn("upstream rejection", stderr.getvalue())
+
+    def test_persistent_406_stops_after_five_attempts(self):
+        errors = [HTTPError("https://example.test", 406, "Not Acceptable", {}, io.BytesIO()) for _ in range(5)]
+        with (
+            patch("fetch_arxiv.urllib.request.urlopen", side_effect=errors) as urlopen,
+            patch("fetch_arxiv.time.sleep") as sleep,
+            patch("fetch_arxiv.sys.stderr", new_callable=io.StringIO) as stderr,
+            self.assertRaises(HTTPError) as raised,
+        ):
+            http_get_text("https://example.test", {})
+        self.assertIs(raised.exception, errors[-1])
+        self.assertEqual(urlopen.call_count, 5)
+        self.assertEqual([call.args[0] for call in sleep.call_args_list], [10.0, 20.0, 40.0, 80.0])
+        self.assertIn("Response body (first 2000 bytes): <empty>", stderr.getvalue())
+
+    def test_http_error_body_logging_is_bounded(self):
+        error = HTTPError("https://example.test", 406, "Not Acceptable", {}, io.BytesIO(b"x" * 2000 + b"TAIL"))
+        with (
+            patch("fetch_arxiv.urllib.request.urlopen", side_effect=error),
+            patch("fetch_arxiv.sys.stderr", new_callable=io.StringIO) as stderr,
+            self.assertRaises(HTTPError),
+        ):
+            http_get_text("https://example.test", {}, max_retries=0)
+        self.assertIn("x" * 2000, stderr.getvalue())
+        self.assertNotIn("TAIL", stderr.getvalue())
+
+    def test_error_body_read_failure_does_not_prevent_retry(self):
+        body = io.BytesIO()
+        body.close()
+        error = HTTPError("https://example.test", 406, "Not Acceptable", {}, body)
+        with (
+            patch("fetch_arxiv.urllib.request.urlopen", side_effect=[error, FakeResponse("ok")]),
+            patch("fetch_arxiv.time.sleep"),
+            patch("fetch_arxiv.sys.stderr", new_callable=io.StringIO) as stderr,
+        ):
+            self.assertEqual(http_get_text("https://example.test", {}, max_retries=1), "ok")
+        self.assertIn("could not read response", stderr.getvalue())
+
+    def test_fetch_failure_preserves_archive(self):
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory) / "papers.json"
+            original = '{"existing": {"paper_name": "Keep me"}}\n'
+            output.write_text(original, encoding="utf-8")
+            config = Path(directory) / "config.json"
+            config.write_text(json.dumps({
+                "output_path": str(output),
+                "categories": [{"name": "Agent", "filters": ["agent"]}],
+            }), encoding="utf-8")
+            errors = [HTTPError("https://example.test", 406, "Not Acceptable", {}, io.BytesIO()) for _ in range(5)]
+            with (
+                patch("fetch_arxiv.sys.argv", ["fetch_arxiv.py", "--config", str(config)]),
+                patch("fetch_arxiv.urllib.request.urlopen", side_effect=errors),
+                patch("fetch_arxiv.time.sleep"),
+                patch("fetch_arxiv.sys.stderr", new_callable=io.StringIO),
+                self.assertRaises(HTTPError),
+            ):
+                main()
+            self.assertEqual(output.read_text(encoding="utf-8"), original)
+
+    def test_retry_after_respects_minimum_request_interval(self):
+        error = HTTPError("https://example.test", 429, "rate limited", {"Retry-After": "0"}, None)
+        with (
+            patch("fetch_arxiv.urllib.request.urlopen", side_effect=[error, FakeResponse("ok")]),
+            patch("fetch_arxiv.time.sleep") as sleep,
+        ):
+            self.assertEqual(http_get_text("https://example.test", {}, max_retries=1), "ok")
+        sleep.assert_called_once_with(3.0)
+
     def test_http_retries_429_and_honors_retry_after(self):
         error = HTTPError("https://example.test", 429, "rate limited", {"Retry-After": "7"}, None)
         with (

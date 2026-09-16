@@ -66,7 +66,7 @@ def retry_delay_seconds(error: urllib.error.HTTPError, attempt: int) -> float:
     retry_after = error.headers.get("Retry-After") if error.headers else None
     if retry_after:
         try:
-            return max(float(retry_after), 0.0)
+            return max(float(retry_after), ARXIV_REQUEST_DELAY_SECONDS)
         except ValueError:
             pass
     return min(ARXIV_RETRY_BASE_SECONDS * (2**attempt), ARXIV_RETRY_MAX_SECONDS)
@@ -78,6 +78,30 @@ def log_retry(reason: str, attempt: int, max_retries: int, delay: float) -> None
         f"(attempt {attempt + 2}/{max_retries + 1})",
         file=sys.stderr,
     )
+
+
+def log_http_error(error: urllib.error.HTTPError) -> None:
+    """Capture bounded diagnostics and release the response before retrying."""
+    try:
+        try:
+            body = error.read(2000).decode("utf-8", errors="replace") or "<empty>"
+        except (OSError, ValueError) as read_error:
+            body = f"<could not read response: {read_error}>"
+        headers = error.headers or {}
+        details = "; ".join(
+            f"{name}={headers[name]}"
+            for name in ("Content-Type", "Server", "Via", "Retry-After", "X-Served-By", "X-Cache")
+            if headers.get(name)
+        )
+        timestamp = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
+        print(
+            f"arXiv HTTP {error.code} at {timestamp}; URL={error.url}\n"
+            f"Response headers: {details or '<none>'}\n"
+            f"Response body (first 2000 bytes): {body}",
+            file=sys.stderr,
+        )
+    finally:
+        error.close()
 
 
 def http_get_text(
@@ -96,7 +120,10 @@ def http_get_text(
                 charset = response.headers.get_content_charset() or "utf-8"
                 return response.read().decode(charset)
         except urllib.error.HTTPError as error:
-            retryable = error.code == 429 or 500 <= error.code < 600
+            log_http_error(error)
+            # arXiv can return an empty 406 even for valid queries. Allow
+            # bounded retries, but keep persistent rejection a visible failure.
+            retryable = error.code in {406, 429} or 500 <= error.code < 600
             if not retryable or attempt >= max_retries:
                 raise
             delay = retry_delay_seconds(error, attempt)
