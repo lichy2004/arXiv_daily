@@ -9,6 +9,8 @@ from unittest.mock import patch
 from urllib.error import HTTPError
 
 from fetch_arxiv import (
+    ARXIV_USER_AGENT,
+    build_arxiv_request,
     build_query,
     collect_papers,
     http_get_text,
@@ -38,6 +40,13 @@ class FakeResponse:
 
 
 class FetchArxivTests(unittest.TestCase):
+    def test_arxiv_request_declares_atom_and_identifies_client(self):
+        request = build_arxiv_request("https://example.test/query", {"search_query": "cat:cs.*"})
+        self.assertEqual(request.get_method(), "GET")
+        self.assertIn("search_query=cat%3Acs.%2A", request.full_url)
+        self.assertEqual(request.get_header("Accept"), "application/atom+xml")
+        self.assertEqual(request.get_header("User-agent"), ARXIV_USER_AGENT)
+
     def test_http_recovers_from_406_and_logs_response(self):
         body = io.BytesIO(b"upstream rejection")
         error = HTTPError("https://example.test", 406, "Not Acceptable", {"Via": "1.1 varnish"}, body)
@@ -48,6 +57,10 @@ class FetchArxivTests(unittest.TestCase):
         ):
             self.assertEqual(http_get_text("https://example.test", {}, max_retries=1), "ok")
         self.assertEqual(urlopen.call_count, 2)
+        retry_request = urlopen.call_args_list[1].args[0]
+        self.assertEqual(retry_request.get_method(), "POST")
+        self.assertEqual(retry_request.full_url, "https://example.test")
+        self.assertEqual(retry_request.get_header("Content-type"), "application/x-www-form-urlencoded")
         sleep.assert_called_once_with(10.0)
         self.assertTrue(body.closed)
         self.assertIn("HTTP 406", stderr.getvalue())
@@ -66,6 +79,8 @@ class FetchArxivTests(unittest.TestCase):
             http_get_text("https://example.test", {})
         self.assertIs(raised.exception, errors[-1])
         self.assertEqual(urlopen.call_count, 5)
+        self.assertEqual(urlopen.call_args_list[0].args[0].get_method(), "GET")
+        self.assertTrue(all(call.args[0].get_method() == "POST" for call in urlopen.call_args_list[1:]))
         self.assertEqual([call.args[0] for call in sleep.call_args_list], [10.0, 20.0, 40.0, 80.0])
         self.assertIn("Response body (first 2000 bytes): <empty>", stderr.getvalue())
 

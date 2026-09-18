@@ -21,6 +21,7 @@ ARXIV_REQUEST_DELAY_SECONDS = 3.0
 ARXIV_MAX_RETRIES = 4
 ARXIV_RETRY_BASE_SECONDS = 10.0
 ARXIV_RETRY_MAX_SECONDS = 120.0
+ARXIV_USER_AGENT = "arXiv_daily/1.0 (https://github.com/lichy2004/arXiv_daily)"
 ATOM_NS = "{http://www.w3.org/2005/Atom}"
 DEFAULT_OUTPUT = "docs/paper_arxiv.json"
 
@@ -104,17 +105,27 @@ def log_http_error(error: urllib.error.HTTPError) -> None:
         error.close()
 
 
+def build_arxiv_request(url: str, params: dict[str, Any], use_post: bool = False) -> urllib.request.Request:
+    encoded_params = urllib.parse.urlencode(params)
+    headers = {
+        "Accept": "application/atom+xml",
+        "User-Agent": ARXIV_USER_AGENT,
+    }
+    if use_post:
+        headers["Content-Type"] = "application/x-www-form-urlencoded"
+        return urllib.request.Request(url, data=encoded_params.encode("ascii"), headers=headers, method="POST")
+    return urllib.request.Request(f"{url}?{encoded_params}", headers=headers, method="GET")
+
+
 def http_get_text(
     url: str,
     params: dict[str, Any],
     timeout: int = 120,
     max_retries: int = ARXIV_MAX_RETRIES,
 ) -> str:
-    request = urllib.request.Request(
-        f"{url}?{urllib.parse.urlencode(params)}",
-        headers={"User-Agent": "arXiv_daily/1.0 (paper fetcher)"},
-    )
+    use_post = False
     for attempt in range(max_retries + 1):
+        request = build_arxiv_request(url, params, use_post=use_post)
         try:
             with urllib.request.urlopen(request, timeout=timeout) as response:
                 charset = response.headers.get_content_charset() or "utf-8"
@@ -126,6 +137,12 @@ def http_get_text(
             retryable = error.code in {406, 429} or 500 <= error.code < 600
             if not retryable or attempt >= max_retries:
                 raise
+            # A valid query can occasionally be rejected by an arXiv/Fastly
+            # edge with an empty 406 response. Retrying the identical GET only
+            # replays the rejected request, so switch to the API's supported
+            # form-encoded POST transport for the remaining attempts.
+            if error.code == 406:
+                use_post = True
             delay = retry_delay_seconds(error, attempt)
             log_retry(f"HTTP {error.code}", attempt, max_retries, delay)
             time.sleep(delay)
