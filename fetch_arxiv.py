@@ -12,10 +12,12 @@ import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import date
+from email.utils import parsedate_to_datetime
 from pathlib import Path
 from typing import Any
 
 ARXIV_API_URL = "https://export.arxiv.org/api/query"
+ARXIV_RSS_URL = "https://rss.arxiv.org/rss/cs"
 ARXIV_CATEGORY_QUERY = "cat:cs.*"
 ARXIV_REQUEST_DELAY_SECONDS = 3.0
 ARXIV_MAX_RETRIES = 4
@@ -108,7 +110,7 @@ def log_http_error(error: urllib.error.HTTPError) -> None:
 def build_arxiv_request(url: str, params: dict[str, Any], use_post: bool = False) -> urllib.request.Request:
     encoded_params = urllib.parse.urlencode(params)
     headers = {
-        "Accept": "application/atom+xml",
+        "Accept": "application/atom+xml, application/rss+xml, application/xml;q=0.9",
         "User-Agent": ARXIV_USER_AGENT,
     }
     if use_post:
@@ -132,17 +134,12 @@ def http_get_text(
                 return response.read().decode(charset)
         except urllib.error.HTTPError as error:
             log_http_error(error)
-            # arXiv can return an empty 406 even for valid queries. Allow
-            # bounded retries, but keep persistent rejection a visible failure.
-            retryable = error.code in {406, 429} or 500 <= error.code < 600
+            # GitHub-hosted runners can receive a persistent empty 406 from
+            # the query endpoint. The caller handles that response by moving
+            # to arXiv's official computer-science RSS feed instead.
+            retryable = error.code == 429 or 500 <= error.code < 600
             if not retryable or attempt >= max_retries:
                 raise
-            # A valid query can occasionally be rejected by an arXiv/Fastly
-            # edge with an empty 406 response. Retrying the identical GET only
-            # replays the rejected request, so switch to the API's supported
-            # form-encoded POST transport for the remaining attempts.
-            if error.code == 406:
-                use_post = True
             delay = retry_delay_seconds(error, attempt)
             log_retry(f"HTTP {error.code}", attempt, max_retries, delay)
             time.sleep(delay)
@@ -190,17 +187,74 @@ def parse_arxiv_feed(xml_text: str) -> list[dict[str, Any]]:
     return papers
 
 
-def fetch_arxiv_papers(query: str, max_results: int) -> list[dict[str, Any]]:
-    xml_text = http_get_text(
-        ARXIV_API_URL,
-        {
-            "search_query": query,
-            "start": 0,
-            "max_results": max_results,
-            "sortBy": "submittedDate",
-            "sortOrder": "descending",
-        },
-    )
+def parse_rss_date(value: str) -> str:
+    try:
+        return parsedate_to_datetime(value).date().isoformat()
+    except (TypeError, ValueError):
+        return ""
+
+
+def parse_arxiv_rss(xml_text: str, filters: list[str], max_results: int) -> list[dict[str, Any]]:
+    root = ET.fromstring(xml_text)
+    papers: list[dict[str, Any]] = []
+    normalized_filters = [term.casefold().strip() for term in filters if term.strip()]
+    dc_creator = "{http://purl.org/dc/elements/1.1/}creator"
+
+    for item in root.findall("./channel/item"):
+        title = normalize_whitespace(item.findtext("title", default=""))
+        description = normalize_whitespace(item.findtext("description", default=""))
+        creator = normalize_whitespace(item.findtext(dc_creator, default=""))
+        searchable = " ".join((title, description, creator)).casefold()
+        if not any(term in searchable for term in normalized_filters):
+            continue
+
+        paper_link = normalize_whitespace(item.findtext("link", default=""))
+        paper_id = arxiv_id_from_entry_id(paper_link)
+        authors = [normalize_whitespace(author) for author in creator.split(",") if author.strip()]
+        papers.append(
+            {
+                "paper_id": paper_id,
+                "paper_name": title,
+                "paper_link": f"https://arxiv.org/abs/{paper_id}",
+                "authors": authors,
+                "published_date": parse_rss_date(item.findtext("pubDate", default="")),
+            }
+        )
+
+    papers.sort(key=lambda paper: (paper["published_date"], paper["paper_id"]), reverse=True)
+    return papers[:max_results]
+
+
+def fetch_arxiv_papers(
+    query: str,
+    max_results: int,
+    filters: list[str],
+    rss_cache: dict[str, str] | None = None,
+) -> list[dict[str, Any]]:
+    if rss_cache is not None and "xml" in rss_cache:
+        return parse_arxiv_rss(rss_cache["xml"], filters, max_results)
+    try:
+        xml_text = http_get_text(
+            ARXIV_API_URL,
+            {
+                "search_query": query,
+                "start": 0,
+                "max_results": max_results,
+                "sortBy": "submittedDate",
+                "sortOrder": "descending",
+            },
+        )
+    except urllib.error.HTTPError as error:
+        if error.code != 406:
+            raise
+        print(
+            "arXiv query endpoint returned HTTP 406; falling back to the official cs RSS feed",
+            file=sys.stderr,
+        )
+        rss_text = http_get_text(ARXIV_RSS_URL, {})
+        if rss_cache is not None:
+            rss_cache["xml"] = rss_text
+        return parse_arxiv_rss(rss_text, filters, max_results)
     return parse_arxiv_feed(xml_text)
 
 
@@ -208,10 +262,12 @@ def collect_papers(config: dict[str, Any]) -> dict[str, Any]:
     collected: dict[str, Any] = {}
     max_results = int(config.get("max_results_per_category", 25))
     request_count = 0
+    rss_cache: dict[str, str] = {}
 
     for category in config["categories"]:
         category_name = str(category.get("name", "")).strip()
-        query = build_query([str(value) for value in category.get("filters", [])])
+        filters = [str(value) for value in category.get("filters", [])]
+        query = build_query(filters)
         if not category_name or not query:
             continue
 
@@ -219,7 +275,7 @@ def collect_papers(config: dict[str, Any]) -> dict[str, Any]:
             print(f"Waiting {ARXIV_REQUEST_DELAY_SECONDS:g}s before fetching {category_name}...")
             time.sleep(ARXIV_REQUEST_DELAY_SECONDS)
         print(f"Fetching arXiv category {category_name}: {query}")
-        papers = fetch_arxiv_papers(query, max_results)
+        papers = fetch_arxiv_papers(query, max_results, filters, rss_cache)
         request_count += 1
         print(f"Fetched {len(papers)} papers for {category_name}")
 
