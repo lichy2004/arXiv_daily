@@ -1383,6 +1383,38 @@
     "updated_at": "2026-09-15T00:25:00.000Z",
     "web_link": ""
   },
+  "2609.20519": {
+    "abstract": "",
+    "arxiv_id": "2609.20519",
+    "authors": [
+      "Haozhe Liu",
+      "Tian Ye",
+      "Sensen Gao",
+      "Qihang Cao",
+      "Yitong Li",
+      "Mingchen Zhuge",
+      "Duomin Wang",
+      "Ruihua Zhang",
+      "Ping Luo",
+      "Jiawang Bian",
+      "Lei Zhu",
+      "Ligeng Zhu",
+      "Enze Xie",
+      "Song Han"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "code_link": "",
+    "notes": "",
+    "paper_link": "https://arxiv.org/abs/2609.20519",
+    "paper_name": "SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness",
+    "published_date": "2026-09-18",
+    "source": "arxiv",
+    "updated_at": "2026-09-18T22:22:00.000+00:00",
+    "web_link": ""
+  },
   "notion:37238e7ccd3980fb8394fd3f2e79230e": {
     "abstract": "",
     "arxiv_id": "",
