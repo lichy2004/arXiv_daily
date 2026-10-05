@@ -1415,6 +1415,28 @@
     "updated_at": "2026-09-18T22:22:00.000+00:00",
     "web_link": ""
   },
+  "2609.40137": {
+    "abstract": "",
+    "arxiv_id": "2609.40137",
+    "authors": [
+      "Seungeun Rho",
+      "Jeonghwan Kim",
+      "Xue Bin Peng",
+      "Sehoon Ha"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "code_link": "",
+    "notes": "",
+    "paper_link": "https://arxiv.org/abs/2609.40137v1",
+    "paper_name": "Game-Guided Skill Discovery through Self-Play for Playable Agent Control",
+    "published_date": "2026-09-30",
+    "source": "arxiv",
+    "updated_at": "2026-10-01T23:44:00.000+00:00",
+    "web_link": ""
+  },
   "2610.02204": {
     "abstract": "",
     "arxiv_id": "2610.02204",
