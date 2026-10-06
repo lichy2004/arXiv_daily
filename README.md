@@ -68,16 +68,17 @@ Edit `config.json`:
   "categories": [
     {"name": "Agent", "filters": ["self-improv", "embodied agent"]},
     {"name": "Dexterous", "filters": ["Dexterous Manipulation", "Dexterity"]},
-    {"name": "Physical", "filters": ["physics", "physical", "dynamic"]}
+    {"name": "Physical", "filters": ["physics", "physical", "dynamic"]},
+    {"name": "Code World Model", "filters": ["code world model"]}
   ]
 }
 ```
 
 All queries are restricted to arXiv Computer Science categories (`cat:cs.*`). Filters within one category are joined with `OR`. A paper matching multiple categories keeps all matching category names.
 
-The fetcher waits three seconds between category requests. HTTP 406, HTTP 429, server errors, and network timeouts are retried up to four times with `Retry-After` support or exponential backoff (10, 20, 40, 80 seconds). Retries wait at least three seconds, even when `Retry-After` is shorter.
+The fetcher waits three seconds between category requests. HTTP 429, server errors, and network timeouts are retried up to four times with `Retry-After` support or exponential backoff (10, 20, 40, 80 seconds). Retries wait at least three seconds, even when `Retry-After` is shorter.
 
-HTTP failures log the request URL, UTC time, selected response headers, and the first 2000 bytes of the response body. Persistent failures still fail the workflow and leave the existing archive unchanged. A 406 retry can recover a temporary rejection but cannot resolve a persistent upstream access restriction. If it persists, send the diagnostics to arXiv support. To sync the existing archive to Notion in the meantime, manually run the workflow with `sync_only` enabled.
+HTTP failures log the request URL, UTC time, selected response headers, and the first 2000 bytes of the response body. If the query endpoint rejects a GitHub-hosted runner with HTTP 406, the fetcher falls back to arXiv's official Computer Science RSS feed and applies the same keyword filters locally. The feed is downloaded only once per run and reused across categories. Other persistent failures still fail the workflow and leave the existing archive unchanged.
 
 ## Local commands
 

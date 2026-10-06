@@ -212,6 +212,10 @@ class FetchArxivTests(unittest.TestCase):
             build_query(["physics", "physical", "dynamic"]),
             "cat:cs.* AND (all:physics OR all:physical OR all:dynamic)",
         )
+        self.assertEqual(
+            build_query(["code world model"]),
+            'cat:cs.* AND (all:"code world model")',
+        )
         self.assertEqual(build_query(["", "  "]), "")
 
     def test_feed_uses_versionless_id_and_omits_abstract(self):

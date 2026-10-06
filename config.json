@@ -14,6 +14,10 @@
     {
       "name": "Physical",
       "filters": ["physics", "physical", "dynamic"]
+    },
+    {
+      "name": "Code World Model",
+      "filters": ["code world model"]
     }
   ]
 }
