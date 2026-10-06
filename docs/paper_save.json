@@ -1415,6 +1415,29 @@
     "updated_at": "2026-09-18T22:22:00.000+00:00",
     "web_link": ""
   },
+  "2609.35318": {
+    "abstract": "",
+    "arxiv_id": "2609.35318",
+    "authors": [
+      "Youhui Wang",
+      "Yunzhu Li",
+      "Li Fei-Fei",
+      "Jiajun Wu",
+      "Huang Huang"
+    ],
+    "categories": [
+      "Dexterous"
+    ],
+    "category": "Dexterous",
+    "code_link": "",
+    "notes": "",
+    "paper_link": "https://arxiv.org/abs/2609.35318v1",
+    "paper_name": "DexAgent: An Agentic Human2Sim2Robot Framework for Dexterous Manipulation with Self-Evolving Tool Library",
+    "published_date": "2026-09-28",
+    "source": "arxiv",
+    "updated_at": "2026-09-29T23:31:00.000+00:00",
+    "web_link": ""
+  },
   "2609.40137": {
     "abstract": "",
     "arxiv_id": "2609.40137",
