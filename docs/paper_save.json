@@ -1489,6 +1489,31 @@
     "updated_at": "2026-10-02T23:35:00.000+00:00",
     "web_link": ""
   },
+  "2610.03861": {
+    "abstract": "",
+    "arxiv_id": "2610.03861",
+    "authors": [
+      "Yulin Liu",
+      "Lai Wei",
+      "Yen-Jen Wang",
+      "Akash Sharma",
+      "Pieter Abbeel",
+      "Henrik I. Christensen",
+      "Haozhi Qi"
+    ],
+    "categories": [
+      "Dexterous"
+    ],
+    "category": "Dexterous",
+    "code_link": "",
+    "notes": "",
+    "paper_link": "https://arxiv.org/abs/2610.03861v1",
+    "paper_name": "GOTT: Object-centric Dexterous Manipulation with a Reusable Cross-Embodiment Primitive",
+    "published_date": "2026-10-02",
+    "source": "arxiv",
+    "updated_at": "2026-10-06T01:10:00.000+00:00",
+    "web_link": ""
+  },
   "notion:37238e7ccd3980fb8394fd3f2e79230e": {
     "abstract": "",
     "arxiv_id": "",
