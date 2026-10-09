@@ -1514,6 +1514,31 @@
     "updated_at": "2026-10-06T01:10:00.000+00:00",
     "web_link": ""
   },
+  "2610.07681": {
+    "abstract": "",
+    "arxiv_id": "2610.07681",
+    "authors": [
+      "Harsh Gupta",
+      "Tyler Ga Wei Lum",
+      "Changhao Wang",
+      "Chuer Pan",
+      "C. Karen Liu",
+      "Jeannette Bohg",
+      "Shuran Song"
+    ],
+    "categories": [
+      "Dexterous"
+    ],
+    "category": "Dexterous",
+    "code_link": "",
+    "notes": "",
+    "paper_link": "https://arxiv.org/abs/2610.07681v1",
+    "paper_name": "EigenDEXplore: Structured Exploration for Dexterous Manipulation with Human Priors",
+    "published_date": "2026-10-06",
+    "source": "arxiv",
+    "updated_at": "2026-10-08T00:09:00.000+00:00",
+    "web_link": ""
+  },
   "notion:37238e7ccd3980fb8394fd3f2e79230e": {
     "abstract": "",
     "arxiv_id": "",
