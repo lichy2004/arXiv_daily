@@ -1,1075 +1,4 @@
 {
-  "2610.20524": {
-    "authors": [
-      "Yushen Liang",
-      "Yue Peng",
-      "Baosheng Jin",
-      "Tianluo Zhang",
-      "Xinyu Zhang",
-      "Shuyi Zhou",
-      "Zhuoran Chen",
-      "Xinqi Liu",
-      "Shenji Wan"
-    ],
-    "categories": [
-      "Physical"
-    ],
-    "category": "Physical",
-    "paper_link": "https://arxiv.org/abs/2610.20524v1",
-    "paper_name": "Physical Time as a Missing Dimension of Robot Policy Memory Dynamics",
-    "published_date": "2026-10-14"
-  },
-  "2610.20525": {
-    "authors": [
-      "Luka Todorovic",
-      "Kaushal Gianchandani",
-      "Sai Ravela"
-    ],
-    "categories": [
-      "Physical"
-    ],
-    "category": "Physical",
-    "paper_link": "https://arxiv.org/abs/2610.20525v1",
-    "paper_name": "The Physics Is the Network: Fast, Training-Free Neural Emulation",
-    "published_date": "2026-10-14"
-  },
-  "2610.20537": {
-    "authors": [
-      "Yevgen Kotukh"
-    ],
-    "categories": [
-      "Physical"
-    ],
-    "category": "Physical",
-    "paper_link": "https://arxiv.org/abs/2610.20537v1",
-    "paper_name": "Quantum-Aware Key Rank for Side-Channel Attacks evaluation",
-    "published_date": "2026-10-14"
-  },
-  "2610.20552": {
-    "authors": [
-      "Qi Wu",
-      "Lulu Zhao",
-      "Sanghyun Hahn",
-      "Rishi Yennu",
-      "Emmy Yang",
-      "Dingqi Zhang",
-      "Tao Pang",
-      "Jiuguang Wang",
-      "Kuan Fang"
-    ],
-    "categories": [
-      "Dexterous"
-    ],
-    "category": "Dexterous",
-    "paper_link": "https://arxiv.org/abs/2610.20552v1",
-    "paper_name": "KinoGen: Customizable Humanoid Loco-Manipulation References via Kinematically Grounded Video Generation",
-    "published_date": "2026-10-14"
-  },
-  "2610.20560": {
-    "authors": [
-      "Weichen Lyu",
-      "Chong Xia",
-      "Mingyu Dong",
-      "Long Xu",
-      "Shengjun Zhang",
-      "Yueqi Duan"
-    ],
-    "categories": [
-      "Physical"
-    ],
-    "category": "Physical",
-    "paper_link": "https://arxiv.org/abs/2610.20560v1",
-    "paper_name": "PhySGA: A Physics-Space Grounded Agentic Framework for Generalizable and Interactive 3D Composition",
-    "published_date": "2026-10-14"
-  },
-  "2610.20571": {
-    "authors": [
-      "Weijie Wang",
-      "Haomin Zhang",
-      "Ye Li",
-      "Akide Liu",
-      "Zeyu Zhang",
-      "Haoyu Zhao",
-      "Yefei He",
-      "Donny Y. Chen",
-      "Feng Chen",
-      "Bohan Zhuang"
-    ],
-    "categories": [
-      "Physical"
-    ],
-    "category": "Physical",
-    "paper_link": "https://arxiv.org/abs/2610.20571v1",
-    "paper_name": "Any Time, Any Space: A World-State-Centric Framework for Agentic Video Generation",
-    "published_date": "2026-10-14"
-  },
-  "2610.20584": {
-    "authors": [
-      "Mingyu Ouyang",
-      "Yiran Wang",
-      "Siyuan Hu",
-      "Xingyilang Yin",
-      "Huiqiang Sun",
-      "Guangzhi Wang",
-      "Junfu Pu",
-      "Cheng Cheng",
-      "Honghao Chen",
-      "Ying Shan",
-      "Mike Zheng Shou",
-      "Hwee Tou Ng"
-    ],
-    "categories": [
-      "Physical"
-    ],
-    "category": "Physical",
-    "paper_link": "https://arxiv.org/abs/2610.20584v1",
-    "paper_name": "Player-1: Learning to Play from Synthetic Experience",
-    "published_date": "2026-10-14"
-  },
-  "2610.20598": {
-    "authors": [
-      "Qihang Cao",
-      "Haoyuan Li",
-      "Zihan Guo",
-      "Sensen Gao",
-      "Zihui Gao",
-      "Huixin Zhang",
-      "Fan He",
-      "Jianhua Han",
-      "Hang Xu",
-      "Xiaodan Liang",
-      "Jia-Wang Bian"
-    ],
-    "categories": [
-      "Physical"
-    ],
-    "category": "Physical",
-    "paper_link": "https://arxiv.org/abs/2610.20598v1",
-    "paper_name": "DynThinker: Unifying Static 3D and Dynamic 4D Spatial Reasoning",
-    "published_date": "2026-10-14"
-  },
-  "2610.20604": {
-    "authors": [
-      "Ao Liang",
-      "Youquan Liu",
-      "Mingxiao Li",
-      "Wei Chow",
-      "Lingdong Kong",
-      "Yue Liao",
-      "Dongyue Lu",
-      "Yu Yang",
-      "Wei Yin",
-      "Runnan Chen"
-    ],
-    "categories": [
-      "Physical"
-    ],
-    "category": "Physical",
-    "paper_link": "https://arxiv.org/abs/2610.20604v1",
-    "paper_name": "VITAL: From Visual Motion to Precise Action",
-    "published_date": "2026-10-14"
-  },
-  "2610.20607": {
-    "authors": [
-      "Zhefei Gong",
-      "Hefeifei Jiang",
-      "Zehao Wang",
-      "Jiachen Li"
-    ],
-    "categories": [
-      "Physical"
-    ],
-    "category": "Physical",
-    "paper_link": "https://arxiv.org/abs/2610.20607v1",
-    "paper_name": "Hierarchical Residual Policy Learning for Real-World Mobile Manipulation with Sparse Human Guidance",
-    "published_date": "2026-10-14"
-  },
-  "2610.20665": {
-    "authors": [
-      "Ningxin Pan",
-      "Hanyu Li",
-      "Yeqing Shen",
-      "Ning Ding",
-      "Yehui Tang",
-      "Wentao Zhang"
-    ],
-    "categories": [
-      "Agent"
-    ],
-    "category": "Agent",
-    "paper_link": "https://arxiv.org/abs/2610.20665v1",
-    "paper_name": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
-    "published_date": "2026-10-14"
-  },
-  "2610.20809": {
-    "authors": [
-      "Yun-Shiuan Chuang",
-      "Yirou Ge",
-      "Yixi Li",
-      "Yiming Bian",
-      "Zijie Pan",
-      "Jenna L. Ballard",
-      "Uma Kona",
-      "Linsey Pang",
-      "Prakhar Mehrotra"
-    ],
-    "categories": [
-      "Agent"
-    ],
-    "category": "Agent",
-    "paper_link": "https://arxiv.org/abs/2610.20809v1",
-    "paper_name": "A Self-Improving Agent that Grows its Own DSL: Oracle-Free Operator Induction for Exact Question Answering",
-    "published_date": "2026-10-14"
-  },
-  "2610.20845": {
-    "authors": [
-      "Yujie Feng",
-      "Xiaobin Wang",
-      "Jinluan Yang",
-      "Xiaonan Shi",
-      "Pengjun Xie",
-      "Philip S. Yu",
-      "Xiaoming Wu",
-      "Jieping Ye"
-    ],
-    "categories": [
-      "Agent"
-    ],
-    "category": "Agent",
-    "paper_link": "https://arxiv.org/abs/2610.20845v1",
-    "paper_name": "Evolving Together, Failing Apart: The Skill-Policy Co-evolution Trap in Self-Improving Agents",
-    "published_date": "2026-10-14"
-  },
-  "2610.20904": {
-    "authors": [
-      "Meng Cao",
-      "Can Zhao",
-      "Jinjie Wei",
-      "Haonan Zhao",
-      "Yulong Zhang",
-      "Duo Han",
-      "Xiaofan Li",
-      "Ziwu Song",
-      "Rongtao Xu",
-      "Ruyi Gan",
-      "Hao Wang",
-      "Qian Wang",
-      "Daolin Ma",
-      "Ian Reid",
-      "Xiaodan Liang"
-    ],
-    "categories": [
-      "Dexterous"
-    ],
-    "category": "Dexterous",
-    "paper_link": "https://arxiv.org/abs/2610.20904v1",
-    "paper_name": "EgoJEPA: Beyond Retargeting for Dexterous Manipulation from Egocentric Videos",
-    "published_date": "2026-10-14"
-  },
-  "2610.21040": {
-    "authors": [
-      "Wei Dai",
-      "Qianchu Liu",
-      "Guanghui Qin",
-      "Xing Han",
-      "Tristan Naumann",
-      "Paul Pu Liang",
-      "Sheng Zhang"
-    ],
-    "categories": [
-      "Agent"
-    ],
-    "category": "Agent",
-    "paper_link": "https://arxiv.org/abs/2610.21040v1",
-    "paper_name": "Recursive Reward Improvement via Adversarial Meta-Prompt Evolution",
-    "published_date": "2026-10-15"
-  },
-  "2610.21055": {
-    "authors": [
-      "Yufa Zhou",
-      "Yichen Wang",
-      "Jiakun Fan",
-      "Ziqi Shu",
-      "Zhichao Liu",
-      "Anru R. Zhang",
-      "Neiwen Ling",
-      "Zijun Wei"
-    ],
-    "categories": [
-      "Agent"
-    ],
-    "category": "Agent",
-    "paper_link": "https://arxiv.org/abs/2610.21055v1",
-    "paper_name": "Athanor: An Agent-Native System for Autonomous Post-Training Research",
-    "published_date": "2026-10-15"
-  },
-  "2610.21180": {
-    "authors": [
-      "Bing Cheng",
-      "Yiran Mao",
-      "Zewei Ye",
-      "Yifan Jin",
-      "Xinyi Chen",
-      "Ruifeng Tu",
-      "Shuhuai Wang",
-      "Tao Lin",
-      "Zhimu Zhou",
-      "Yuxin Du",
-      "Fangwei Zhong",
-      "Junchi Yan",
-      "Bo Zhao"
-    ],
-    "categories": [
-      "Dexterous"
-    ],
-    "category": "Dexterous",
-    "paper_link": "https://arxiv.org/abs/2610.21180v1",
-    "paper_name": "Evo-DexBench: Benchmarking Generalization across Related Tasks for Dexterous Manipulation",
-    "published_date": "2026-10-15"
-  },
-  "2610.21283": {
-    "authors": [
-      "Xuanyi Liu",
-      "Ruiqi Li",
-      "Siwei Ma"
-    ],
-    "categories": [
-      "Code World Model"
-    ],
-    "category": "Code World Model",
-    "paper_link": "https://arxiv.org/abs/2610.21283v1",
-    "paper_name": "Mallea: Building, Steering, and Memorizing Worlds with Coding Agent",
-    "published_date": "2026-10-15"
-  },
-  "2610.21484": {
-    "authors": [
-      "Andrew Cunningham",
-      "Nicolas Barbotin",
-      "Adam Drogemuller",
-      "Jack Faser"
-    ],
-    "categories": [
-      "Agent"
-    ],
-    "category": "Agent",
-    "paper_link": "https://arxiv.org/abs/2610.21484v1",
-    "paper_name": "Context Matters! Social, Spatial, and Semantic Coordination with an Embodied Agent in Immersive Analytics",
-    "published_date": "2026-10-15"
-  },
-  "2610.21492": {
-    "authors": [
-      "Renhao Li",
-      "Xinjie Shen",
-      "Yang Su",
-      "Jianhong Tu",
-      "Derek F. Wong",
-      "Dayiheng Liu",
-      "Min Yang"
-    ],
-    "categories": [
-      "Agent"
-    ],
-    "category": "Agent",
-    "paper_link": "https://arxiv.org/abs/2610.21492v1",
-    "paper_name": "MetaExp: Learning to Self-Improve through Experience via Verifiable Cross-Task Environment Scaling",
-    "published_date": "2026-10-15"
-  },
-  "2610.21646": {
-    "authors": [
-      "Brian B. Moser",
-      "Stanislav Frolov",
-      "Tobias C. Nauen",
-      "Federico Raue",
-      "Andreas Dengel"
-    ],
-    "categories": [
-      "Agent"
-    ],
-    "category": "Agent",
-    "paper_link": "https://arxiv.org/abs/2610.21646v1",
-    "paper_name": "The Self-Improvement Problem",
-    "published_date": "2026-10-15"
-  },
-  "2610.21791": {
-    "authors": [
-      "Huan Zhang",
-      "Mingju Chen",
-      "Dongxu Zhou",
-      "Can Lv",
-      "Sen Cui",
-      "Faguo Wu",
-      "Shiji Zhou"
-    ],
-    "categories": [
-      "Agent"
-    ],
-    "category": "Agent",
-    "paper_link": "https://arxiv.org/abs/2610.21791v1",
-    "paper_name": "RSIFlow: Adaptive Self-Improvement Workflows with an Evolving Meta-Agent",
-    "published_date": "2026-10-15"
-  },
-  "2610.21887": {
-    "authors": [
-      "Vishal Bhutani",
-      "Prasang Gupta",
-      "Sumanth Chundru",
-      "Kevin Paul"
-    ],
-    "categories": [
-      "Agent"
-    ],
-    "category": "Agent",
-    "paper_link": "https://arxiv.org/abs/2610.21887v1",
-    "paper_name": "MetaShare: Failure-Aware Collective Self-Improvement for Open-Ended Agents",
-    "published_date": "2026-10-15"
-  },
-  "2610.22148": {
-    "authors": [
-      "Tao Duan",
-      "Junzhou Zhao",
-      "Jianglong Li",
-      "RongHua Li",
-      "Youqian Zhang",
-      "Nuo Xu",
-      "Pinghui Wang",
-      "Haibo Hu"
-    ],
-    "categories": [
-      "Physical"
-    ],
-    "category": "Physical",
-    "paper_link": "https://arxiv.org/abs/2610.22148v1",
-    "paper_name": "MAppPrint: Robust and Real-time Mobile App Fingerprinting via Traffic Behavior Correlation Graphs",
-    "published_date": "2026-10-15"
-  },
-  "2610.22150": {
-    "authors": [
-      "Mohammadreza Sediqin",
-      "Shlomo Engelson Argamon"
-    ],
-    "categories": [
-      "Physical"
-    ],
-    "category": "Physical",
-    "paper_link": "https://arxiv.org/abs/2610.22150v1",
-    "paper_name": "RAG-RST: Retrieved Exemplars as In-Context Discourse Schema for RST Parsing",
-    "published_date": "2026-10-15"
-  },
-  "2610.22155": {
-    "authors": [
-      "Jingyu Tang",
-      "Xu Yang",
-      "Zhehao Zhang",
-      "Zheng Wang",
-      "Qi Cheng",
-      "Haozhe Zhao",
-      "Manling Li",
-      "Wenxuan Li",
-      "Xide Xia",
-      "Jiaxin Pei"
-    ],
-    "categories": [
-      "Physical"
-    ],
-    "category": "Physical",
-    "paper_link": "https://arxiv.org/abs/2610.22155v1",
-    "paper_name": "Realtime-Bench: Can Frontier Models Solve Real-time Interactive Problems?",
-    "published_date": "2026-10-15"
-  },
-  "2610.22157": {
-    "authors": [
-      "Nahum Banks",
-      "Gustavo A. M. de Almeida",
-      "Sergio Maldonado"
-    ],
-    "categories": [
-      "Physical"
-    ],
-    "category": "Physical",
-    "paper_link": "https://arxiv.org/abs/2610.22157v1",
-    "paper_name": "The importance of tensor handling and implementation of physics-informed DeepONets",
-    "published_date": "2026-10-15"
-  },
-  "2610.22176": {
-    "authors": [
-      "James Foster",
-      "Beomyeong Park",
-      "Luigi Penco",
-      "Robert Griffin"
-    ],
-    "categories": [
-      "Physical"
-    ],
-    "category": "Physical",
-    "paper_link": "https://arxiv.org/abs/2610.22176v1",
-    "paper_name": "Inertially Significant Humanoid Teleoperation via Whole Body Model Predictive Control and Online Parameter Estimation",
-    "published_date": "2026-10-15"
-  },
-  "2610.22177": {
-    "authors": [
-      "Shiyao Qian",
-      "Yuan Ren",
-      "Dongfeng Bai"
-    ],
-    "categories": [
-      "Physical"
-    ],
-    "category": "Physical",
-    "paper_link": "https://arxiv.org/abs/2610.22177v1",
-    "paper_name": "Motion- and Gravity-Aware Feedforward 3D Reconstruction",
-    "published_date": "2026-10-15"
-  },
-  "2610.22184": {
-    "authors": [
-      "Conor Mc Gartoll",
-      "An Dang",
-      "Pranay Thangeda",
-      "Arjun Gupta",
-      "Carolina Higuera",
-      "Nima Fazeli",
-      "Mustafa Mukadam",
-      "Manikantan Nambi"
-    ],
-    "categories": [
-      "Dexterous"
-    ],
-    "category": "Dexterous",
-    "paper_link": "https://arxiv.org/abs/2610.22184v1",
-    "paper_name": "Whole-Body Dexterity",
-    "published_date": "2026-10-15"
-  },
-  "2610.22190": {
-    "authors": [
-      "L. Sunil Chandran",
-      "Rishikesh Gajjala"
-    ],
-    "categories": [
-      "Physical"
-    ],
-    "category": "Physical",
-    "paper_link": "https://arxiv.org/abs/2610.22190v1",
-    "paper_name": "Connectivity Bounds for GHZ Graphs",
-    "published_date": "2026-10-15"
-  },
-  "2610.22192": {
-    "authors": [
-      "Junyao Yang",
-      "Zongxia Li",
-      "Yucheng Shi",
-      "Zhongzhi Li",
-      "Ruhan Wang",
-      "Ruiwen Zhou",
-      "Haitao Mi",
-      "Shuicheng Yan",
-      "Leowei Liang"
-    ],
-    "categories": [
-      "Agent"
-    ],
-    "category": "Agent",
-    "paper_link": "https://arxiv.org/abs/2610.22192v1",
-    "paper_name": "Terminal-RSI: Recursive Self-Improving Terminal Agents via Recursive Self-Rewrite and Policy-Refine",
-    "published_date": "2026-10-15"
-  },
-  "2610.22195": {
-    "authors": [
-      "Yanchen Deng",
-      "Jianguo Huang",
-      "Yao Long Teng",
-      "Yixuan Li",
-      "Handuo Zhang",
-      "Ning Wang",
-      "Liangcai Su",
-      "Xinyu Wang",
-      "Bo An"
-    ],
-    "categories": [
-      "Physical"
-    ],
-    "category": "Physical",
-    "paper_link": "https://arxiv.org/abs/2610.22195v1",
-    "paper_name": "HTN-Orchestrate: A Hierarchical Task Network Framework for Multi-Agent Orchestration",
-    "published_date": "2026-10-15"
-  },
-  "2610.22221": {
-    "authors": [
-      "Zainab Afolabi",
-      "Vadim Selyutin",
-      "Zhao Gao",
-      "Babs Khalidson",
-      "Mohamed Ghoneim"
-    ],
-    "categories": [
-      "Physical"
-    ],
-    "category": "Physical",
-    "paper_link": "https://arxiv.org/abs/2610.22221v1",
-    "paper_name": "How Much Physics Can Vision Learn from Audio? Probing and Distilling Damping Structure",
-    "published_date": "2026-10-15"
-  },
-  "2610.22250": {
-    "authors": [
-      "Bingbing Hu",
-      "Tomasz Kociumaka",
-      "Jakob Nogler",
-      "Barna Saha"
-    ],
-    "categories": [
-      "Physical"
-    ],
-    "category": "Physical",
-    "paper_link": "https://arxiv.org/abs/2610.22250v1",
-    "paper_name": "Tree Edit Distance: Near-Linear-Time Approximate, Sublinear, and Dynamic",
-    "published_date": "2026-10-15"
-  },
-  "2610.22275": {
-    "authors": [
-      "Nicholas S. DiBrita",
-      "Jack Lange",
-      "Tirthak Patel"
-    ],
-    "categories": [
-      "Physical"
-    ],
-    "category": "Physical",
-    "paper_link": "https://arxiv.org/abs/2610.22275v1",
-    "paper_name": "SynDebug: A Framework to Debug Logic Bugs in Fault-Tolerant Quantum Computing Programs",
-    "published_date": "2026-10-15"
-  },
-  "2610.22276": {
-    "authors": [
-      "Luozheng Qin",
-      "Yuhan Zhu",
-      "Changhai Zhou",
-      "Qian Qiao",
-      "Jun Gao",
-      "Yuhua Zhou",
-      "Harry Zhang",
-      "Xiangyu Zeng",
-      "Yuxuan Liu",
-      "Kaijie Chen",
-      "Andrew Chen",
-      "Pony Ma"
-    ],
-    "categories": [
-      "Physical"
-    ],
-    "category": "Physical",
-    "paper_link": "https://arxiv.org/abs/2610.22276v1",
-    "paper_name": "MJev-Spatial: System One Spatial Intelligence via Native Attention Matching",
-    "published_date": "2026-10-15"
-  },
-  "2610.22287": {
-    "authors": [
-      "Omar Adalat",
-      "Edwin Hamel-De le Court",
-      "Francesco Belardinelli"
-    ],
-    "categories": [
-      "Physical"
-    ],
-    "category": "Physical",
-    "paper_link": "https://arxiv.org/abs/2610.22287v1",
-    "paper_name": "Learning Rational Strategies for Temporal Objectives in Multi-Agent Systems",
-    "published_date": "2026-10-15"
-  },
-  "2610.22298": {
-    "authors": [
-      "Alexey A. Bokov",
-      "Ivan I. Panin",
-      "Nikolay B. Nechaev",
-      "Mikhail Yu. Valkov",
-      "Valeria Yu. Chernina",
-      "Natalia Gombolevskaya",
-      "Ayyaz Hussain",
-      "Vladimir M. Agafonov",
-      "Victor A. Gombolevskiy",
-      "Aleksandr V. Nesterov",
-      "Iaroslav R. Bespalov",
-      "Ivan V. Oseledets",
-      "Dmitry V. Dylov"
-    ],
-    "categories": [
-      "Physical"
-    ],
-    "category": "Physical",
-    "paper_link": "https://arxiv.org/abs/2610.22298v1",
-    "paper_name": "AI Consilium: a Benchmark of LLM Clinical Multidisciplinary Second Opinions",
-    "published_date": "2026-10-15"
-  },
-  "2610.22301": {
-    "authors": [
-      "Zeqian Huang",
-      "Mingyue Tang",
-      "Aonan Guan",
-      "Qiming Sun",
-      "Pengzhou He"
-    ],
-    "categories": [
-      "Physical"
-    ],
-    "category": "Physical",
-    "paper_link": "https://arxiv.org/abs/2610.22301v1",
-    "paper_name": "My Credentials, Please: Detecting Filesystem Capability Laundering in MCP Servers at Scale",
-    "published_date": "2026-10-15"
-  },
-  "2610.22334": {
-    "authors": [
-      "Aditi Saxena",
-      "Twinkle Tripathy"
-    ],
-    "categories": [
-      "Physical"
-    ],
-    "category": "Physical",
-    "paper_link": "https://arxiv.org/abs/2610.22334v1",
-    "paper_name": "How Do Emotions Spread And Affect Decision-Making In Social Networks? An Opinion Dynamics Perspective",
-    "published_date": "2026-10-15"
-  },
-  "2610.22335": {
-    "authors": [
-      "Sagarika Rao Valluri",
-      "Benjamin Riviere"
-    ],
-    "categories": [
-      "Physical"
-    ],
-    "category": "Physical",
-    "paper_link": "https://arxiv.org/abs/2610.22335v1",
-    "paper_name": "Illumination-Aware Active Perception for Spacecraft Inspection",
-    "published_date": "2026-10-15"
-  },
-  "2610.22336": {
-    "authors": [
-      "Chengze Xie",
-      "Xuan Wang",
-      "Ying Ding",
-      "Hairong Wang",
-      "Yan Li"
-    ],
-    "categories": [
-      "Physical"
-    ],
-    "category": "Physical",
-    "paper_link": "https://arxiv.org/abs/2610.22336v1",
-    "paper_name": "Robust Reinforcement Learning for Dynamic Treatment Regimes under Model and Measurement Uncertainty",
-    "published_date": "2026-10-15"
-  },
-  "2610.22337": {
-    "authors": [
-      "Al Bashir",
-      "Partho Ghose",
-      "Yibin Wang",
-      "Robert G. Hardin",
-      "Joshua Peeples",
-      "Genhua Niu",
-      "Azlan Zahid"
-    ],
-    "categories": [
-      "Physical"
-    ],
-    "category": "Physical",
-    "paper_link": "https://arxiv.org/abs/2610.22337v1",
-    "paper_name": "Sim-to-Real Reinforcement Learning for Path-Safe Target Reaching in Robotic Harvesting of Hydroponic Lettuce",
-    "published_date": "2026-10-15"
-  },
-  "2610.22340": {
-    "authors": [
-      "Botao He",
-      "Yiming Dou",
-      "Yiannis Aloimonos",
-      "Jitendra Malik",
-      "Akash Sharma",
-      "Ruoshi Liu"
-    ],
-    "categories": [
-      "Dexterous"
-    ],
-    "category": "Dexterous",
-    "paper_link": "https://arxiv.org/abs/2610.22340v1",
-    "paper_name": "Dexterity from Supervised Play",
-    "published_date": "2026-10-15"
-  },
-  "2610.22342": {
-    "authors": [
-      "Tianxing Chen",
-      "Wenwei Lin",
-      "Chuqiao Lyu",
-      "Peicheng Xiang",
-      "Junyuan Tang",
-      "Tian Nian",
-      "Zijian Cai",
-      "Kehe Ye",
-      "Chenze Yu",
-      "Wenxuan Zhu",
-      "Eric J. Chen",
-      "Yan Qin",
-      "Yue Chen",
-      "Tongyu Wu",
-      "Junhao Gong",
-      "Kai-Chong Lei",
-      "Jiahao Zhang",
-      "Kailun Su",
-      "Qiwei Liang",
-      "Renjing Xu",
-      "Ping Luo",
-      "Wenbo Ding"
-    ],
-    "categories": [
-      "Dexterous"
-    ],
-    "category": "Dexterous",
-    "paper_link": "https://arxiv.org/abs/2610.22342v1",
-    "paper_name": "Spark-0: Scaling Spatially Aligned Tactile Pretraining for Robot Dexterous Manipulation",
-    "published_date": "2026-10-15"
-  },
-  "2610.22343": {
-    "authors": [
-      "Hongchang Liu",
-      "Jian Liu",
-      "Yujuan Ding",
-      "Liang Peng",
-      "Xun Jiang",
-      "Fei Ma",
-      "Xing Xu",
-      "Yi Bin"
-    ],
-    "categories": [
-      "Physical"
-    ],
-    "category": "Physical",
-    "paper_link": "https://arxiv.org/abs/2610.22343v1",
-    "paper_name": "GeoState: Learning View-Decoupled Geometry States for 3D World Modeling",
-    "published_date": "2026-10-15"
-  },
-  "2610.22344": {
-    "authors": [
-      "Shangheng Du",
-      "Jinxin Shi",
-      "Shuaiyu Zhang",
-      "Yiming Wu",
-      "Junpeng Zhao",
-      "Shiyang Feng",
-      "Xin Li",
-      "Liang He",
-      "Xiangchao Yan",
-      "Bo Zhang"
-    ],
-    "categories": [
-      "Agent"
-    ],
-    "category": "Agent",
-    "paper_link": "https://arxiv.org/abs/2610.22344v1",
-    "paper_name": "MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering",
-    "published_date": "2026-10-15"
-  },
-  "2610.22362": {
-    "authors": [
-      "Tianjiao Yu",
-      "Zhilin Ou",
-      "Yifan Shen",
-      "Xinzhuo Li",
-      "Yuanzhe Liu",
-      "Onkar Kishor Susladkar",
-      "Fan Wang",
-      "Ismini Lourentzou"
-    ],
-    "categories": [
-      "Physical"
-    ],
-    "category": "Physical",
-    "paper_link": "https://arxiv.org/abs/2610.22362v1",
-    "paper_name": "CoDA: Co-Evolution of Data Engines and Action Policies",
-    "published_date": "2026-10-15"
-  },
-  "2610.22363": {
-    "authors": [
-      "Zirui Wu",
-      "Chen Guo",
-      "Tianjian Jiang",
-      "Zeren Jiang",
-      "Zeming Li",
-      "Lingchen Yang",
-      "Longteng Duan",
-      "Ying Xue",
-      "Handi Yin",
-      "Shenyuan Gao",
-      "Martin R. Oswald",
-      "Jun Zhang",
-      "Ping Tan",
-      "Jie Song"
-    ],
-    "categories": [
-      "Dexterous"
-    ],
-    "category": "Dexterous",
-    "paper_link": "https://arxiv.org/abs/2610.22363v1",
-    "paper_name": "Perceive, Predict, and Plan: a Unified World Action Model for Egocentric Dexterous Manipulation",
-    "published_date": "2026-10-15"
-  },
-  "2610.22364": {
-    "authors": [
-      "Chenyuan Zhou",
-      "Yining Hong",
-      "Huang Huang",
-      "Yunfan Jiang",
-      "Wenlong Huang",
-      "David Held",
-      "Vitor Campagnolo Guizilini",
-      "Yue Wang",
-      "Li Fei-Fei",
-      "Jiajun Wu",
-      "Leonidas Guibas",
-      "Yejin Choi"
-    ],
-    "categories": [
-      "Physical"
-    ],
-    "category": "Physical",
-    "paper_link": "https://arxiv.org/abs/2610.22364v1",
-    "paper_name": "T2-z: Test-Time Optimization of Environment Latents for Robotic World Models",
-    "published_date": "2026-10-15"
-  },
-  "2610.22367": {
-    "authors": [
-      "Andi Gu",
-      "Alek H. Kemeny",
-      "Susanne F. Yelin",
-      "Mikhail D. Lukin"
-    ],
-    "categories": [
-      "Physical"
-    ],
-    "category": "Physical",
-    "paper_link": "https://arxiv.org/abs/2610.22367v1",
-    "paper_name": "Discovering state-of-the-art quantum circuits with large language models",
-    "published_date": "2026-10-15"
-  },
-  "2610.22369": {
-    "authors": [
-      "Shimon Malnick",
-      "Nadav Orenstein",
-      "Ohad Fried",
-      "Shai Avidan"
-    ],
-    "categories": [
-      "Physical"
-    ],
-    "category": "Physical",
-    "paper_link": "https://arxiv.org/abs/2610.22369v1",
-    "paper_name": "SoftCache: Adaptive Step Size Caching for Diffusion Transformers",
-    "published_date": "2026-10-15"
-  },
-  "2610.22370": {
-    "authors": [
-      "SeungJu Cha",
-      "Ye-Chan Kim",
-      "HyunGee Kim",
-      "Sungho Koh",
-      "Dong-Jin Kim"
-    ],
-    "categories": [
-      "Physical"
-    ],
-    "category": "Physical",
-    "paper_link": "https://arxiv.org/abs/2610.22370v1",
-    "paper_name": "Which Tokens to Merge? Diffusion Dynamics for Efficient Image Generation",
-    "published_date": "2026-10-15"
-  },
-  "2610.22372": {
-    "authors": [
-      "Zhixu Li",
-      "Keqian Tang",
-      "Litian Gong",
-      "Jingyu Yao",
-      "Wenqian Zhang",
-      "Tianze Xu",
-      "Zehao Wang",
-      "Yuping Wang",
-      "Junge Zhang",
-      "Jiachen Li"
-    ],
-    "categories": [
-      "Agent"
-    ],
-    "category": "Agent",
-    "paper_link": "https://arxiv.org/abs/2610.22372v1",
-    "paper_name": "LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation",
-    "published_date": "2026-10-15"
-  },
-  "2610.22471": {
-    "authors": [
-      "SenseNova",
-      "Joint Research Team",
-      "Zhongang Cai",
-      "Ziang Cao",
-      "Tailai Chen",
-      "Han Chong Chua",
-      "Linjun Dai",
-      "Hanming Deng",
-      "Hokin Deng",
-      "Haiwen Diao",
-      "Chenjing Ding",
-      "Weichen Fan",
-      "Xiao Fu",
-      "Zerui Gong",
-      "Chenyang Gu",
-      "Zexin He",
-      "Zhi Hou",
-      "Bo Li",
-      "Qinyue Li",
-      "Quanzhou Li",
-      "Xiaowan Li",
-      "Zhichao Liao",
-      "Dahua Lin",
-      "Zilong Lin",
-      "Bo Liu",
-      "Chunxiao Liu",
-      "Pengfei Liu",
-      "Tianqi Liu",
-      "Ziwei Liu",
-      "Chen Change Loy",
-      "Lewei Lu",
-      "Jiapeng Luo",
-      "Yuexiao Ma",
-      "Liang Pan",
-      "Xingang Pan",
-      "Oscar Qian",
-      "Ziyi Shang",
-      "Yuyao Shao",
-      "Dawei Su",
-      "Dacheng Tao",
-      "Qingyi Tao",
-      "Quan Wang",
-      "Ruisi Wang",
-      "Xiaogang Wang",
-      "Ziyi Wang",
-      "Beichen Wen",
-      "Donghao Wu",
-      "Jiaxu Wu",
-      "Silei Wu",
-      "Xiaoming Wu",
-      "Zhonghua Wu",
-      "Hongcan Xiao",
-      "Weiye Xu",
-      "Atsushi Yamashita",
-      "Lei Yang",
-      "Zhe Yang",
-      "Baiqiao Yin",
-      "Wanqi Yin",
-      "Hanfei Zhao",
-      "Tianbo Zhong",
-      "Long Zhuo",
-      "Jing Zuo"
-    ],
-    "categories": [
-      "Dexterous"
-    ],
-    "category": "Dexterous",
-    "paper_link": "https://arxiv.org/abs/2610.22471v2",
-    "paper_name": "Has GPT-6-Astra Achieved Embodied Intelligence?",
-    "published_date": "2026-10-15"
-  },
   "2610.22496": {
     "authors": [
       "Runhan Huang",
@@ -16493,7 +15422,7 @@
       "Dexterous"
     ],
     "category": "Dexterous",
-    "paper_link": "https://arxiv.org/abs/2611.24731v1",
+    "paper_link": "https://arxiv.org/abs/2611.24731v2",
     "paper_name": "HandWorldBench: A Unified Benchmark for Hand-Centric World Models",
     "published_date": "2026-11-18"
   },
@@ -16905,7 +15834,7 @@
       "Dexterous"
     ],
     "category": "Dexterous",
-    "paper_link": "https://arxiv.org/abs/2611.24938v1",
+    "paper_link": "https://arxiv.org/abs/2611.24938v2",
     "paper_name": "Phoenix: Learning Scene Structure Representations for Generalizable World-Action Models",
     "published_date": "2026-11-18"
   },
@@ -17005,8 +15934,8 @@
       "Dexterous"
     ],
     "category": "Dexterous",
-    "paper_link": "https://arxiv.org/abs/2611.25683v1",
-    "paper_name": "TipDex-VTLA: Learning When to Refine Actions with Touch for Dexterous Manipulation",
+    "paper_link": "https://arxiv.org/abs/2611.25683v2",
+    "paper_name": "TipDex-VTLA: Learning to Refine Actions with Visual Reliability and Tactile Feedback for Dexterous Manipulation",
     "published_date": "2026-11-19"
   },
   "2611.26007": {
@@ -17533,5 +16462,978 @@
     "paper_link": "https://arxiv.org/abs/2611.26619v1",
     "paper_name": "TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming",
     "published_date": "2026-11-19"
+  },
+  "2611.26855": {
+    "authors": [
+      "Miguel Saavedra-Ruiz",
+      "Anqi Li",
+      "Claudia D'Arpino",
+      "Alperen Degirmenci",
+      "Tucker Hermans",
+      "Fabio Ramos"
+    ],
+    "categories": [
+      "Dexterous"
+    ],
+    "category": "Dexterous",
+    "paper_link": "https://arxiv.org/abs/2611.26855v1",
+    "paper_name": "Coherent Moment Propagation: Epistemic Uncertainty for Pre-trained Robot Policies",
+    "published_date": "2026-11-19"
+  },
+  "2611.26902": {
+    "authors": [
+      "Qiang Zhou",
+      "Jianing Deng",
+      "Siyan Dong",
+      "Jingxian Chen",
+      "Han-Yi Lin",
+      "Jingtong Hu"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2611.26902v1",
+    "paper_name": "Perceive Once, Escalate on Demand: Handing Off Visual KV Memory from Small to Large VLMs",
+    "published_date": "2026-11-19"
+  },
+  "2611.26910": {
+    "authors": [
+      "Congyuan Yu",
+      "Runping Tian"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2611.26910v1",
+    "paper_name": "AstronautBench: Measuring Agent Self-Improvement Across Episodes Through Knowledge, Evidence, and Progress",
+    "published_date": "2026-11-19"
+  },
+  "2611.27042": {
+    "authors": [
+      "Chenghao Yin",
+      "Da Huang",
+      "Di Yang",
+      "Jichao Wang",
+      "Junhui Wu",
+      "Nanshu Zhao",
+      "Tong Ran",
+      "Zhijun Li",
+      "Gang Zhao",
+      "Linting Guo",
+      "Rui Feng",
+      "Sheng Zhang",
+      "Tianyu Jiang",
+      "Wenjun Sun",
+      "Yongxin Su",
+      "Zhaobo Liu",
+      "Zheyuan Xing",
+      "Sukai Wang",
+      "Yue Zhou",
+      "Qihan Jiang",
+      "Jianhua Jiang",
+      "Chuang Men",
+      "Yuxiang Yan",
+      "Daizhen Lv",
+      "Kunyu Yu",
+      "Yongjian Shen",
+      "Tianxiang Zhu",
+      "Siying Zhang",
+      "Wenhao Wang",
+      "Jun Zhao",
+      "Bowen Jiang",
+      "Zhi Zeng",
+      "Maoqing Yao",
+      "Qian Wang"
+    ],
+    "categories": [
+      "Dexterous"
+    ],
+    "category": "Dexterous",
+    "paper_link": "https://arxiv.org/abs/2611.27042v1",
+    "paper_name": "RoboColiseum: Co-evolution of Simulation, Evaluation, and Models",
+    "published_date": "2026-11-20"
+  },
+  "2611.27110": {
+    "authors": [
+      "Shengxiang Xu",
+      "Liang Yao",
+      "Shuyi Chen",
+      "Yishu Wang",
+      "Shimin Di",
+      "Fan Liu",
+      "Bishun Yao",
+      "Hanghui Guo",
+      "Xinyu Liu",
+      "Chengye Liang",
+      "Yuyu Luo",
+      "Min-Ling Zhang"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2611.27110v1",
+    "paper_name": "RemoteEvolver: Expanding Earth Observation Capabilities through Agent Harness Evolution",
+    "published_date": "2026-11-20"
+  },
+  "2611.27166": {
+    "authors": [
+      "Zhikang Shi",
+      "Yuk Tung Samuel Fang",
+      "Hongyu Ding",
+      "Zixuan Chen",
+      "Yujin Wang",
+      "Junhui Guo",
+      "You Wu",
+      "Jieqi Shi",
+      "Jing Huo",
+      "Yang Gao"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2611.27166v1",
+    "paper_name": "Mem-X: A Memory-Dependent Cross-Episode Benchmark for Vision-and-Language Navigation",
+    "published_date": "2026-11-20"
+  },
+  "2611.27285": {
+    "authors": [
+      "Yijian Wang",
+      "Qingsen Yan",
+      "Weiyu Zhou",
+      "Mingde Zhang",
+      "Axi Niu",
+      "Haokui Zhang",
+      "Jiantao Zhou"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2611.27285v1",
+    "paper_name": "SIR-Agent: Skill-Augmented Image Restoration Agent with Recursive Self-Improvement",
+    "published_date": "2026-11-20"
+  },
+  "2611.27306": {
+    "authors": [
+      "Xiaotao Zhang",
+      "Lin Qian",
+      "Hao Zhang",
+      "Xuanrui Cui",
+      "Yuehao Huang",
+      "Yunzi Wu",
+      "Yucheng Deng",
+      "Jiankun Dong",
+      "Hujun Yin",
+      "Xinhai Li",
+      "Chenjia Bai",
+      "Xuelong Li"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2611.27306v1",
+    "paper_name": "$γ$-Scape: An Agent-Centric World for Mobile Embodied Intelligence",
+    "published_date": "2026-11-20"
+  },
+  "2611.27338": {
+    "authors": [
+      "S K Swaminathan",
+      "Shivam Sood",
+      "Shreyansh Kansal",
+      "Chengyang He",
+      "Guillaume Adrien Sartoretti"
+    ],
+    "categories": [
+      "Dexterous"
+    ],
+    "category": "Dexterous",
+    "paper_link": "https://arxiv.org/abs/2611.27338v1",
+    "paper_name": "Latent Jacobian Steer: Eliciting Contact-Rich Out-of-Distribution Behaviors from Pretrained Humanoid Controllers",
+    "published_date": "2026-11-20"
+  },
+  "2611.27418": {
+    "authors": [
+      "Kangyi Wu",
+      "Pengna Li",
+      "Yucheng Wang",
+      "Yance Fang",
+      "Xihan Ma",
+      "Zhizhong Su",
+      "Yang Wu",
+      "Ye Deng",
+      "Jinjun Wang",
+      "Jianyi Liu"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2611.27418v1",
+    "paper_name": "Beyond Future Views: Exploring Future-State World Models for Vision-Language Navigation",
+    "published_date": "2026-11-20"
+  },
+  "2611.27467": {
+    "authors": [
+      "Caoyuan Ma",
+      "Wendi Liu",
+      "Zhimin Zhang",
+      "Muyao Niu",
+      "Yujie Lu",
+      "Zengxi Zhang",
+      "Ji Zhao",
+      "Shuai Dong",
+      "Wenpu Liu",
+      "Ziyue Wang",
+      "Wenzheng Chang",
+      "Taiqiang Wu",
+      "Weichu Xie",
+      "Yuqi Xu",
+      "Haiyuan Wan",
+      "Xuehui Wang",
+      "Jiaqi Wang",
+      "Wenqi Shao",
+      "Yinqiang Zheng"
+    ],
+    "categories": [
+      "Dexterous"
+    ],
+    "category": "Dexterous",
+    "paper_link": "https://arxiv.org/abs/2611.27467v1",
+    "paper_name": "ROSWORLD: When Digital Task Competence Meets Physical Execution",
+    "published_date": "2026-11-20"
+  },
+  "2611.27499": {
+    "authors": [
+      "Guangzhao Dai",
+      "Guoxin Lian",
+      "Shuo Wang",
+      "Shengbin Yue",
+      "Qianru Sun",
+      "Xiangbo Shu",
+      "Bin Zhu"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2611.27499v1",
+    "paper_name": "NavRSI: Recursive Harness Self-Improvement for Vision-and-Language Navigation",
+    "published_date": "2026-11-20"
+  },
+  "2611.27689": {
+    "authors": [
+      "Zhenxuan Fan",
+      "Zhuoya Wang",
+      "Yuqian Yuan",
+      "Wenqiao Zhang",
+      "Juncheng Li",
+      "Jun Xiao",
+      "Siliang Tang",
+      "Yueting Zhuang"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2611.27689v1",
+    "paper_name": "Embodied-Harness: Towards Recursive Self-Improvement for Robotic Manipulation",
+    "published_date": "2026-11-20"
+  },
+  "2611.27780": {
+    "authors": [
+      "Chengchao Lv",
+      "Yin Wang",
+      "Chunzheng Zhu",
+      "Wanli Chang"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2611.27780v1",
+    "paper_name": "Search-RSI: Expanding Search Worlds Along Multimodal Agents' Capability Frontier",
+    "published_date": "2026-11-20"
+  },
+  "2611.27797": {
+    "authors": [
+      "Yingting Zhou",
+      "Yuyin Zhou",
+      "Yongliang Wang",
+      "Haoran Li",
+      "Dongbin Zhao"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2611.27797v1",
+    "paper_name": "EvoTER: Evolving Embodied Agents via Tool-Use Experience and Reflection",
+    "published_date": "2026-11-20"
+  },
+  "2611.27967": {
+    "authors": [
+      "Haoyang Wang",
+      "Weibo Gao",
+      "Zhengxiong Li",
+      "Lingfeng Tao"
+    ],
+    "categories": [
+      "Dexterous"
+    ],
+    "category": "Dexterous",
+    "paper_link": "https://arxiv.org/abs/2611.27967v1",
+    "paper_name": "Task2Hand: A Contact-Grounded Skill for Parametric Dexterous-Hand Morphology Design",
+    "published_date": "2026-11-20"
+  },
+  "2611.28239": {
+    "authors": [
+      "Chengjun Pan",
+      "Shichun Liu",
+      "Zekai Zhou",
+      "Shihan Dou",
+      "Jiahang Lin",
+      "Chengsong Huang",
+      "Dingwei Zhu",
+      "Tao Gui"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2611.28239v1",
+    "paper_name": "FinEvo: Recursive Self-Improvement for Long-Horizon Financial Modeling",
+    "published_date": "2026-11-20"
+  },
+  "2611.28356": {
+    "authors": [
+      "Huanran Li",
+      "Nhat X. T. Le",
+      "Kevin De Angeli",
+      "Yao Xuan",
+      "Alireza Vahdatpour",
+      "Djordje Gligorijevic"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2611.28356v1",
+    "paper_name": "Engram: Multi-Stage Memory for Agentic Tuning of Heterogeneous Models",
+    "published_date": "2026-11-20"
+  },
+  "2611.28420": {
+    "authors": [
+      "Navapat Nananukul",
+      "Mayank Kejriwal"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2611.28420v1",
+    "paper_name": "Diversity over Scale: Recursive Self-Improvement with Ensembles of Small Open-Weight Models",
+    "published_date": "2026-11-20"
+  },
+  "2611.28553": {
+    "authors": [
+      "Xuan Yao",
+      "Jiahao Zhang",
+      "Rongjunchen Zhang",
+      "Kaixuan Huang",
+      "Junyu Gao",
+      "Changsheng Xu"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2611.28553v1",
+    "paper_name": "WorldWeave: Rethinking Embodied Navigation through Cross-Task World Modeling",
+    "published_date": "2026-11-21"
+  },
+  "2611.28680": {
+    "authors": [
+      "Dexia Chen",
+      "YiLong Hu",
+      "Wenqi Zhong",
+      "Guangyu Guo",
+      "Tony C. W. Mok",
+      "Ling Zhang",
+      "Zhongwei Qiu"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2611.28680v1",
+    "paper_name": "Improving the Improver: Semantic PID Control for Medical Agent Self-Improvement",
+    "published_date": "2026-11-21"
+  },
+  "2611.28833": {
+    "authors": [
+      "Guoming Ling",
+      "Shanshan Zhong",
+      "Kaixuan Zhang",
+      "Zhongzhan Huang"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2611.28833v1",
+    "paper_name": "Self-WSP: Can Language Models Improve Themselves Through Weight-Space Programming?",
+    "published_date": "2026-11-21"
+  },
+  "2611.28878": {
+    "authors": [
+      "Wenqing Tian",
+      "Zijian Zhang",
+      "Qiang Liu",
+      "Liang Wang"
+    ],
+    "categories": [
+      "Code World Model"
+    ],
+    "category": "Code World Model",
+    "paper_link": "https://arxiv.org/abs/2611.28878v1",
+    "paper_name": "Eidetic Code World Model",
+    "published_date": "2026-11-21"
+  },
+  "2611.29195": {
+    "authors": [
+      "Yanhan Lin",
+      "Yuliang Wu",
+      "Yihao Guo",
+      "Wei-Jin Huang",
+      "Jianwen Li",
+      "Jiawei Tang",
+      "Xiaolong Huang",
+      "Yuquan Wang",
+      "Ancong Wu",
+      "Wei-Shi Zheng"
+    ],
+    "categories": [
+      "Dexterous"
+    ],
+    "category": "Dexterous",
+    "paper_link": "https://arxiv.org/abs/2611.29195v1",
+    "paper_name": "FunGrasp-Zero: Field-Conditioned Graph Attention Policy for Zero-Shot Cross-Embodiment Dexterous Functional Grasping",
+    "published_date": "2026-11-22"
+  },
+  "2611.29230": {
+    "authors": [
+      "Huan Lyu",
+      "Yawei Luo"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2611.29230v1",
+    "paper_name": "InfoField3D: Differentiable Information Field for Embodied Task-Oriented View Planning",
+    "published_date": "2026-11-22"
+  },
+  "2611.29254": {
+    "authors": [
+      "Likang Peng",
+      "Chen Ju",
+      "Xu Chen",
+      "Xiangyang Wu",
+      "Jinsong Lan",
+      "Haihong Tang",
+      "Ying Chen"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2611.29254v1",
+    "paper_name": "MM-DataLoop: Closing the Data-Side Loop for Recursive Self-Improvement in MLLM Post-Training",
+    "published_date": "2026-11-22"
+  },
+  "2611.29303": {
+    "authors": [
+      "Saadh Jawwadh"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2611.29303v1",
+    "paper_name": "From Vanishing Gradients to Recursive Self-Improvement: Evaluating the Most Influential Papers in Large Language Model Evolution (1997-2026)",
+    "published_date": "2026-11-22"
+  },
+  "2611.29501": {
+    "authors": [
+      "Rongze Tang",
+      "Chenyu Zhou",
+      "Jianjie Fang",
+      "Ziming Liu",
+      "Zhaolu Wang",
+      "Ziyou Wang",
+      "Xvyuan Liu",
+      "Wei Wu",
+      "Chen Gao",
+      "Yong Li",
+      "Zhibo Chen"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2611.29501v1",
+    "paper_name": "MAWAM: Joint Imagination for Collaborative Robot Manipulation with a Multi-Agent World Action Model",
+    "published_date": "2026-11-22"
+  },
+  "2611.29513": {
+    "authors": [
+      "Linghua Zhang",
+      "Yunhe Li"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2611.29513v1",
+    "paper_name": "Recursive Self-Editing: LLMs Program Their Own Weight Edits for Self-Improvement",
+    "published_date": "2026-11-22"
+  },
+  "2611.29582": {
+    "authors": [
+      "Yikang Ouyang",
+      "Yang Luo",
+      "Dongsheng Zuo",
+      "Xiaoxiao Liang",
+      "Yuzhe Ma"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2611.29582v1",
+    "paper_name": "LLM-Assisted Co-Optimization of RTL and Synthesis Algorithms via Bottleneck Analysis",
+    "published_date": "2026-11-22"
+  },
+  "2611.29598": {
+    "authors": [
+      "Yuhao Wang",
+      "Shengfang Zhai",
+      "Xinyu Zhou",
+      "Guanghao Jin",
+      "Wenjie Qu",
+      "Huichi Zhou",
+      "Hao Liu",
+      "Jiaheng Zhang",
+      "Jun Wang",
+      "Linyi Yang"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2611.29598v1",
+    "paper_name": "AEP:Towards Trustworthy Agent Communication, Networking, and Collaboration",
+    "published_date": "2026-11-22"
+  },
+  "2611.29609": {
+    "authors": [
+      "Taekyung Kim",
+      "Ege Yuceel",
+      "Steven Hong",
+      "Georgios Fainekos",
+      "Dimitra Panagou",
+      "Bardh Hoxha"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2611.29609v1",
+    "paper_name": "JEPA-Shield: Safe Diffusion Planning with Latent World Models via Conformal Shielding",
+    "published_date": "2026-11-22"
+  },
+  "2611.29610": {
+    "authors": [
+      "Kunqi Xu",
+      "Xiaokang Sun",
+      "Xueyan Zou"
+    ],
+    "categories": [
+      "Dexterous",
+      "Physical"
+    ],
+    "category": "Dexterous",
+    "paper_link": "https://arxiv.org/abs/2611.29610v1",
+    "paper_name": "Dr. Grasp-RL: Diverse and Robust Dexterous Grasping via Reinforcement Learning",
+    "published_date": "2026-11-22"
+  },
+  "2611.29612": {
+    "authors": [
+      "Yanchen Song",
+      "Huizhu Xiang",
+      "Zhengdong Lei",
+      "Yuezhong Wang",
+      "Xingbang Liu"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2611.29612v1",
+    "paper_name": "Subsurface Model Programming: Frontier Large Language Models Natively Interpret and Edit Dynamic Reservoir Models",
+    "published_date": "2026-11-22"
+  },
+  "2611.29614": {
+    "authors": [
+      "Hanglei Jin",
+      "Chenglu Sun",
+      "Junchen Ge",
+      "Yuchao Wang",
+      "Siqi Chen",
+      "Yuzhi Huang",
+      "Jingyan Jiang",
+      "Zhi Wang"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2611.29614v1",
+    "paper_name": "GravHMR: Coupling SLAM and Human Mesh Recovery in a Shared Gravity Frame",
+    "published_date": "2026-11-22"
+  },
+  "2611.29618": {
+    "authors": [
+      "Yiyu Li",
+      "Fei Wei",
+      "Yong Wang",
+      "Zaiquan Yang",
+      "Gerhard Petrus Hancke",
+      "Xiangxiang Chu",
+      "Rynson W. H. Lau"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2611.29618v1",
+    "paper_name": "Mass Forcing: On-Policy Mass-Aware Distillation for Autoregressive Video Generation",
+    "published_date": "2026-11-22"
+  },
+  "2611.29619": {
+    "authors": [
+      "Panagiotis Kasnesis",
+      "Lazaros Toumanidis",
+      "Amalia Contiero Syropoulou",
+      "Christos Chatzigeorgiou"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2611.29619v1",
+    "paper_name": "Wactorz: Self-Writing LLM Agents That Discover, Repair, and Migrate at the Edge",
+    "published_date": "2026-11-22"
+  },
+  "2611.29662": {
+    "authors": [
+      "Siyeon Kim",
+      "Mohanraj Devendran Shanthi",
+      "Joseph C. Liechty",
+      "Tucker Hermans"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2611.29662v1",
+    "paper_name": "Grounded in Contact: Reducing Floating and Interpenetration Artifacts with Multimodal Skill-Effect Models",
+    "published_date": "2026-11-22"
+  },
+  "2611.29679": {
+    "authors": [
+      "Rohan Kirti",
+      "Akash Ghosh",
+      "Pratik Amrit",
+      "Aryan Vats",
+      "Niladri Ghosh",
+      "Sriparna Saha"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2611.29679v1",
+    "paper_name": "MERIT: Experience-Guided Memory for Long-Horizon Persona-Specific Persuasive Dialogue",
+    "published_date": "2026-11-22"
+  },
+  "2611.29693": {
+    "authors": [
+      "Chaoyang Zhang",
+      "Shaohao Rui",
+      "Xiaofeng Mao",
+      "Yuanxun Xu",
+      "Haoyuan Xia",
+      "Xiaohong Liu",
+      "Qinghe Du",
+      "Weijie Ma"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2611.29693v1",
+    "paper_name": "HandiVid: A High-Quality Dataset for Hand-Driven Interactive Video Generation",
+    "published_date": "2026-11-22"
+  },
+  "2611.29708": {
+    "authors": [
+      "Sungho Cho",
+      "Changhee Joo",
+      "Ian P. Roberts"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2611.29708v1",
+    "paper_name": "Scheduling Algorithms for Millimeter-Wave Full-Duplex Integrated Access and Backhaul",
+    "published_date": "2026-11-22"
+  },
+  "2611.29709": {
+    "authors": [
+      "Bruno Rucy Carneiro Alves de Lima",
+      "Victor Henrique Cabral Pinheiro"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2611.29709v1",
+    "paper_name": "Cache the Knowledge, Not Just the Prompt: Dynamic Datalog as the Action Language for LLM Agents",
+    "published_date": "2026-11-22"
+  },
+  "2611.29711": {
+    "authors": [
+      "Aikaterini Nikolidaki"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2611.29711v1",
+    "paper_name": "Learning-Augmented QUBO for Time-Expanded Multi-Commodity Flow",
+    "published_date": "2026-11-22"
+  },
+  "2611.29715": {
+    "authors": [
+      "David L. Cao",
+      "Sai Sumedh R. Hindupur",
+      "Demba Ba"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2611.29715v1",
+    "paper_name": "From States to Dynamics: Detecting Rule Violations in OthelloGPT",
+    "published_date": "2026-11-22"
+  },
+  "2611.29716": {
+    "authors": [
+      "Wanghao Ye",
+      "Shwai He",
+      "Sihan Chen",
+      "Yiting Wang",
+      "Bowei Tian",
+      "Guoheng Sun",
+      "Ziyi Wang",
+      "Ziyao Wang",
+      "Yexiao He",
+      "Zheyu Shen",
+      "Meng Liu",
+      "Yuning Zhang",
+      "Meng Feng",
+      "Yifei Dong",
+      "Yanhong Qian",
+      "Yang Wang",
+      "Siyuan Peng",
+      "Yilong Dai",
+      "Zhenle Duan",
+      "Joshua Liu",
+      "Lang Xiong",
+      "Aarosh Das",
+      "Zhaoyi Liu",
+      "Daeun Jung",
+      "Aditya Sarkar",
+      "Parastoo Pilevar",
+      "Xiaochuan Gong",
+      "Yancheng Zhu",
+      "Yingying Fan",
+      "Qiong Wang",
+      "Ang Li"
+    ],
+    "categories": [
+      "Agent"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2611.29716v1",
+    "paper_name": "Fin-RSI: A Unified Library of Financial Skills, Checks, and Self-Improvement for LLM Agents",
+    "published_date": "2026-11-22"
+  },
+  "2611.29729": {
+    "authors": [
+      "Iulia Georgescu",
+      "Venkatesh Narayanamurti"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2611.29729v1",
+    "paper_name": "Rethinking Discovery Research with AI: The promise of transdisciplinarity and the danger of reductionism",
+    "published_date": "2026-11-22"
+  },
+  "2611.29731": {
+    "authors": [
+      "Rafał Topolnicki",
+      "Paweł Dłotko",
+      "Maciej Matyka"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2611.29731v1",
+    "paper_name": "Topological analysis of permeability tensor in anisotropic porous media",
+    "published_date": "2026-11-22"
+  },
+  "2611.29745": {
+    "authors": [
+      "Mohammad Rafieian",
+      "Michael Hicks",
+      "Shiyi Wei"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2611.29745v1",
+    "paper_name": "Agentic Root Cause Reasoning and Localization of Unsoundness in Static Call Graph Analysis",
+    "published_date": "2026-11-22"
+  },
+  "2611.29748": {
+    "authors": [
+      "Erfun Bayat Sarmadi",
+      "Ali Asadi",
+      "Moosa Ayati"
+    ],
+    "categories": [
+      "Agent",
+      "Physical"
+    ],
+    "category": "Agent",
+    "paper_link": "https://arxiv.org/abs/2611.29748v1",
+    "paper_name": "Performance Evaluation of Nonlinear Model Predictive and Sliding Mode Controllers on a 4-Cable Spatial CSPR in Simscape",
+    "published_date": "2026-11-22"
+  },
+  "2611.29749": {
+    "authors": [
+      "Wenjie Lin",
+      "Jin Wei-Kocsis"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2611.29749v1",
+    "paper_name": "CarlHOI: Counterfactual Predictive Imagination for Generalizable Multi-Humanoid Object Interaction under Constrained Environments",
+    "published_date": "2026-11-22"
+  },
+  "2611.29753": {
+    "authors": [
+      "Sriram Mandalika",
+      "Athira Nambiar"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2611.29753v1",
+    "paper_name": "DREAM: Dual-Memory Reasoning for Anticipatory 3D Perception in Autonomous Driving",
+    "published_date": "2026-11-22"
+  },
+  "2611.29759": {
+    "authors": [
+      "Renhao Zhang",
+      "Abhranil Chandra",
+      "Bruno Castro da Silva"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2611.29759v1",
+    "paper_name": "What Should World Models Plan Over? Learning Geometry-Aligned Representations of Body Motion",
+    "published_date": "2026-11-22"
+  },
+  "2611.29764": {
+    "authors": [
+      "Sunjin Kim",
+      "Sungsoo Ahn",
+      "Michael Chertkov"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2611.29764v1",
+    "paper_name": "Selecting Stable Sampling Dynamics for Compositional Diffusion: A Feynman-Kac Weight Reduction",
+    "published_date": "2026-11-22"
+  },
+  "2611.29768": {
+    "authors": [
+      "Yuhao Cai",
+      "Zhenzhang Li"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2611.29768v1",
+    "paper_name": "Estimating a Transition Point from Gibbs and Ground States",
+    "published_date": "2026-11-22"
+  },
+  "2611.29789": {
+    "authors": [
+      "Junwen Xia",
+      "Yan He",
+      "Dehan Kong",
+      "Zhenhua Lin"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2611.29789v1",
+    "paper_name": "Tabular Foundation Models for Weighted Regression and Classification",
+    "published_date": "2026-11-22"
+  },
+  "2611.29793": {
+    "authors": [
+      "Ana Paula Appel"
+    ],
+    "categories": [
+      "Physical"
+    ],
+    "category": "Physical",
+    "paper_link": "https://arxiv.org/abs/2611.29793v1",
+    "paper_name": "When Does Fine-Tuning Beat Prompting for Qiskit-to-CUDA-Q Translation? An Execution-Verified Study",
+    "published_date": "2026-11-22"
   }
 }
